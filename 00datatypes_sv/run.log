@@ -1,0 +1,33 @@
+# vsim work.defaultdatatypes -l run.log 
+# Start time: 11:06:26 on Feb 14,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.defaultdatatypes(fast)
+# [Default] a=x,b=0
+# [Default] a=101,b=1
+cd {D:\Obsi\systemverilog_nitindinnu\00datatypes_sv\run.do}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+cd {D:\Obsi\systemverilog_nitindinnu\00datatypes_sv}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+do run.do
+# End time: 11:13:26 on Feb 14,2023, Elapsed time: 0:07:00
+# Errors: 2, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:13:26 on Feb 14,2023
+# vlog -reportprogress 300 defaultdatatypes.sv 
+# -- Compiling module defaultdatatypes
+# 
+# Top level modules:
+# 	defaultdatatypes
+# End time: 11:13:26 on Feb 14,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.defaultdatatypes -l run.log 
+# Start time: 11:13:26 on Feb 14,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.defaultdatatypes(fast)
+# [Default] a=x,b=0
+# [Updated] a=101,b=1
