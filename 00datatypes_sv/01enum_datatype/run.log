@@ -1,0 +1,803 @@
+# vsim work.enum_using_typedef -l run.log 
+# Start time: 11:34:16 on Feb 16,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.enum_using_typedef(fast)
+# a
+# a
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:35:35 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(19): near "1": syntax error, unexpected INTEGER NUMBER, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'a2'. Is there a missing '::'?
+# End time: 11:35:35 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:35:46 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(19): near "1": syntax error, unexpected INTEGER NUMBER, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'a2'. Is there a missing '::'?
+# End time: 11:35:46 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:41:39 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(19): near "8": syntax error, unexpected INTEGER NUMBER, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'a2'. Is there a missing '::'?
+# End time: 11:41:39 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:41:48 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(19): near "8": syntax error, unexpected INTEGER NUMBER, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'a2'. Is there a missing '::'?
+# End time: 11:41:48 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:48:55 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'a2'. Is there a missing '::'?
+# End time: 11:48:55 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:49:32 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'a2'. Is there a missing '::'?
+# End time: 11:49:32 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:50:41 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 11:50:41 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:51:14 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 11:51:14 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:52:38 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# 
+# Top level modules:
+# 	enumdatatype_example1
+# 	enum_using_typedef
+# End time: 11:52:38 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:52:39 on Feb 16,2023, Elapsed time: 0:18:23
+# Errors: 44, Warnings: 0
+# vsim work.enum_using_typedef -l run.log 
+# Start time: 11:52:39 on Feb 16,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): enumdatatype1.sv(25): (vopt-7063) Failed to find 'a1' in hierarchical name 'a1'.
+#         Region: enum_using_typedef
+# ** Error (suppressible): enumdatatype1.sv(26): (vopt-7063) Failed to find 'a2' in hierarchical name 'a2'.
+#         Region: enum_using_typedef
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./enum_using_typedef.do PAUSED at line 3
+cd {D:\Obsi\systemverilog_nitindinnu\00datatypes_sv\01enum_datatype}
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:52:58 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# 
+# Top level modules:
+# 	enumdatatype_example1
+# 	enum_using_typedef
+# End time: 11:52:58 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.enum_using_typedef -l run.log 
+# Start time: 11:52:39 on Feb 16,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.enum_using_typedef(fast)
+#           0
+#           0
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:53:21 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# 
+# Top level modules:
+# 	enumdatatype_example1
+# 	enum_using_typedef
+# End time: 11:53:21 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:53:22 on Feb 16,2023, Elapsed time: 0:00:43
+# Errors: 2, Warnings: 0
+# vsim work.enum_using_typedef -l run.log 
+# Start time: 11:53:22 on Feb 16,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enum_using_typedef(fast)
+# ab
+# ab
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:54:17 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 11:54:17 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:54:41 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "[": syntax error, unexpected '['.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 11:54:41 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:54:49 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "{": syntax error, unexpected '{'.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 11:54:49 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:54:57 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "'{": syntax error, unexpected "'{".
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 11:54:57 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:55:35 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "-": syntax error, unexpected '-'.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 11:55:35 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:55:45 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "-": syntax error, unexpected '-'.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 11:55:45 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:57:06 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# 
+# Top level modules:
+# 	enumdatatype_example1
+# 	enum_using_typedef
+# End time: 11:57:06 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:57:07 on Feb 16,2023, Elapsed time: 0:03:45
+# Errors: 30, Warnings: 0
+# vsim work.enum_using_typedef -l run.log 
+# Start time: 11:57:07 on Feb 16,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enum_using_typedef(fast)
+# ab
+# bc
+# cd
+# da
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:57:22 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# 
+# Top level modules:
+# 	enumdatatype_example1
+# 	enum_using_typedef
+# End time: 11:57:22 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:57:23 on Feb 16,2023, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
+# vsim work.enum_using_typedef -l run.log 
+# Start time: 11:57:23 on Feb 16,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enum_using_typedef(fast)
+# ab
+# ab
+# bc
+# bc
+# cd
+# cd
+# da
+# da
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:57:54 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 11:57:54 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:58:08 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 11:58:08 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:59:50 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(23): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(23): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 11:59:50 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:00:30 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: enumdatatype1.sv(24): (vlog-2730) Undefined variable: 'ef'.
+# ** Error: enumdatatype1.sv(24): (vlog-2730) Undefined variable: 'fg'.
+# ** Error: enumdatatype1.sv(24): (vlog-2730) Undefined variable: 'gh'.
+# ** Error: enumdatatype1.sv(24): (vlog-2730) Undefined variable: 'he'.
+# End time: 12:00:30 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:02:48 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(22): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(22): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 12:02:48 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:03:16 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(22): near "=": syntax error, unexpected '='.
+# ** Error: enumdatatype1.sv(22): (vlog-13205) Syntax error found in the scope following 'b'. Is there a missing '::'?
+# End time: 12:03:16 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:05:19 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# 
+# Top level modules:
+# 	enumdatatype_example1
+# 	enum_using_typedef
+# End time: 12:05:19 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:05:20 on Feb 16,2023, Elapsed time: 0:07:57
+# Errors: 32, Warnings: 0
+# vsim work.enum_using_typedef -l run.log 
+# Start time: 12:05:20 on Feb 16,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.enum_using_typedef(fast)
+# ab
+# ab
+# bc
+# bc
+# cd
+# cd
+# da
+# da
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:06:06 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: enumdatatype1.sv(22): (vlog-2730) Undefined variable: 'ef'.
+# ** Error: enumdatatype1.sv(22): (vlog-2730) Undefined variable: 'fg'.
+# ** Error: enumdatatype1.sv(22): (vlog-2730) Undefined variable: 'gh'.
+# ** Error: enumdatatype1.sv(22): (vlog-2730) Undefined variable: 'he'.
+# End time: 12:06:06 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:06:22 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(22): near "b": syntax error, unexpected IDENTIFIER, expecting '{'.
+# End time: 12:06:22 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:06:41 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(22): near ";": syntax error, unexpected ';', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# End time: 12:06:41 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:10:28 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: (vlog-13069) enumdatatype1.sv(19): near ";": syntax error, unexpected ';', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 12:10:28 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+do enum_using_typedef.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:11:49 on Feb 16,2023
+# vlog -reportprogress 300 enumdatatype1.sv 
+# -- Compiling module enumdatatype_example1
+# -- Compiling module enum_using_typedef
+# ** Error: enumdatatype1.sv(23): (vlog-2730) Undefined variable: 'ef'.
+# ** Error: enumdatatype1.sv(23): (vlog-2730) Undefined variable: 'fg'.
+# ** Error: enumdatatype1.sv(23): (vlog-2730) Undefined variable: 'gh'.
+# ** Error: enumdatatype1.sv(23): (vlog-2730) Undefined variable: 'he'.
+# End time: 12:11:49 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./enum_using_typedef.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog enumdatatype1.sv"
+cd {D:\Obsi\systemverilog_nitindinnu\00datatypes_sv\03\02union}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+# End time: 13:11:21 on Feb 16,2023, Elapsed time: 1:06:01
+# Errors: 27, Warnings: 0
+cd {D:\Obsi\systemverilog_nitindinnu\00datatypes_sv\03\02union}
+do unionrund.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:11:39 on Feb 16,2023
+# vlog -reportprogress 300 union1.sv 
+# -- Compiling module union_example01
+# 
+# Top level modules:
+# 	union_example01
+# End time: 13:11:39 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.union_example01 -l run.log 
+# Start time: 13:11:39 on Feb 16,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.union_example01(fast)
+# ** Fatal: (vsim-3981) Dynamic types not allowed in non-tagged unions.
+#    Time: 0 ns  Iteration: 0  Instance: /union_example01 File: union1.sv Line: 4
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./unionrund.do PAUSED at line 3
+do unionrund.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:12:28 on Feb 16,2023
+# vlog -reportprogress 300 union1.sv 
+# -- Compiling module union_example01
+# 
+# Top level modules:
+# 	union_example01
+# End time: 13:12:28 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.union_example01 -l run.log 
+# Start time: 13:11:39 on Feb 16,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.union_example01(fast)
+# default memory = 0 0
+# address updated for memory = 15 15
+# data updated memory = 30 30
+do structexaple02.do
+# Cannot open macro file: structexaple02.do
+quit -sim
+# End time: 13:16:30 on Feb 16,2023, Elapsed time: 0:04:51
+# Errors: 2, Warnings: 0
+cd {D:\Obsi\systemverilog_nitindinnu\00datatypes_sv\03\01struct}
+do structexaple02.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:17:11 on Feb 16,2023
+# vlog -reportprogress 300 struct1.sv 
+# -- Compiling module struct_example1
+# -- Compiling module struct_example02
+# 
+# Top level modules:
+# 	struct_example1
+# 	struct_example02
+# End time: 13:17:11 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.struct_example02 -l run.log 
+# Start time: 13:17:11 on Feb 16,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.struct_example02(fast)
+# default memory = 0 0
+# address updated for memory = 15 15
+# data updated memory = 30 30
+cd {D:\Obsi\systemverilog_nitindinnu\00datatypes_sv\03\03arrays}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+# End time: 13:30:17 on Feb 16,2023, Elapsed time: 0:13:06
+# Errors: 1, Warnings: 0
+cd {D:\Obsi\systemverilog_nitindinnu\00datatypes_sv\03\03arrays}
+do array_declaration.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:30:43 on Feb 16,2023
+# vlog -reportprogress 300 array_declaration.sv 
+# -- Compiling module array_example_01
+# ** Error: (vlog-13069) array_declaration.sv(7): near "int": syntax error, unexpected "SystemVerilog keyword 'int'", expecting ';' or ','.
+# ** Error: array_declaration.sv(13): (vlog-13205) Syntax error found in the scope following 'arr02'. Is there a missing '::'?
+# End time: 13:30:43 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./array_declaration.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog array_declaration.sv"
+do array_declaration.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:31:31 on Feb 16,2023
+# vlog -reportprogress 300 array_declaration.sv 
+# -- Compiling module array_example_01
+# ** Error (suppressible): array_declaration.sv(13): (vlog-13173) Illegal unpacked array concatenation. The number of elements (5) doesn't match with the type's width (6).
+# End time: 13:31:31 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./array_declaration.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog array_declaration.sv"
+do array_declaration.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:31:50 on Feb 16,2023
+# vlog -reportprogress 300 array_declaration.sv 
+# -- Compiling module array_example_01
+# ** Error (suppressible): array_declaration.sv(13): (vlog-13173) Illegal unpacked array concatenation. The number of elements (4) doesn't match with the type's width (6).
+# End time: 13:31:50 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./array_declaration.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog array_declaration.sv"
+do array_declaration.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:39:52 on Feb 16,2023
+# vlog -reportprogress 300 array_declaration.sv 
+# -- Compiling module array_example_01
+# 
+# Top level modules:
+# 	array_example_01
+# End time: 13:39:52 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.array_example_01 -l run.log 
+# Start time: 13:39:52 on Feb 16,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): array_declaration.sv(17): (vopt-7063) Failed to find 'arr' in hierarchical name 'arr'.
+#         Region: array_example_01
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./array_declaration.do PAUSED at line 3
+cd {D:\Obsi\systemverilog_nitindinnu\00datatypes_sv\03\03arrays}
+do array_declaration.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:40:22 on Feb 16,2023
+# vlog -reportprogress 300 array_declaration.sv 
+# -- Compiling module array_example_01
+# 
+# Top level modules:
+# 	array_example_01
+# End time: 13:40:22 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.array_example_01 -l run.log 
+# Start time: 13:39:52 on Feb 16,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.array_example_01(fast)
+# 0
+# 0
+# 0
+# 0
+# 0
+# 18
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+do array_declaration.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:41:09 on Feb 16,2023
+# vlog -reportprogress 300 array_declaration.sv 
+# -- Compiling module array_example_01
+# ** Error: (vlog-13069) array_declaration.sv(19): near "initial": syntax error, unexpected initial.
+# End time: 13:41:09 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./array_declaration.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog array_declaration.sv"
+do array_declaration.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:41:16 on Feb 16,2023
+# vlog -reportprogress 300 array_declaration.sv 
+# -- Compiling module array_example_01
+# 
+# Top level modules:
+# 	array_example_01
+# End time: 13:41:17 on Feb 16,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:41:19 on Feb 16,2023, Elapsed time: 0:01:27
+# Errors: 5, Warnings: 0
+# vsim work.array_example_01 -l run.log 
+# Start time: 13:41:19 on Feb 16,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.array_example_01(fast)
+# 0
+# 0
+# 0
+# 0
+# 0
+# 18
+# 1 2 3 4 5 6
+do array_declaration.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:44:27 on Feb 16,2023
+# vlog -reportprogress 300 array_declaration.sv 
+# -- Compiling module array_example_01
+# 
+# Top level modules:
+# 	array_example_01
+# End time: 13:44:27 on Feb 16,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:44:28 on Feb 16,2023, Elapsed time: 0:03:09
+# Errors: 0, Warnings: 0
+# vsim work.array_example_01 -l run.log 
+# Start time: 13:44:28 on Feb 16,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.array_example_01(fast)
+# element of arr02 using for each 0
+# element of arr02 using for each 0
+# element of arr02 using for each 0
+# element of arr02 using for each 0
+# element of arr02 using for each 0
+# element of arr02 using for each 18
+# element of arr02 using percentile p = 1 2 3 4 5 6
+# element of arr01 using percentile p = 0 0 0 0 0 18
