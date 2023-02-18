@@ -1,13 +1,42 @@
 module packed_array_1D(
 );
     //A packed array is used to refer to dimensions declared before the variable name.
+    // bit [9:0]dd;
+
+    // initial begin
+    //     dd=10'hA2;
+    //     foreach (dd[i]) begin
+    //         $display("dd [%0b]~[%0d] = %0b",i,i,dd[i]);
+    //     end
+    //     // $display("%0p",dd1);
+    //     $display("%0p",dd2);
+    // end
+/*
+Packed dimensions not allowed on type 'byte'.
+  Packed dimensions are only allowed on types resolving to single bit types 
+  (reg, logic or bit), packed arrays, packed structures, and packed unions
+*/
     bit [9:0]dd;
+  	logic [9:0]dd1; //Can't have packed array of integer type.
+    reg [9:0]dd2; //
 
     initial begin
         dd=10'hA2;
+      	dd1=10'hA2;
+      	dd2=10'hA2;
         foreach (dd[i]) begin
             $display("dd [%0b]~[%0d] = %0b",i,i,dd[i]);
         end
+        foreach (dd1[i]) begin
+            $display("dd [%0b]~[%0d] = %0b",i,i,dd1[i]);
+        end
+        foreach (dd2[i]) begin
+            $display("dd [%0b]~[%0d] = %0b",i,i,dd2[i]);
+        end
+
+        // $display("%0p",dd);
+        // $display("%0p",dd1);
+        // $display("%0p",dd2);
     end
 endmodule
 

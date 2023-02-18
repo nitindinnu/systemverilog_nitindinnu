@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "questions-daily.md",
+                "file": "questions System Verilog.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "questions-daily.md",
+                "file": "questions System Verilog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "questions-daily.md",
+                "file": "questions System Verilog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "questions-daily.md"
+                "file": "questions System Verilog.md"
               }
             }
           }
@@ -161,6 +161,8 @@
   },
   "active": "1cca6ad29ebf5074",
   "lastOpenFiles": [
-    "SV_notes.md"
+    "SV_notes.md",
+    "questions System Verilog.md",
+    "Untitled.md"
   ]
 }
