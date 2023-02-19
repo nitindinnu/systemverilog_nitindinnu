@@ -672,3 +672,5 @@ do 07queues_02.do
 # pushing 0 element from 0th index,Number of nums 5 nums =0 1 3 7 9
 # poping from last index ,pop           9 ,size 4 nums =0 1 3 7
 # pushing 9 element at last index,Number of nums 5 nums =0 1 3 7 9
+# End time: 19:48:15 on Feb 18,2023, Elapsed time: 0:10:48
+# Errors: 0, Warnings: 0
