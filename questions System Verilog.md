@@ -10,5 +10,5 @@ folder path : D:\Obsi\systemverilog_nitindinnu
 7. write an sv code to implement ascending and descending order without in-built functions
 8. create a 32x32 bit memoryusing dynamic array & fill memory with your own data & read then extend it to 32x64 memory .check whether old data is there or not
 9. write an sv program using associative array of 8 elements of integer type,travel the array using methods and display the result
-10. Ex : `arr[8] = '{5,6,8,3,4,9,7,2}'` is the input sort & store in the queue `Q1[$]` and display that queue.
+10. Ex : `arr[8] = '{5,6,8,3,4,9,7,2}'` is the input sort & store in the queue `Q1[$]` and display that queue. [file](<file:///\Obsi\systemverilog_nitindinnu\00datatypes_sv\03\store_array_in_queue.sv>) 
 11. 
