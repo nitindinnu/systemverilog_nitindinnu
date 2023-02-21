@@ -1,10 +1,10 @@
 class transaction;
-    input bit[3:0]a,b;
-    output bit[3:0]f;
-    input bit sel;
+    bit[3:0]a,b;
+    bit[3:0]f;
+    bit sel;
 
     function void display();
-        $display("a=%0b,b=%0b,sel=%0b,out=%0d",a,b,sel,f);        
+        $display("a=%0d,b=%0d,sel=%0d,out=%0d",a,b,sel,f);        
     endfunction
 
     task run();
