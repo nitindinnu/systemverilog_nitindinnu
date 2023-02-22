@@ -36,3 +36,32 @@ is equivalent to
 begin: label statement end : label
 except in the case where that statement happens to be a begin/end or fork/join, there is no need for the compiler to insert an extra begin/end.
 */
+
+module named_block(
+    
+    );
+        initial begin:variable_A
+            $display("the value of statement....is named block");
+
+        fork
+            begin:int_A
+            $display("the fork statement-1 is .....");
+            #4 $display("the fork statement-2 is .....");
+            end
+            begin:int_B
+           $display("the fork statement-3 is .....");
+           #3 $display("the fork statement-4 is.....");
+            end
+        join_any
+        begin
+        disable name_a; //!disable aint working to stop task
+        name_a();
+        end
+       end
+    
+       task name_a();
+         $display("the value of task statement_task is ....named block");
+       endtask : name_a
+        
+    
+    endmodule

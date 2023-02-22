@@ -5,7 +5,7 @@ module functions01();
     !>>>> a function cannot have time controlled stmnts like @,#,fork join,wait
     !>>>  a function cannot start a task since tasks are allowed to consume simulation time
 */ 
-    initial begin
+    initial begin //!normal function 
         int x,y;
         x= sum(7,7);
         $display("x is %0d",x);

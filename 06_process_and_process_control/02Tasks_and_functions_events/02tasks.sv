@@ -1,8 +1,7 @@
 //  Module: 02tasks
 //
 module tasks01 ();//! static task
-
-    
+        
 endmodule: tasks01
 
 
