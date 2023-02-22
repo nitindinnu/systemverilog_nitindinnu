@@ -1,0 +1,264 @@
+# vsim work.functions01 -l run.log 
+# Start time: 23:36:16 on Feb 21,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): 01functions.sv(12): (vopt-7063) Failed to find 'res' in hierarchical name 'res'.
+#         Region: functions01
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./01functions.do PAUSED at line 3
+cd {D:\Obsi\systemverilog_nitindinnu\06_process_and_process_control\02Tasks_and_functions_events}
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:37:05 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# 
+# Top level modules:
+# 	functions01
+# End time: 23:37:05 on Feb 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.functions01 -l run.log 
+# Start time: 23:36:16 on Feb 21,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.functions01(fast)
+# sum function of 5+5 is 2
+# mul is 0
+# res = 1
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:38:14 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# ** Error (suppressible): 01functions.sv(24): (vlog-2388) 'sum' already declared in this scope (sum).
+# End time: 23:38:14 on Feb 21,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01functions.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01functions.sv"
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:38:25 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# 
+# Top level modules:
+# 	functions01
+# End time: 23:38:25 on Feb 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:38:27 on Feb 21,2023, Elapsed time: 0:02:11
+# Errors: 4, Warnings: 0
+# vsim work.functions01 -l run.log 
+# Start time: 23:38:27 on Feb 21,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.functions01(fast)
+# x is 2
+# sum function of 5+5 is 2
+# mul is 0
+# res = 1
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:38:53 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# 
+# Top level modules:
+# 	functions01
+# End time: 23:38:53 on Feb 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:38:54 on Feb 21,2023, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim work.functions01 -l run.log 
+# Start time: 23:38:54 on Feb 21,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.functions01(fast)
+# x is 2
+# sum function of 5+5 is 2
+# mul is 0
+# res = 1
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:40:07 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# ** Error (suppressible): 01functions.sv(24): (vlog-2388) 'sum' already declared in this scope (sum).
+# End time: 23:40:07 on Feb 21,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01functions.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01functions.sv"
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:40:26 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# ** Error (suppressible): 01functions.sv(22): (vlog-2388) 'sum' already declared in this scope (sum).
+# End time: 23:40:26 on Feb 21,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01functions.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01functions.sv"
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:40:35 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# 
+# Top level modules:
+# 	functions01
+# End time: 23:40:35 on Feb 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:40:36 on Feb 21,2023, Elapsed time: 0:01:42
+# Errors: 6, Warnings: 0
+# vsim work.functions01 -l run.log 
+# Start time: 23:40:36 on Feb 21,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.functions01(fast)
+# x is 14
+# sum function of 5+5 is 10
+# mul is 0
+# res = 1
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:41:05 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# 
+# Top level modules:
+# 	functions01
+# End time: 23:41:05 on Feb 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:41:06 on Feb 21,2023, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# vsim work.functions01 -l run.log 
+# Start time: 23:41:06 on Feb 21,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.functions01(fast)
+# x is 14
+# sum function of 5+5 is 10
+# mul is 18
+# res = 19
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:48:29 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# ** Error: (vlog-13069) 01functions.sv(51): near "initial": syntax error, unexpected initial, expecting "SystemVerilog keyword 'import'" or ';' or '(' or '#'.
+# End time: 23:48:29 on Feb 21,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01functions.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01functions.sv"
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:48:56 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# -- Compiling module functions02
+# 
+# Top level modules:
+# 	functions01
+# 	functions02
+# End time: 23:48:56 on Feb 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:48:57 on Feb 21,2023, Elapsed time: 0:07:51
+# Errors: 4, Warnings: 0
+# vsim work.functions02 -l run.log 
+# Start time: 23:48:57 on Feb 21,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.functions02(fast)
+# before calling a function a=7,res=0
+# after calling a function a=7,res=140
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:50:12 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# -- Compiling module functions02
+# 
+# Top level modules:
+# 	functions01
+# 	functions02
+# End time: 23:50:13 on Feb 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 23:50:14 on Feb 21,2023, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 0
+# vsim work.functions02 -l run.log 
+# Start time: 23:50:14 on Feb 21,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.functions02(fast)
+# before calling a function a=7,res=0
+# after calling a function a=7,res=140
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:50:42 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# -- Compiling module functions02
+# 
+# Top level modules:
+# 	functions01
+# 	functions02
+# End time: 23:50:42 on Feb 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:50:43 on Feb 21,2023, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+# vsim work.functions02 -l run.log 
+# Start time: 23:50:43 on Feb 21,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.functions02(fast)
+# before calling a function a=5,res=0
+# after calling a function a=5,res=120
+do 01functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:55:00 on Feb 21,2023
+# vlog -reportprogress 300 01functions.sv 
+# -- Compiling module functions01
+# -- Compiling module functions02
+# -- Compiling module functions03
+# 
+# Top level modules:
+# 	functions01
+# 	functions02
+# 	functions03
+# End time: 23:55:00 on Feb 21,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:55:01 on Feb 21,2023, Elapsed time: 0:04:18
+# Errors: 0, Warnings: 0
+# vsim work.functions03 -l run.log 
+# Start time: 23:55:01 on Feb 21,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.functions03(fast)
+# before calling a function a=5,res=0
+# after calling a function a=12,res=120

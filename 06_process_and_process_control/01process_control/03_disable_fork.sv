@@ -32,7 +32,7 @@ endmodule
 # p1 stmnt 3 starts at 4 th unit time
 # p1 stmnt 4 starts at 8 th unit time 
 # -----exiting fork join from previous line--------
-# stmnt 6 starts at 13 th unit time //?stmnt nothing is missing here disable killed none
+# stmnt 6 starts at 13 th unit time //?stmnt4 nothing is missing here disable killed none
 ? join_any
  stmnt 1 starts at 0 th unit time
 # stmnt 2 starts at 2 th unit time
