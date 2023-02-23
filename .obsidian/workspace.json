@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "questions System Verilog.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "questions System Verilog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "questions System Verilog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "questions System Verilog.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "d17678fe40c9a035",
   "lastOpenFiles": [
+    "README.md",
     "questions System Verilog.md",
     "SV_notes.md",
     "Obsi/systemverilog_nitindinnu/00datatypes_sv/03/store_array_in_queue.sv.md",

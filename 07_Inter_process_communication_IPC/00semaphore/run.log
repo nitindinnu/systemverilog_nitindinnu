@@ -1,0 +1,625 @@
+# vsim work.semaphore5 -l run.log 
+# Start time: 16:17:23 on Feb 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): 01_semaphore.sv(186): (vopt-7063) Failed to find 'sema' in hierarchical name 'sema.get'.
+#         Region: semaphore5
+# ** Error (suppressible): 01_semaphore.sv(189): (vopt-7063) Failed to find 'sema' in hierarchical name 'sema.put'.
+#         Region: semaphore5
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./01_semaphore.do PAUSED at line 7
+cd {D:\Obsi\systemverilog_nitindinnu\07_Inter_process_communication_IPC\00semaphore}
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:18:00 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# ** Error: 01_semaphore.sv(176): (vlog-2730) Undefined variable: 'sema'.
+# End time: 16:18:00 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01_semaphore.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01_semaphore.sv"
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:18:51 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# End time: 16:18:51 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.semaphore5 -l run.log 
+# Start time: 16:17:23 on Feb 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.semaphore5(fast)
+#                    0	Current Simulation Time
+#                    0	Current Simulation Time
+#                   30	Current Simulation Time
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:19:11 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# End time: 16:19:11 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:19:12 on Feb 23,2023, Elapsed time: 0:01:49
+# Errors: 2, Warnings: 0
+# vsim work.semaphore5 -l run.log 
+# Start time: 16:19:12 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.semaphore5(fast)
+#                    0	Current Simulation Time
+#                    0	Current Simulation Time
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:19:23 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# End time: 16:19:23 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:19:24 on Feb 23,2023, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+# vsim work.semaphore5 -l run.log 
+# Start time: 16:19:24 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.semaphore5(fast)
+#                    0	Current Simulation Time
+#                    0	Current Simulation Time
+#                   30	Current Simulation Time
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:19:33 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# End time: 16:19:33 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:19:34 on Feb 23,2023, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+# vsim work.semaphore5 -l run.log 
+# Start time: 16:19:34 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.semaphore5(fast)
+#                    0	Current Simulation Time
+#                    0	Current Simulation Time
+#                   30	Current Simulation Time
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:21:44 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# End time: 16:21:44 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:21:45 on Feb 23,2023, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 0
+# vsim work.semaphore5 -l run.log 
+# Start time: 16:21:45 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.semaphore5(fast)
+#                    0	Current Simulation Time
+#                    0	Current Simulation Time
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:22:40 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# End time: 16:22:40 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:22:41 on Feb 23,2023, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 0
+# vsim work.semaphore5 -l run.log 
+# Start time: 16:22:41 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.semaphore5(fast)
+#                    0	Current Simulation Time
+#                    0	Current Simulation Time
+#                   30	Current Simulation Time
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:56:07 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# -- Compiling module semaphore6
+# ** Error: 01_semaphore.sv(211): (vlog-2730) Undefined variable: 'key'.
+# ** Warning: 01_semaphore.sv(218): (vlog-2275) 'semaphore6' already exists and will be overwritten.
+# -- Compiling module semaphore6
+# End time: 16:56:07 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01_semaphore.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01_semaphore.sv"
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:56:44 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# -- Compiling module semaphore6
+# -- Compiling module semaphore7
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# 	semaphore6
+# 	semaphore7
+# End time: 16:56:44 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:56:45 on Feb 23,2023, Elapsed time: 0:34:04
+# Errors: 4, Warnings: 1
+# vsim work.semaphore7 -l run.log 
+# Start time: 16:56:45 on Feb 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.semaphore7(fast)
+# p1 block got required keys at time 	 
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:57:13 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# -- Compiling module semaphore6
+# -- Compiling module semaphore7
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# 	semaphore6
+# 	semaphore7
+# End time: 16:57:13 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:57:14 on Feb 23,2023, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0
+# vsim work.semaphore7 -l run.log 
+# Start time: 16:57:14 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.semaphore7(fast)
+# p1 block got required keys at time 	                   3
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:58:10 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# -- Compiling module semaphore6
+# -- Compiling module semaphore7
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# 	semaphore6
+# 	semaphore7
+# End time: 16:58:10 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:58:11 on Feb 23,2023, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim work.semaphore7 -l run.log 
+# Start time: 16:58:11 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.semaphore7(fast)
+# p1 block got required keys at time 	                   3
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:58:26 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# -- Compiling module semaphore6
+# -- Compiling module semaphore7
+# ** Warning: 01_semaphore.sv(236): (vlog-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# 	semaphore6
+# 	semaphore7
+# End time: 16:58:26 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:58:27 on Feb 23,2023, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 1
+# vsim work.semaphore7 -l run.log 
+# Start time: 16:58:27 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01_semaphore.sv(236): (vopt-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.semaphore7(fast)
+# p1 block got required keys at time 	                   3
+# p3 block got required keys at time 	                   4
+# p2 block got required keys at time 	                   6
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:58:56 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# -- Compiling module semaphore6
+# -- Compiling module semaphore7
+# ** Warning: 01_semaphore.sv(237): (vlog-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# 	semaphore6
+# 	semaphore7
+# End time: 16:58:56 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:58:57 on Feb 23,2023, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 2
+# vsim work.semaphore7 -l run.log 
+# Start time: 16:58:57 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01_semaphore.sv(237): (vopt-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.semaphore7(fast)
+# p3 block got required keys at time 	                   4
+# p1 block got required keys at time 	                   7
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:59:39 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# -- Compiling module semaphore6
+# -- Compiling module semaphore7
+# ** Warning: 01_semaphore.sv(239): (vlog-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# 	semaphore6
+# 	semaphore7
+# End time: 16:59:39 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:59:40 on Feb 23,2023, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 2
+# vsim work.semaphore7 -l run.log 
+# Start time: 16:59:40 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01_semaphore.sv(239): (vopt-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.semaphore7(fast)
+# p3 block got required keys at time 	                   4
+# p1 block got required keys at time 	                   7
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:59:56 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# -- Compiling module semaphore6
+# -- Compiling module semaphore7
+# ** Warning: 01_semaphore.sv(238): (vlog-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# 	semaphore6
+# 	semaphore7
+# End time: 16:59:56 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:59:57 on Feb 23,2023, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 2
+# vsim work.semaphore7 -l run.log 
+# Start time: 16:59:57 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01_semaphore.sv(238): (vopt-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.semaphore7(fast)
+# p3 block got required keys at time 	                   4
+# p1 block got required keys at time 	                   7
+# p2 block got required keys at time 	                   9
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:02:02 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# -- Compiling module semaphore6
+# -- Compiling module semaphore7
+# -- Compiling module semaphore7_01
+# ** Warning: 01_semaphore.sv(260): (vlog-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# 	semaphore6
+# 	semaphore7
+# 	semaphore7_01
+# End time: 17:02:02 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:02:03 on Feb 23,2023, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 2
+# vsim work.semaphore7 -l run.log 
+# Start time: 17:02:03 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.semaphore7(fast)
+# p1 block got required keys at time 	                   3
+do 01_semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:04:02 on Feb 23,2023
+# vlog -reportprogress 300 01_semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore2
+# -- Compiling module semaphore3
+# -- Compiling module semaphore4
+# -- Compiling module semaphore_with_more_delays
+# -- Compiling module semaphore5
+# -- Compiling module semaphore6
+# -- Compiling module semaphore7
+# -- Compiling module semaphore7_01
+# ** Warning: 01_semaphore.sv(261): (vlog-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore2
+# 	semaphore3
+# 	semaphore4
+# 	semaphore_with_more_delays
+# 	semaphore5
+# 	semaphore6
+# 	semaphore7
+# 	semaphore7_01
+# End time: 17:04:02 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:04:03 on Feb 23,2023, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 1
+# vsim work.semaphore7 -l run.log 
+# Start time: 17:04:03 on Feb 23,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.semaphore7(fast)
+# p1 block got required keys at time                   3
+quit -sim
+# End time: 17:16:48 on Feb 23,2023, Elapsed time: 0:12:45
+# Errors: 0, Warnings: 0
+cd {D:\Obsi\systemverilog_nitindinnu\03assignment_questions}
+do 03_01semaphore.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:17:33 on Feb 23,2023
+# vlog -reportprogress 300 03_01semaphore.sv 
+# -- Compiling module semaphore01
+# 
+# Top level modules:
+# 	semaphore01
+# End time: 17:17:33 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.semaphore01 -l run.log 
+# Start time: 17:17:33 on Feb 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.semaphore01(fast)
+# at p1                   5
+# at p2                   5
+# at p3                  10
+do 03_01semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:21:19 on Feb 23,2023
+# vlog -reportprogress 300 03_01semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore02
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore02
+# End time: 17:21:19 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:21:20 on Feb 23,2023, Elapsed time: 0:03:47
+# Errors: 0, Warnings: 0
+# vsim work.semaphore02 -l run.log 
+# Start time: 17:21:20 on Feb 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.semaphore02(fast)
+# at p1                   3
+# at p2                   4
+# at p3                   4
+# at p4                   6
+do 03_01semaphore.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:29:33 on Feb 23,2023
+# vlog -reportprogress 300 03_01semaphore.sv 
+# -- Compiling module semaphore01
+# -- Compiling module semaphore02
+# -- Compiling module semaphore03
+# ** Warning: 03_01semaphore.sv(85): (vlog-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	semaphore01
+# 	semaphore02
+# 	semaphore03
+# End time: 17:29:33 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:29:34 on Feb 23,2023, Elapsed time: 0:08:14
+# Errors: 0, Warnings: 1
+# vsim work.semaphore03 -l run.log 
+# Start time: 17:29:34 on Feb 23,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 03_01semaphore.sv(85): (vopt-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work.semaphore03(fast)
+# at p2                   1
+# at p1                   4
