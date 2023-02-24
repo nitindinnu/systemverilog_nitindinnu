@@ -623,3 +623,5 @@ do 03_01semaphore.do
 # Loading work.semaphore03(fast)
 # at p2                   1
 # at p1                   4
+# End time: 17:57:40 on Feb 23,2023, Elapsed time: 0:28:06
+# Errors: 0, Warnings: 1

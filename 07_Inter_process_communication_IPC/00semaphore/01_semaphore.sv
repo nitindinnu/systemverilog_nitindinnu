@@ -179,20 +179,20 @@ semaphore sema=new(4); //creating sema with '4' keys
       display(); //process-2
      display(); //process-3
     join
-  end
+    end
 /*
   ! here initialy 4 keys are distributed for process1 and process2 then 
   !processes3 also waiting for two keys but at 0th unit time its not available
   ! either process 1 or 2 putting two keys at 30th simulation time at that instance 
   !process 3 getting executed
   */
-  //display method
-  task automatic display();
+    //display method
+    task automatic display();
     sema.get(2); //getting '2' keys from sema
     $display($time,"\tCurrent Simulation Time");
     #30;
     sema.put(2); //putting '2' keys to sema
-  endtask
+    endtask
 endmodule
 
 module semaphore6(
