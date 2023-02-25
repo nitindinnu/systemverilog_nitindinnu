@@ -1,0 +1,26 @@
+# End time: 16:54:42 on Feb 25,2023, Elapsed time: 0:04:03
+# Errors: 6, Warnings: 0
+# vsim work.asc_dsc -l 00asc_dsc.log 
+# Start time: 16:54:42 on Feb 25,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.asc_dsc(fast)
+# arr elements are 4 1 9 3 13 13 5 2 1 13
+# arr size is 10
+# descending order
+# arr elements are 13 13 13 9 5 4 3 2 1 1
+# arr size is 10
+# ascending order
+# arr elements are 1 1 2 3 4 5 9 13 13 13
+# arr size is 10
+do 03_maiboxn.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:56:51 on Feb 25,2023
+# vlog -reportprogress 300 03_maiboxn.sv 
+# -- Compiling module maiboxn
+# 
+# Top level modules:
+# 	maiboxn
+# End time: 16:56:51 on Feb 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

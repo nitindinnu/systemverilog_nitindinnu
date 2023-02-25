@@ -1,0 +1,15 @@
+# End time: 16:56:52 on Feb 25,2023, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 0
+# vsim work.maiboxn -l 03_maiboxn.log 
+# Start time: 16:56:52 on Feb 25,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work.maiboxn(fast)
+# put int           5
+# put string nitin_dinnu
+# put real 5.2
+# put bit 1
+# get int           5
+# get string nitin_dinnu
+# get real 5.2
+# get bit 1
