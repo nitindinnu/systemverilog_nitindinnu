@@ -11,7 +11,7 @@ folder path : D:\Obsi\systemverilog_nitindinnu
 8. create a 32x32 bit memoryusing dynamic array & fill memory with your own data & read then extend it to 32x64 memory .check whether old data is there or not [file](<03assignment_questions/01dynamic_array_test.sv>)
 9.  write an sv program using associative array of 8 elements of integer type,travel the array using methods and display the result [file](<03assignment_questions/00associative_array.sv>)
 10. Ex : `arr[8] = '{5,6,8,3,4,9,7,2}'` is the input sort & store in the queue `Q1[$]` and display that queue.       [file](<03assignment_questions/02store_array_in_queue.sv>) 
-## semaphore - [file](<03assignment_questions/03_01semaphore.sv>)
+##  [semaphore](<03assignment_questions/03_01semaphore.sv>)
 11. three processes with 4 keys but available only 2 keys to processes
 12. write only one key control the 4 processes
 13. emaphore keys with two processes use try_get

@@ -20,11 +20,11 @@ module maiboxn();
         mbx.put(b);
         mbx.put(c);
         mbx.put(d);
-        // disp(a,b,c,d,disp);
-        $display("put int ",a);
-        $display("put string ",b);
-        $display("put real ",c);
-        $display("put bit ",d);
+        disp_put(a,b,c,d);
+        // $display("put int ",a);
+        // $display("put string ",b);
+        // $display("put real ",c);
+        // $display("put bit ",d);
     endtask
 
     task geta();
@@ -36,14 +36,24 @@ module maiboxn();
         mbx.get(b);
         mbx.get(c);
         mbx.get(d);
-        // disp(a,b,c,d,disp);
+        disp_get(a,b,c,d);
+        // $display("get int ",a);
+        // $display("get string ",b);
+        // $display("get real ",c);
+        // $display("get bit ",d);
+    endtask
+
+    task disp_put(input int a,string b, real c,bit d);
+        $display("put int ",a);
+        $display("put string ",b);
+        $display("put real ",c);
+        $display("put bit ",d);
+    endtask
+
+    task disp_get(input int a,string b, real c,bit d);
         $display("get int ",a);
         $display("get string ",b);
         $display("get real ",c);
         $display("get bit ",d);
     endtask
-
-    // task disp(input int a,string b, real c,bit d,output res);
-    //     $display(a,b,c,d);
-    // endtask
 endmodule
