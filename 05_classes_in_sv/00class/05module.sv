@@ -41,6 +41,19 @@ module nitin();
         arraymanipulation.disply_arr2("and",z);
         z=arraymanipulation.array2.xor();
         arraymanipulation.disply_arr2("xor",z);
+/*
+ values of array1 are = normal array: [4 3 5 7 6] 
+# values of array1 are = reverse: [6 7 5 3 4] 
+# values of array1 are = sort: [3 4 5 6 7] 
+# values of array1 are = reverse_sort: [7 6 5 4 3] 
+# values of array1 are = shuffle: [7 4 3 5 6] 
+# 2 2 2 2 2
+# values of array1 are = sum: [10] 
+# values of array1 are = product: [32] 
+# values of array1 are = or: [2] 
+# values of array1 are = and: [2] 
+# values of array1 are = xor: [2] 
+*/
     end
 endmodule
 //! only we can write class followed by module

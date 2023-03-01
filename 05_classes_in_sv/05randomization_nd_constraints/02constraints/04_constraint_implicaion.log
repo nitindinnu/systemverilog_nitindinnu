@@ -1,0 +1,329 @@
+# End time: 00:44:41 on Mar 02,2023, Elapsed time: 0:08:17
+# Errors: 6, Warnings: 1
+# vsim work.constraint_implicaion -l 04_constraint_implicaion.log 
+# Start time: 00:44:41 on Mar 02,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work._04_constraint_implicaion_sv_unit(fast)
+# Loading work.constraint_implicaion(fast)
+# -----------------------------
+# addr_range=small	adddr=0
+# -----------------------------
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:45:38 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# -- Compiling package _04_constraint_implicaion_sv_unit
+# -- Compiling module constraint_implicaion
+# ** Warning: 04_constraint_implicaion.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_implicaion
+# End time: 00:45:38 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:45:39 on Mar 02,2023, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 1
+# vsim work.constraint_implicaion -l 04_constraint_implicaion.log 
+# Start time: 00:45:39 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 04_constraint_implicaion.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._04_constraint_implicaion_sv_unit(fast)
+# Loading work.constraint_implicaion(fast)
+# -----------------------------
+# addr_range=small	adddr=1
+# -----------------------------
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:46:11 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# -- Compiling package _04_constraint_implicaion_sv_unit
+# -- Compiling module constraint_implicaion
+# ** Warning: 04_constraint_implicaion.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_implicaion
+# End time: 00:46:11 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:46:12 on Mar 02,2023, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 2
+# vsim work.constraint_implicaion -l 04_constraint_implicaion.log 
+# Start time: 00:46:12 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 04_constraint_implicaion.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._04_constraint_implicaion_sv_unit(fast)
+# Loading work.constraint_implicaion(fast)
+# -----------------------------
+# addr_range=small	adddr=15
+# -----------------------------
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:47:19 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# -- Compiling package _04_constraint_implicaion_sv_unit
+# -- Compiling module constraint_implicaion
+# ** Warning: 04_constraint_implicaion.sv(17): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_implicaion
+# End time: 00:47:19 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:47:20 on Mar 02,2023, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 2
+# vsim work.constraint_implicaion -l 04_constraint_implicaion.log 
+# Start time: 00:47:20 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 04_constraint_implicaion.sv(17): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._04_constraint_implicaion_sv_unit(fast)
+# Loading work.constraint_implicaion(fast)
+# -----------------------------
+# addr_range=small	adddr=9
+# -----------------------------
+# addr_range=small	adddr=15
+# -----------------------------
+# addr_range=small	adddr=11
+# -----------------------------
+# addr_range=small	adddr=12
+# -----------------------------
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:47:39 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# ** Error: (vlog-13069) 04_constraint_implicaion.sv(18): syntax error, unexpected STRING_LITERAL, expecting ')' or ','.
+# End time: 00:47:39 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./04_constraint_implicaion.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 04_constraint_implicaion.sv"
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:47:45 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# -- Compiling package _04_constraint_implicaion_sv_unit
+# -- Compiling module constraint_implicaion
+# ** Warning: 04_constraint_implicaion.sv(17): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_implicaion
+# End time: 00:47:45 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:47:46 on Mar 02,2023, Elapsed time: 0:00:26
+# Errors: 4, Warnings: 2
+# vsim work.constraint_implicaion -l 04_constraint_implicaion.log 
+# Start time: 00:47:46 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 04_constraint_implicaion.sv(17): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._04_constraint_implicaion_sv_unit(fast)
+# Loading work.constraint_implicaion(fast)
+# -----------------------------
+# addr_range=[small]	adddr=9
+# -----------------------------
+# addr_range=[small]	adddr=15
+# -----------------------------
+# addr_range=[small]	adddr=11
+# -----------------------------
+# addr_range=[small]	adddr=12
+# -----------------------------
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:48:19 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# -- Compiling package _04_constraint_implicaion_sv_unit
+# -- Compiling module constraint_implicaion
+# ** Warning: 04_constraint_implicaion.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 04_constraint_implicaion.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_implicaion
+# End time: 00:48:19 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 00:48:20 on Mar 02,2023, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 3
+# vsim work.constraint_implicaion -l 04_constraint_implicaion.log 
+# Start time: 00:48:20 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 04_constraint_implicaion.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 04_constraint_implicaion.sv(22): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._04_constraint_implicaion_sv_unit(fast)
+# Loading work.constraint_implicaion(fast)
+# -----------------------------
+# addr_range=[small]	adddr=9
+# -----------------------------
+# addr_range=[small]	adddr=15
+# -----------------------------
+# addr_range=[small]	adddr=11
+# -----------------------------
+# addr_range=[small]	adddr=12
+# -----------------------------
+# addr_range=[other]	adddr=8
+# -----------------------------
+# addr_range=[other]	adddr=7
+# -----------------------------
+# addr_range=[other]	adddr=9
+# -----------------------------
+# addr_range=[other]	adddr=4
+# -----------------------------
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:49:26 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# -- Compiling package _04_constraint_implicaion_sv_unit
+# -- Compiling module constraint_implicaion
+# ** Warning: 04_constraint_implicaion.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 04_constraint_implicaion.sv(23): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_implicaion
+# End time: 00:49:27 on Mar 02,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# End time: 00:49:27 on Mar 02,2023, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 4
+# vsim work.constraint_implicaion -l 04_constraint_implicaion.log 
+# Start time: 00:49:28 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 04_constraint_implicaion.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 04_constraint_implicaion.sv(23): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._04_constraint_implicaion_sv_unit(fast)
+# Loading work.constraint_implicaion(fast)
+# -----------------------------
+# addr_range=[small]	adddr=9
+# -----------------------------
+# addr_range=[small]	adddr=15
+# -----------------------------
+# addr_range=[small]	adddr=11
+# -----------------------------
+# addr_range=[small]	adddr=12
+# -----------------------------
+# --------passing other condition addr>=8 constraint is not considere from here----
+# addr_range=[other]	adddr=8
+# -----------------------------
+# addr_range=[other]	adddr=7
+# -----------------------------
+# addr_range=[other]	adddr=9
+# -----------------------------
+# addr_range=[other]	adddr=4
+# -----------------------------
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:51:50 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# ** Error: (vlog-13069) 04_constraint_implicaion.sv(8): near "else": syntax error, unexpected else.
+# End time: 00:51:50 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./04_constraint_implicaion.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 04_constraint_implicaion.sv"
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:52:38 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# ** Error: (vlog-13069) 04_constraint_implicaion.sv(10): near "else": syntax error, unexpected else.
+# End time: 00:52:38 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./04_constraint_implicaion.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 04_constraint_implicaion.sv"
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:53:21 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# -- Compiling package _04_constraint_implicaion_sv_unit
+# -- Compiling module constraint_implicaion
+# ** Warning: 04_constraint_implicaion.sv(17): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 04_constraint_implicaion.sv(24): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_implicaion
+# End time: 00:53:21 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 00:53:22 on Mar 02,2023, Elapsed time: 0:03:54
+# Errors: 8, Warnings: 4
+# vsim work.constraint_implicaion -l 04_constraint_implicaion.log 
+# Start time: 00:53:22 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 04_constraint_implicaion.sv(17): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 04_constraint_implicaion.sv(24): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._04_constraint_implicaion_sv_unit(fast)
+# Loading work.constraint_implicaion(fast)
+# -----------------------------
+# addr_range=[small]	adddr=9
+# -----------------------------
+# addr_range=[small]	adddr=15
+# -----------------------------
+# addr_range=[small]	adddr=11
+# -----------------------------
+# addr_range=[small]	adddr=12
+# -----------------------------
+# --------passing other condition addr>=8 constraint is not considere from here----
+# addr_range=[other]	adddr=15
+# -----------------------------
+# addr_range=[other]	adddr=10
+# -----------------------------
+# addr_range=[other]	adddr=9
+# -----------------------------
+# addr_range=[other]	adddr=12
+# -----------------------------
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:53:44 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# -- Compiling package _04_constraint_implicaion_sv_unit
+# -- Compiling module constraint_implicaion
+# ** Warning: 04_constraint_implicaion.sv(17): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 04_constraint_implicaion.sv(24): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_implicaion
+# End time: 00:53:44 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 00:53:45 on Mar 02,2023, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 4
+# vsim work.constraint_implicaion -l 04_constraint_implicaion.log 
+# Start time: 00:53:45 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 04_constraint_implicaion.sv(17): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 04_constraint_implicaion.sv(24): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._04_constraint_implicaion_sv_unit(fast)
+# Loading work.constraint_implicaion(fast)
+# -----------------------------
+# addr_range=[small]	adddr=9
+# -----------------------------
+# addr_range=[small]	adddr=15
+# -----------------------------
+# addr_range=[small]	adddr=11
+# -----------------------------
+# addr_range=[small]	adddr=12
+# -----------------------------
+# --------passing other condition addr>=8 constraint is not considere from here----
+# addr_range=[other]	adddr=0
+# -----------------------------
+# addr_range=[other]	adddr=6
+# -----------------------------
+# addr_range=[other]	adddr=2
+# -----------------------------
+# addr_range=[other]	adddr=5
+# -----------------------------

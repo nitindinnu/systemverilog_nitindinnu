@@ -1,0 +1,61 @@
+# End time: 23:29:36 on Mar 01,2023, Elapsed time: 0:13:24
+# Errors: 5, Warnings: 5
+# vsim work.constraint_out -l 01constraints_methods_outside_class.log 
+# Start time: 23:29:36 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 01constraints_methods_outside_class.sv(21): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._01constraints_methods_outside_class_sv_unit(fast)
+# Loading work.constraint_out(fast)
+# a=12	,b=0	.sum=12
+# a=13	,b=3	.sum=16
+# a=9	,b=2	.sum=11
+# a=9	,b=6	.sum=15
+# a=11	,b=0	.sum=11
+# a=11	,b=3	.sum=14
+# a=9	,b=3	.sum=12
+# a=11	,b=6	.sum=17
+# a=14	,b=0	.sum=14
+# a=15	,b=5	.sum=20
+02constraint_inside_operator.do
+# couldn't execute ".\02constraint_inside_operator.do": no such file or directory
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:08:19 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# ** Error: 02constraint_inside_operator.sv(5): 'sum' already exists; must not be redefined as a function.
+# ** Error: (vlog-13069) 02constraint_inside_operator.sv(10): near "function": syntax error, unexpected function, expecting module or "SystemVerilog keyword 'interface'" or "SystemVerilog keyword 'program'".
+# End time: 00:08:19 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./02constraint_inside_operator.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 02constraint_inside_operator.sv"
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:08:42 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# ** Error: (vlog-13069) 02constraint_inside_operator.sv(10): near "function": syntax error, unexpected function, expecting module or "SystemVerilog keyword 'interface'" or "SystemVerilog keyword 'program'".
+# End time: 00:08:42 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./02constraint_inside_operator.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 02constraint_inside_operator.sv"
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:09:03 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# -- Compiling package _02constraint_inside_operator_sv_unit
+# -- Compiling module constraint_inside_operator
+# ** Warning: 02constraint_inside_operator.sv(19): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_inside_operator
+# End time: 00:09:03 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

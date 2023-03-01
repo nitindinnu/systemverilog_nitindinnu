@@ -1,0 +1,292 @@
+# vsim work.randc_method -l 01randc_keyword_mux2x1.log 
+# Start time: 22:32:14 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit randc_method.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./01randc_keyword_mux2x1.do PAUSED at line 3
+do 01randc_keyword_mux2x1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:32:44 on Mar 01,2023
+# vlog -reportprogress 300 01randc_keyword_mux2x1.sv 
+# -- Compiling package _01randc_keyword_mux2x1_sv_unit
+# ** Warning: 01randc_keyword_mux2x1.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top_mux2x1
+# 
+# Top level modules:
+# 	top_mux2x1
+# End time: 22:32:44 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.top_mux2x1 -l 01randc_keyword_mux2x1.log 
+# Start time: 22:32:14 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 01randc_keyword_mux2x1.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._01randc_keyword_mux2x1_sv_unit(fast)
+# Loading work.top_mux2x1(fast)
+# a=3,b=8,sel=0,mux_out=0
+# a=2,b=11,sel=1,mux_out=0
+# a=13,b=10,sel=1,mux_out=0
+# a=12,b=5,sel=0,mux_out=0
+# a=15,b=4,sel=1,mux_out=0
+# a=14,b=7,sel=0,mux_out=0
+# a=9,b=6,sel=1,mux_out=0
+# a=8,b=1,sel=0,mux_out=0
+# a=11,b=0,sel=0,mux_out=0
+# a=10,b=3,sel=1,mux_out=0
+# a=5,b=2,sel=0,mux_out=0
+# a=4,b=13,sel=1,mux_out=0
+# a=7,b=12,sel=1,mux_out=0
+# a=6,b=15,sel=0,mux_out=0
+# a=1,b=14,sel=0,mux_out=0
+# a=0,b=9,sel=1,mux_out=0
+# a=15,b=4,sel=0,mux_out=0
+# a=0,b=13,sel=1,mux_out=0
+# a=5,b=10,sel=0,mux_out=0
+# a=8,b=7,sel=1,mux_out=0
+do 01randc_keyword_mux2x1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:34:39 on Mar 01,2023
+# vlog -reportprogress 300 01randc_keyword_mux2x1.sv 
+# -- Compiling package _01randc_keyword_mux2x1_sv_unit
+# ** Warning: 01randc_keyword_mux2x1.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top_mux2x1
+# 
+# Top level modules:
+# 	top_mux2x1
+# End time: 22:34:39 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 22:34:41 on Mar 01,2023, Elapsed time: 0:02:27
+# Errors: 1, Warnings: 2
+# vsim work.top_mux2x1 -l 01randc_keyword_mux2x1.log 
+# Start time: 22:34:41 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01randc_keyword_mux2x1.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._01randc_keyword_mux2x1_sv_unit(fast)
+# Loading work.top_mux2x1(fast)
+# a=3	,b=8	,sel=0	,mux_out=0	
+# a=2	,b=11	,sel=1	,mux_out=0	
+# a=13	,b=10	,sel=1	,mux_out=0	
+# a=12	,b=5	,sel=0	,mux_out=0	
+# a=15	,b=4	,sel=1	,mux_out=0	
+# a=14	,b=7	,sel=0	,mux_out=0	
+# a=9	,b=6	,sel=1	,mux_out=0	
+# a=8	,b=1	,sel=0	,mux_out=0	
+# a=11	,b=0	,sel=0	,mux_out=0	
+# a=10	,b=3	,sel=1	,mux_out=0	
+# a=5	,b=2	,sel=0	,mux_out=0	
+# a=4	,b=13	,sel=1	,mux_out=0	
+# a=7	,b=12	,sel=1	,mux_out=0	
+# a=6	,b=15	,sel=0	,mux_out=0	
+# a=1	,b=14	,sel=0	,mux_out=0	
+# a=0	,b=9	,sel=1	,mux_out=0	
+# a=15	,b=4	,sel=0	,mux_out=0	
+# a=0	,b=13	,sel=1	,mux_out=0	
+# a=5	,b=10	,sel=0	,mux_out=0	
+# a=8	,b=7	,sel=1	,mux_out=0	
+do 01randc_keyword_mux2x1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:37:44 on Mar 01,2023
+# vlog -reportprogress 300 01randc_keyword_mux2x1.sv 
+# -- Compiling package _01randc_keyword_mux2x1_sv_unit
+# ** Warning: 01randc_keyword_mux2x1.sv(17): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top_mux2x1
+# 
+# Top level modules:
+# 	top_mux2x1
+# End time: 22:37:44 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 22:37:47 on Mar 01,2023, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 2
+# vsim work.top_mux2x1 -l 01randc_keyword_mux2x1.log 
+# Start time: 22:37:47 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01randc_keyword_mux2x1.sv(17): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._01randc_keyword_mux2x1_sv_unit(fast)
+# Loading work.top_mux2x1(fast)
+# a=3	,b=8	,sel=0	,mux_out=0	
+# a=12	,b=11	,sel=1	,mux_out=0	
+# a=8	,b=10	,sel=1	,mux_out=0	
+# a=0	,b=6	,sel=0	,mux_out=0	
+# a=2	,b=8	,sel=1	,mux_out=0	
+# a=10	,b=11	,sel=1	,mux_out=0	
+# a=8	,b=3	,sel=1	,mux_out=0	
+# a=10	,b=6	,sel=1	,mux_out=0	
+# a=5	,b=8	,sel=0	,mux_out=0	
+# a=6	,b=13	,sel=1	,mux_out=0	
+# a=7	,b=2	,sel=0	,mux_out=0	
+# a=5	,b=5	,sel=1	,mux_out=0	
+# a=6	,b=6	,sel=1	,mux_out=0	
+# a=0	,b=7	,sel=0	,mux_out=0	
+# a=1	,b=4	,sel=0	,mux_out=0	
+# a=3	,b=8	,sel=1	,mux_out=0	
+# a=15	,b=4	,sel=0	,mux_out=0	
+# a=4	,b=4	,sel=1	,mux_out=0	
+# a=3	,b=9	,sel=0	,mux_out=0	
+# a=4	,b=14	,sel=1	,mux_out=0	
+do 01randc_keyword_mux2x1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:40:18 on Mar 01,2023
+# vlog -reportprogress 300 01randc_keyword_mux2x1.sv 
+# -- Compiling package _01randc_keyword_mux2x1_sv_unit
+# ** Warning: 01randc_keyword_mux2x1.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top_mux2x1
+# 
+# Top level modules:
+# 	top_mux2x1
+# End time: 22:40:18 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 22:40:21 on Mar 01,2023, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 2
+# vsim work.top_mux2x1 -l 01randc_keyword_mux2x1.log 
+# Start time: 22:40:21 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01randc_keyword_mux2x1.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._01randc_keyword_mux2x1_sv_unit(fast)
+# Loading work.top_mux2x1(fast)
+# a=3	,b=0	,sel=0	,mux_out=0	
+# a=12	,b=0	,sel=1	,mux_out=0	
+# a=8	,b=0	,sel=1	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=2	,b=0	,sel=1	,mux_out=0	
+# a=10	,b=0	,sel=1	,mux_out=0	
+# a=8	,b=0	,sel=1	,mux_out=0	
+# a=10	,b=0	,sel=1	,mux_out=0	
+# a=5	,b=0	,sel=0	,mux_out=0	
+# a=6	,b=0	,sel=1	,mux_out=0	
+# a=7	,b=0	,sel=0	,mux_out=0	
+# a=5	,b=0	,sel=1	,mux_out=0	
+# a=6	,b=0	,sel=1	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=1	,b=0	,sel=0	,mux_out=0	
+# a=3	,b=0	,sel=1	,mux_out=0	
+# a=15	,b=0	,sel=0	,mux_out=0	
+# a=4	,b=0	,sel=1	,mux_out=0	
+# a=3	,b=0	,sel=0	,mux_out=0	
+# a=4	,b=0	,sel=1	,mux_out=0	
+do 01randc_keyword_mux2x1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:41:04 on Mar 01,2023
+# vlog -reportprogress 300 01randc_keyword_mux2x1.sv 
+# -- Compiling package _01randc_keyword_mux2x1_sv_unit
+# ** Warning: 01randc_keyword_mux2x1.sv(19): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top_mux2x1
+# 
+# Top level modules:
+# 	top_mux2x1
+# End time: 22:41:04 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 22:41:07 on Mar 01,2023, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 2
+# vsim work.top_mux2x1 -l 01randc_keyword_mux2x1.log 
+# Start time: 22:41:07 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01randc_keyword_mux2x1.sv(19): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._01randc_keyword_mux2x1_sv_unit(fast)
+# Loading work.top_mux2x1(fast)
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+# a=0	,b=0	,sel=0	,mux_out=0	
+do 01randc_keyword_mux2x1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:41:32 on Mar 01,2023
+# vlog -reportprogress 300 01randc_keyword_mux2x1.sv 
+# -- Compiling package _01randc_keyword_mux2x1_sv_unit
+# ** Warning: 01randc_keyword_mux2x1.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top_mux2x1
+# 
+# Top level modules:
+# 	top_mux2x1
+# End time: 22:41:32 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 22:41:34 on Mar 01,2023, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 2
+# vsim work.top_mux2x1 -l 01randc_keyword_mux2x1.log 
+# Start time: 22:41:34 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01randc_keyword_mux2x1.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._01randc_keyword_mux2x1_sv_unit(fast)
+# Loading work.top_mux2x1(fast)
+# a=3	,b=8	,sel=0	,mux_out=0	
+# a=12	,b=11	,sel=1	,mux_out=0	
+# a=8	,b=10	,sel=1	,mux_out=0	
+# a=0	,b=6	,sel=0	,mux_out=0	
+# a=2	,b=8	,sel=1	,mux_out=0	
+# a=10	,b=11	,sel=1	,mux_out=0	
+# a=8	,b=3	,sel=1	,mux_out=0	
+# a=10	,b=6	,sel=1	,mux_out=0	
+# a=5	,b=8	,sel=0	,mux_out=0	
+# a=6	,b=13	,sel=1	,mux_out=0	
+# a=7	,b=2	,sel=0	,mux_out=0	
+# a=5	,b=5	,sel=1	,mux_out=0	
+# a=6	,b=6	,sel=1	,mux_out=0	
+# a=0	,b=7	,sel=0	,mux_out=0	
+# a=1	,b=4	,sel=0	,mux_out=0	
+# a=3	,b=8	,sel=1	,mux_out=0	
+# a=15	,b=4	,sel=0	,mux_out=0	
+# a=4	,b=4	,sel=1	,mux_out=0	
+# a=3	,b=9	,sel=0	,mux_out=0	
+# a=4	,b=14	,sel=1	,mux_out=0	
+q -sim
+# End time: 23:09:57 on Mar 01,2023, Elapsed time: 0:28:23
+# Errors: 0, Warnings: 1
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\05randomization_nd_constraints\02constraints}
+do 00constraint.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:10:09 on Mar 01,2023
+# vlog -reportprogress 300 00constraint.sv 
+# ** Error: 00constraint.sv(5): (vlog-2164) Class or package 'c_name' not found.
+# ** Error: (vlog-13069) 00constraint.sv(5): near "::": syntax error, unexpected ::, expecting '{'.
+# End time: 23:10:09 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00constraint.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00constraint.sv"
+do 00constraint.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:11:00 on Mar 01,2023
+# vlog -reportprogress 300 00constraint.sv 
+# -- Compiling package _00constraint_sv_unit
+# -- Compiling module constraintss
+# ** Warning: 00constraint.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00constraint.sv(21): (vlog-2240) Treating stand-alone use of function 'sum_add' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraintss
+# End time: 23:11:00 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2

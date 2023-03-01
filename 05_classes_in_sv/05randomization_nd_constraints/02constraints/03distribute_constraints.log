@@ -1,0 +1,101 @@
+# End time: 00:34:27 on Mar 02,2023, Elapsed time: 0:11:43
+# Errors: 17, Warnings: 2
+# vsim work.constraint_distributive_operator -l 03distribute_constraints.log 
+# Start time: 00:34:27 on Mar 02,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 03distribute_constraints.sv(15): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._03distribute_constraints_sv_unit(fast)
+# Loading work.constraint_distributive_operator(fast)
+# ---------------------------
+# addr=10
+# addr=5
+# addr=1
+# addr=7
+# addr=3
+# addr=9
+# addr=8
+# addr=1
+# addr=10
+# addr=8
+# addr=7
+# addr=5
+# addr=3
+# addr=9
+# addr=1
+# addr=7
+# addr=3
+# addr=9
+# addr=8
+# addr=10
+do 03distribute_constraints.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:36:23 on Mar 02,2023
+# vlog -reportprogress 300 03distribute_constraints.sv 
+# -- Compiling package _03distribute_constraints_sv_unit
+# -- Compiling module constraint_distributive_operator
+# ** Warning: 03distribute_constraints.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_distributive_operator
+# End time: 00:36:23 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:36:24 on Mar 02,2023, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 2
+# vsim work.constraint_distributive_operator -l 03distribute_constraints.log 
+# Start time: 00:36:24 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 03distribute_constraints.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._03distribute_constraints_sv_unit(fast)
+# Loading work.constraint_distributive_operator(fast)
+# ---------------------------
+# addr=10
+# addr=5
+# addr=1
+# addr=7
+# addr=3
+# addr=9
+# addr=8
+# addr=1
+# addr=10
+# addr=8
+# addr=7
+# addr=5
+# addr=3
+# addr=9
+# addr=1
+# addr=7
+# addr=3
+# addr=9
+# addr=8
+# addr=10
+04_constraint_implicaion.do
+# couldn't execute ".\04_constraint_implicaion.do": no such file or directory
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:44:15 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# ** Error: 04_constraint_implicaion.sv(12): (vlog-13161) unexpected '$display', expecting elaboration system task $fatal/$error/$warning/$info.
+# ** Error: 04_constraint_implicaion.sv(17): (vlog-13161) unexpected '$display', expecting elaboration system task $fatal/$error/$warning/$info.
+# End time: 00:44:15 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./04_constraint_implicaion.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 04_constraint_implicaion.sv"
+do 04_constraint_implicaion.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:44:40 on Mar 02,2023
+# vlog -reportprogress 300 04_constraint_implicaion.sv 
+# -- Compiling package _04_constraint_implicaion_sv_unit
+# -- Compiling module constraint_implicaion
+# 
+# Top level modules:
+# 	constraint_implicaion
+# End time: 00:44:40 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

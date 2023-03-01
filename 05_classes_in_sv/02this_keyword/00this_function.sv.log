@@ -1,0 +1,124 @@
+# vsim work.this_func00 -l 00this_function.sv.log 
+# Start time: 15:14:56 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): 00this_function.sv(17): (vopt-7063) Failed to find 'a' in hierarchical name 'a'.
+#         Region: this_func00
+# ** Error (suppressible): 00this_function.sv(17): (vopt-7063) Failed to find 'b' in hierarchical name 'b'.
+#         Region: this_func00
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./00this_function.do PAUSED at line 3
+do 02constructor_with_args.do
+# Cannot open macro file: 02constructor_with_args.do
+do 02constructor_with_args.do
+# Cannot open macro file: 02constructor_with_args.do
+00this_function.do
+# couldn't execute ".\00this_function.do": no such file or directory
+do 00this_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:15:49 on Mar 01,2023
+# vlog -reportprogress 300 00this_function.sv 
+# -- Compiling package _00this_function_sv_unit
+# -- Compiling module this_func00
+# 
+# Top level modules:
+# 	this_func00
+# End time: 15:15:49 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.this_func00 -l 00this_function.sv.log 
+# Start time: 15:14:56 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work._00this_function_sv_unit(fast)
+# Loading work.this_func00(fast)
+# a b 511
+do 00this_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:16:13 on Mar 01,2023
+# vlog -reportprogress 300 00this_function.sv 
+# -- Compiling package _00this_function_sv_unit
+# -- Compiling module this_func00
+# 
+# Top level modules:
+# 	this_func00
+# End time: 15:16:13 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:16:14 on Mar 01,2023, Elapsed time: 0:01:18
+# Errors: 2, Warnings: 0
+# vsim work.this_func00 -l 00this_function.sv.log 
+# Start time: 15:16:14 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._00this_function_sv_unit(fast)
+# Loading work.this_func00(fast)
+# a 5 b 11
+do 00this_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:16:33 on Mar 01,2023
+# vlog -reportprogress 300 00this_function.sv 
+# -- Compiling package _00this_function_sv_unit
+# -- Compiling module this_func00
+# 
+# Top level modules:
+# 	this_func00
+# End time: 15:16:33 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:16:34 on Mar 01,2023, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
+# vsim work.this_func00 -l 00this_function.sv.log 
+# Start time: 15:16:34 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._00this_function_sv_unit(fast)
+# Loading work.this_func00(fast)
+# a 0 b 0
+do 00this_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:19:28 on Mar 01,2023
+# vlog -reportprogress 300 00this_function.sv 
+# -- Compiling package _00this_function_sv_unit
+# -- Compiling module this_func00
+# 
+# Top level modules:
+# 	this_func00
+# End time: 15:19:28 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:19:29 on Mar 01,2023, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 0
+# vsim work.this_func00 -l 00this_function.sv.log 
+# Start time: 15:19:29 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._00this_function_sv_unit(fast)
+# Loading work.this_func00(fast)
+# a 5 b 11
+do 00this_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:26:06 on Mar 01,2023
+# vlog -reportprogress 300 00this_function.sv 
+# -- Compiling package _00this_function_sv_unit
+# -- Compiling module this_func00
+# 
+# Top level modules:
+# 	this_func00
+# End time: 15:26:06 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:26:08 on Mar 01,2023, Elapsed time: 0:06:39
+# Errors: 0, Warnings: 0
+# vsim work.this_func00 -l 00this_function.sv.log 
+# Start time: 15:26:08 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._00this_function_sv_unit(fast)
+# Loading work.this_func00(fast)
+# a 5 b 11
+quit -sim
+# End time: 15:27:43 on Mar 01,2023, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 0

@@ -1,0 +1,688 @@
+# vsim work.topp -l 01class_assignment.log 
+# Start time: 16:37:04 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp(fast)
+# h1 data 5
+# h2 data 10
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:37:34 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp
+# 
+# Top level modules:
+# 	topp
+# End time: 16:37:34 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:37:36 on Mar 01,2023, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# vsim work.topp -l 01class_assignment.log 
+# Start time: 16:37:36 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /topp/#INITIAL#10 File: 01class_assignment.sv
+# Fatal error at 01class_assignment.sv line 13
+# 
+# HDL call sequence:
+# Stopped at 01class_assignment.sv 13  
+# 
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:38:22 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp
+# 
+# Top level modules:
+# 	topp
+# End time: 16:38:22 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:38:23 on Mar 01,2023, Elapsed time: 0:00:47
+# Errors: 2, Warnings: 0
+# vsim work.topp -l 01class_assignment.log 
+# Start time: 16:38:23 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /topp/#INITIAL#10 File: 01class_assignment.sv
+# Fatal error at 01class_assignment.sv line 13
+# 
+# HDL call sequence:
+# Stopped at 01class_assignment.sv 13  
+# 
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:39:02 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp
+# 
+# Top level modules:
+# 	topp
+# End time: 16:39:02 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:39:03 on Mar 01,2023, Elapsed time: 0:00:40
+# Errors: 2, Warnings: 0
+# vsim work.topp -l 01class_assignment.log 
+# Start time: 16:39:03 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp(fast)
+# h1 data 5
+# h2 data 5
+# h1 data 10
+# h2 data 10
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:58:12 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 16:58:12 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:58:14 on Mar 01,2023, Elapsed time: 0:19:11
+# Errors: 0, Warnings: 0
+# vsim work.topp1 -l 01class_assignment.log 
+# Start time: 16:58:14 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp1(fast)
+# End time: 16:58:19 on Mar 01,2023, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim work.topp2 -l 01class_assignment.log 
+# Start time: 16:58:19 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp2(fast)
+# h1 data at topp2 5
+# h2 data at topp2 5
+# h1 data at topp2 10
+# h2 data at topp2 10
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:59:16 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 16:59:16 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:59:18 on Mar 01,2023, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 0
+# vsim work.topp2 -l 01class_assignment.log 
+# Start time: 16:59:18 on Mar 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp2(fast)
+# h1 data at topp2 5
+# h2 data at topp2 5
+# h1 data at topp2 10
+# h2 data at topp2 10
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:00:07 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 17:00:07 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:00:08 on Mar 01,2023, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+# vsim work.topp1 -l 01class_assignment.log 
+# Start time: 17:00:08 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp1(fast)
+# End time: 17:00:13 on Mar 01,2023, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim work.topp2 -l 01class_assignment.log 
+# Start time: 17:00:13 on Mar 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp2(fast)
+# h1 data at topp2 5
+# h2 data at topp2 5
+# h1 data at topp2 10
+# h2 data at topp2 10
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:01:12 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp
+# 
+# Top level modules:
+# 	topp
+# End time: 17:01:12 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:01:13 on Mar 01,2023, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 0
+# vsim work.topp -l 01class_assignment.log 
+# Start time: 17:01:13 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /topp/#INITIAL#10 File: 01class_assignment.sv
+# Fatal error at 01class_assignment.sv line 13
+# 
+# HDL call sequence:
+# Stopped at 01class_assignment.sv 13  
+# 
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:01:51 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp
+# 
+# Top level modules:
+# 	topp
+# End time: 17:01:51 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:01:53 on Mar 01,2023, Elapsed time: 0:00:40
+# Errors: 2, Warnings: 0
+# vsim work.topp -l 01class_assignment.log 
+# Start time: 17:01:53 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /topp/#INITIAL#10 File: 01class_assignment.sv
+# Fatal error at 01class_assignment.sv line 13
+# 
+# HDL call sequence:
+# Stopped at 01class_assignment.sv 13  
+# 
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:02:09 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# ** Error: (vlog-13069) 01class_assignment.sv(12): near "h1": syntax error, unexpected IDENTIFIER, expecting ';'.
+# End time: 17:02:09 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01class_assignment.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01class_assignment.sv"
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:02:20 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp
+# 
+# Top level modules:
+# 	topp
+# End time: 17:02:20 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:02:22 on Mar 01,2023, Elapsed time: 0:00:29
+# Errors: 6, Warnings: 0
+# vsim work.topp -l 01class_assignment.log 
+# Start time: 17:02:22 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp(fast)
+# h1 data 5
+# h2 data 5
+# h1 data 10
+# h2 data 10
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:03:52 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 17:03:52 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:03:54 on Mar 01,2023, Elapsed time: 0:01:32
+# Errors: 0, Warnings: 0
+# vsim work.topp1 -l 01class_assignment.log 
+# Start time: 17:03:54 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp1(fast)
+# End time: 17:03:59 on Mar 01,2023, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim work.topp2 -l 01class_assignment.log 
+# Start time: 17:03:59 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp2(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /topp2/#INITIAL#27 File: 01class_assignment.sv
+# Fatal error at 01class_assignment.sv line 30
+# 
+# HDL call sequence:
+# Stopped at 01class_assignment.sv 30  
+# 
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:04:16 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 17:04:16 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:04:17 on Mar 01,2023, Elapsed time: 0:00:18
+# Errors: 2, Warnings: 0
+# vsim work.topp1 -l 01class_assignment.log 
+# Start time: 17:04:17 on Mar 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp1(fast)
+# End time: 17:04:22 on Mar 01,2023, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim work.topp2 -l 01class_assignment.log 
+# Start time: 17:04:22 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp2(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /topp2/#INITIAL#27 File: 01class_assignment.sv
+# Fatal error at 01class_assignment.sv line 30
+# 
+# HDL call sequence:
+# Stopped at 01class_assignment.sv 30  
+# 
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:04:50 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 17:04:51 on Mar 01,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:04:52 on Mar 01,2023, Elapsed time: 0:00:30
+# Errors: 2, Warnings: 0
+# vsim work.topp2 -l 01class_assignment.log 
+# Start time: 17:04:52 on Mar 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp2(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /topp2/#INITIAL#27 File: 01class_assignment.sv
+# Fatal error at 01class_assignment.sv line 30
+# 
+# HDL call sequence:
+# Stopped at 01class_assignment.sv 30  
+# 
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:05:14 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 17:05:14 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:05:16 on Mar 01,2023, Elapsed time: 0:00:24
+# Errors: 2, Warnings: 0
+# vsim work.topp2 -l 01class_assignment.log 
+# Start time: 17:05:16 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp2(fast)
+# h1 data at topp2 5
+# h2 data at topp2 0
+# h1 data at topp2 5
+# h2 data at topp2 10
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:05:40 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 17:05:40 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:05:41 on Mar 01,2023, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# vsim work.topp2 -l 01class_assignment.log 
+# Start time: 17:05:41 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp2(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /topp2/#INITIAL#28 File: 01class_assignment.sv
+# Fatal error at 01class_assignment.sv line 30
+# 
+# HDL call sequence:
+# Stopped at 01class_assignment.sv 30  
+# 
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:06:19 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 17:06:19 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:06:21 on Mar 01,2023, Elapsed time: 0:00:40
+# Errors: 2, Warnings: 0
+# vsim work.topp2 -l 01class_assignment.log 
+# Start time: 17:06:21 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp2(fast)
+# h1 data at topp2 5
+# h2 data at topp2 0
+# h1 data at topp2 5
+# h2 data at topp2 10
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:07:28 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 17:07:28 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:07:30 on Mar 01,2023, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 0
+# vsim work.topp2 -l 01class_assignment.log 
+# Start time: 17:07:30 on Mar 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp2(fast)
+# h1 data at topp2 5
+# h2 data at topp2 0
+# h1 data at topp2 5
+# h2 data at topp2 10
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:07:46 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 17:07:46 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:07:48 on Mar 01,2023, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+# vsim work.topp1 -l 01class_assignment.log 
+# Start time: 17:07:48 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp1(fast)
+# h1 data at topp1 5
+# h2 data at topp1 5
+# h1 data at topp1 10
+# h2 data at topp1 10
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:08:02 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 17:08:02 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:08:04 on Mar 01,2023, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
+# vsim work.topp1 -l 01class_assignment.log 
+# Start time: 17:08:04 on Mar 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp1(fast)
+# End time: 17:08:08 on Mar 01,2023, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# vsim work.topp2 -l 01class_assignment.log 
+# Start time: 17:08:08 on Mar 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp2(fast)
+# h1 data at topp2 5
+# h2 data at topp2 0
+# h1 data at topp2 5
+# h2 data at topp2 10
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:09:42 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# ** Error: (vlog-13069) 01class_assignment.sv(32): near "=": syntax error, unexpected '=', expecting ';'.
+# End time: 17:09:42 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01class_assignment.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01class_assignment.sv"
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:10:05 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# ** Error: (vlog-13069) 01class_assignment.sv(32): near "=": syntax error, unexpected '=', expecting ';'.
+# End time: 17:10:05 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01class_assignment.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01class_assignment.sv"
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:10:22 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# ** Error: (vlog-13069) 01class_assignment.sv(32): near "{": syntax error, unexpected '{'.
+# ** Error: 01class_assignment.sv(32): (vlog-13205) Syntax error found in the scope following 'trnmx'. Is there a missing '::'?
+# End time: 17:10:22 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01class_assignment.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01class_assignment.sv"
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:10:41 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 17:10:41 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:10:43 on Mar 01,2023, Elapsed time: 0:02:35
+# Errors: 13, Warnings: 0
+# vsim work.topp1 -l 01class_assignment.log 
+# Start time: 17:10:43 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp1(fast)
+# End time: 17:10:48 on Mar 01,2023, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# vsim work.topp2 -l 01class_assignment.log 
+# Start time: 17:10:48 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp2(fast)
+# h1 data at topp2 5
+# h2 data at topp2 0
+# h1 data at topp2 5
+# h2 data at topp2 10
+do 01class_assignment.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:11:16 on Mar 01,2023
+# vlog -reportprogress 300 01class_assignment.sv 
+# -- Compiling package _01class_assignment_sv_unit
+# -- Compiling module topp1
+# -- Compiling module topp2
+# 
+# Top level modules:
+# 	topp1
+# 	topp2
+# End time: 17:11:17 on Mar 01,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:11:18 on Mar 01,2023, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 0
+# vsim work.topp1 -l 01class_assignment.log 
+# Start time: 17:11:18 on Mar 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.topp1(fast)
+# h1 data at topp1 5
+# h2 data at topp1 5
+# h1 data at topp1 10
+# h2 data at topp1 10
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\04_static_prop_methods}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+q -sim
+# End time: 17:19:09 on Mar 01,2023, Elapsed time: 0:07:51
+# Errors: 1, Warnings: 0
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\04_static_prop_methods}
+do 00static_properties.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:19:22 on Mar 01,2023
+# vlog -reportprogress 300 00static_properties.sv 
+# ** Error: (vlog-13069) 00static_properties.sv(16): near ".": syntax error, unexpected '.', expecting '\''.
+# End time: 17:19:22 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00static_properties.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00static_properties.sv"
+do 00static_properties.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:19:51 on Mar 01,2023
+# vlog -reportprogress 300 00static_properties.sv 
+# -- Compiling package _00static_properties_sv_unit
+# -- Compiling module static_prop01
+# ** Error (suppressible): (vlog-13276) 00static_properties.sv(16): Could not find field/method name (a) in 'ab' of 'ab.a'.
+# ** Error (suppressible): (vlog-13276) 00static_properties.sv(16): Could not find field/method name (b) in 'ab' of 'ab.b'.
+# End time: 17:19:51 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00static_properties.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00static_properties.sv"
+do 00static_properties.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:20:22 on Mar 01,2023
+# vlog -reportprogress 300 00static_properties.sv 
+# -- Compiling package _00static_properties_sv_unit
+# -- Compiling module static_prop01
+# 
+# Top level modules:
+# 	static_prop01
+# End time: 17:20:22 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

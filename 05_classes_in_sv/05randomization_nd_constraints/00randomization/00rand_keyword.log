@@ -1,0 +1,415 @@
+# vsim work.rand_method -l 00rand_keyword.log 
+# Start time: 21:09:39 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 00rand_keyword.sv(8): (vopt-2244) Variable 'kk' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 00rand_keyword.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._00rand_keyword_sv_unit(fast)
+# Loading work.rand_method(fast)
+# 	 a.rand_mode() =1 	 b.rand_mode()=1
+# 	a=0, b=0
+# 	 a.rand_mode() =0 	 b.rand_mode()=0
+do 00rand_keyword.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:10:29 on Mar 01,2023
+# vlog -reportprogress 300 00rand_keyword.sv 
+# ** Warning: 00rand_keyword.sv(8): (vlog-2244) Variable 'kk' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _00rand_keyword_sv_unit
+# -- Compiling module rand_method
+# ** Warning: 00rand_keyword.sv(8): (vlog-2244) Variable 'kk' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 00rand_keyword.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	rand_method
+# End time: 21:10:29 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# End time: 21:10:31 on Mar 01,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 5
+# vsim work.rand_method -l 00rand_keyword.log 
+# Start time: 21:10:31 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00rand_keyword.sv(8): (vopt-2244) Variable 'kk' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 00rand_keyword.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._00rand_keyword_sv_unit(fast)
+# Loading work.rand_method(fast)
+# a.rand_mode() =1 	 b.rand_mode()=1
+# a=0 	 b=0
+# a.rand_mode() =0 	 b.rand_mode()=0
+do 00rand_keyword.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:11:52 on Mar 01,2023
+# vlog -reportprogress 300 00rand_keyword.sv 
+# ** Warning: 00rand_keyword.sv(8): (vlog-2244) Variable 'kk' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _00rand_keyword_sv_unit
+# -- Compiling module rand_method
+# ** Warning: 00rand_keyword.sv(8): (vlog-2244) Variable 'kk' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 00rand_keyword.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	rand_method
+# End time: 21:11:52 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# End time: 21:11:53 on Mar 01,2023, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 5
+# vsim work.rand_method -l 00rand_keyword.log 
+# Start time: 21:11:53 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): 00rand_keyword.sv(19): (vopt-7063) Failed to find 'kk' in hierarchical name 'kk.a.rand_mode'.
+#         Region: rand_method
+# ** Error (suppressible): 00rand_keyword.sv(19): (vopt-7063) Failed to find 'rand_mode' in hierarchical name 'kk.a.rand_mode'.
+#         Region: rand_method
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./00rand_keyword.do PAUSED at line 3
+do 00rand_keyword.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:12:47 on Mar 01,2023
+# vlog -reportprogress 300 00rand_keyword.sv 
+# ** Warning: 00rand_keyword.sv(8): (vlog-2244) Variable 'kk' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _00rand_keyword_sv_unit
+# -- Compiling module rand_method
+# ** Warning: 00rand_keyword.sv(8): (vlog-2244) Variable 'kk' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 00rand_keyword.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	rand_method
+# End time: 21:12:47 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# vsim work.rand_method -l 00rand_keyword.log 
+# Start time: 21:11:53 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): 00rand_keyword.sv(19): (vopt-7063) Failed to find 'kk' in hierarchical name 'kk.a.rand_mode'.
+#         Region: rand_method
+# ** Error (suppressible): 00rand_keyword.sv(19): (vopt-7063) Failed to find 'rand_mode' in hierarchical name 'kk.a.rand_mode'.
+#         Region: rand_method
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./00rand_keyword.do PAUSED at line 3
+do 00rand_keyword.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:15:02 on Mar 01,2023
+# vlog -reportprogress 300 00rand_keyword.sv 
+# ** Error (suppressible): 00rand_keyword.sv(12): (vlog-2244) Variable 'kk' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# End time: 21:15:02 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00rand_keyword.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00rand_keyword.sv"
+do 00rand_keyword.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:15:18 on Mar 01,2023
+# vlog -reportprogress 300 00rand_keyword.sv 
+# -- Compiling package _00rand_keyword_sv_unit
+# -- Compiling module rand_method
+# ** Warning: 00rand_keyword.sv(17): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	rand_method
+# End time: 21:15:18 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.rand_method -l 00rand_keyword.log 
+# Start time: 21:11:53 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 00rand_keyword.sv(17): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._00rand_keyword_sv_unit(fast)
+# Loading work.rand_method(fast)
+# a.rand_mode() =1 	 b.rand_mode()=1
+# a=0 	 b=0
+# a.rand_mode() =0 	 b.rand_mode()=0
+do 00rand_keyword.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:16:00 on Mar 01,2023
+# vlog -reportprogress 300 00rand_keyword.sv 
+# -- Compiling package _00rand_keyword_sv_unit
+# -- Compiling module rand_method
+# ** Warning: 00rand_keyword.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	rand_method
+# End time: 21:16:01 on Mar 01,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 21:16:03 on Mar 01,2023, Elapsed time: 0:04:10
+# Errors: 4, Warnings: 2
+# vsim work.rand_method -l 00rand_keyword.log 
+# Start time: 21:16:03 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00rand_keyword.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._00rand_keyword_sv_unit(fast)
+# Loading work.rand_method(fast)
+# a.rand_mode() =1 	 b.rand_mode()=1
+# randomize disable for whole object
+# a=0 	 b=0
+# a.rand_mode() =0 	 b.rand_mode()=0
+do 00rand_keyword.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:16:46 on Mar 01,2023
+# vlog -reportprogress 300 00rand_keyword.sv 
+# -- Compiling package _00rand_keyword_sv_unit
+# -- Compiling module rand_method
+# ** Warning: 00rand_keyword.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00rand_keyword.sv(30): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	rand_method
+# End time: 21:16:46 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:16:48 on Mar 01,2023, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 3
+# vsim work.rand_method -l 00rand_keyword.log 
+# Start time: 21:16:48 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00rand_keyword.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00rand_keyword.sv(30): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._00rand_keyword_sv_unit(fast)
+# Loading work.rand_method(fast)
+# a.rand_mode() =1 	 b.rand_mode()=1
+# randomize disabled for whole object
+# a=0 	 b=0
+# a.rand_mode() =0 	 b.rand_mode()=0
+do 00rand_keyword.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:17:05 on Mar 01,2023
+# vlog -reportprogress 300 00rand_keyword.sv 
+# -- Compiling package _00rand_keyword_sv_unit
+# -- Compiling module rand_method
+# ** Warning: 00rand_keyword.sv(19): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00rand_keyword.sv(31): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	rand_method
+# End time: 21:17:05 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:17:07 on Mar 01,2023, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 4
+# vsim work.rand_method -l 00rand_keyword.log 
+# Start time: 21:17:07 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00rand_keyword.sv(19): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00rand_keyword.sv(31): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._00rand_keyword_sv_unit(fast)
+# Loading work.rand_method(fast)
+# a.rand_mode() =1 	 b.rand_mode()=1
+# randomize disabled for whole object
+# a=0 	 b=0
+# a.rand_mode() =0 	 b.rand_mode()=0
+# a.rand_mode() =1 	 b.rand_mode()=1
+# randomize enabled for whole object
+# a=121 	 b=15
+# a.rand_mode() =1 	 b.rand_mode()=1
+do 00rand_keyword.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:18:17 on Mar 01,2023
+# vlog -reportprogress 300 00rand_keyword.sv 
+# -- Compiling package _00rand_keyword_sv_unit
+# -- Compiling module rand_method
+# ** Warning: 00rand_keyword.sv(21): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00rand_keyword.sv(35): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	rand_method
+# End time: 21:18:17 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:18:19 on Mar 01,2023, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 4
+# vsim work.rand_method -l 00rand_keyword.log 
+# Start time: 21:18:19 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00rand_keyword.sv(21): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00rand_keyword.sv(35): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._00rand_keyword_sv_unit(fast)
+# Loading work.rand_method(fast)
+# a.rand_mode() =1 	 b.rand_mode()=1
+# randomize disabled for whole object
+# a.rand_mode() =0 	 b.rand_mode()=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a.rand_mode() =1 	 b.rand_mode()=1
+# randomize enabled for whole object
+# a.rand_mode() =1 	 b.rand_mode()=1
+# a=121 	 b=15
+# a=45 	 b=-47
+# a=-4 	 b=-16
+# a=-9 	 b=13
+# a=-16 	 b=52
+# a=1 	 b=-65
+# a=-51 	 b=-43
+# a=-84 	 b=11
+# a=97 	 b=54
+# a=63 	 b=-8
+do 00rand_keyword.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:18:50 on Mar 01,2023
+# vlog -reportprogress 300 00rand_keyword.sv 
+# -- Compiling package _00rand_keyword_sv_unit
+# -- Compiling module rand_method
+# ** Warning: 00rand_keyword.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00rand_keyword.sv(36): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	rand_method
+# End time: 21:18:50 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:18:52 on Mar 01,2023, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 4
+# vsim work.rand_method -l 00rand_keyword.log 
+# Start time: 21:18:52 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00rand_keyword.sv(22): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00rand_keyword.sv(36): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._00rand_keyword_sv_unit(fast)
+# Loading work.rand_method(fast)
+# a.rand_mode() =1 	 b.rand_mode()=1
+# randomize disabled for whole object
+# a.rand_mode() =0 	 b.rand_mode()=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# ==============================
+# a.rand_mode() =1 	 b.rand_mode()=1
+# randomize enabled for whole object
+# a.rand_mode() =1 	 b.rand_mode()=1
+# a=121 	 b=15
+# a=45 	 b=-47
+# a=-4 	 b=-16
+# a=-9 	 b=13
+# a=-16 	 b=52
+# a=1 	 b=-65
+# a=-51 	 b=-43
+# a=-84 	 b=11
+# a=97 	 b=54
+# a=63 	 b=-8
+do 00rand_keyword.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:23:10 on Mar 01,2023
+# vlog -reportprogress 300 00rand_keyword.sv 
+# -- Compiling package _00rand_keyword_sv_unit
+# -- Compiling module rand_method
+# ** Warning: 00rand_keyword.sv(25): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00rand_keyword.sv(39): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00rand_keyword.sv(53): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	rand_method
+# End time: 21:23:10 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# End time: 21:23:12 on Mar 01,2023, Elapsed time: 0:04:20
+# Errors: 0, Warnings: 5
+# vsim work.rand_method -l 00rand_keyword.log 
+# Start time: 21:23:12 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00rand_keyword.sv(25): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00rand_keyword.sv(39): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00rand_keyword.sv(53): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._00rand_keyword_sv_unit(fast)
+# Loading work.rand_method(fast)
+# ==============================
+# a.rand_mode() =1 	 b.rand_mode()=1
+# randomize disabled for whole object
+# a.rand_mode() =0 	 b.rand_mode()=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# a=0 	 b=0
+# ==============================
+# a.rand_mode() =1 	 b.rand_mode()=1
+# randomize disabled for whole object
+# a.rand_mode() =1 	 b.rand_mode()=1
+# a=121 	 b=0
+# a=45 	 b=0
+# a=-4 	 b=0
+# a=-9 	 b=0
+# a=-16 	 b=0
+# a=1 	 b=0
+# a=-51 	 b=0
+# a=-84 	 b=0
+# a=97 	 b=0
+# a=63 	 b=0
+# ==============================
+# a.rand_mode() =1 	 b.rand_mode()=1
+# randomize enabled for whole object
+# a.rand_mode() =1 	 b.rand_mode()=1
+# a=95 	 b=-120
+# a=102 	 b=119
+# a=-66 	 b=33
+# a=-84 	 b=43
+# a=92 	 b=60
+# a=-51 	 b=-33
+# a=-46 	 b=120
+# a=47 	 b=117
+# a=-87 	 b=-111
+# a=-65 	 b=-73
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\05randomization_nd_constraints\00randomization}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+q -sim
+# End time: 22:32:06 on Mar 01,2023, Elapsed time: 1:08:54
+# Errors: 1, Warnings: 3
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\05randomization_nd_constraints\00randomization}
+do 01randc_keyword_mux2x1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:32:14 on Mar 01,2023
+# vlog -reportprogress 300 01randc_keyword_mux2x1.sv 
+# -- Compiling package _01randc_keyword_mux2x1_sv_unit
+# ** Warning: 01randc_keyword_mux2x1.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling module top_mux2x1
+# 
+# Top level modules:
+# 	top_mux2x1
+# End time: 22:32:14 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

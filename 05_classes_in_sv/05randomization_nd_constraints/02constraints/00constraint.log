@@ -1,0 +1,162 @@
+# vsim work.constraintss -l 00constraint.log 
+# Start time: 23:11:01 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 00constraint.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00constraint.sv(21): (vopt-2240) Treating stand-alone use of function 'sum_add' as an implicit VOID cast.
+# ** Warning: 00constraint.sv(7): (vopt-2250) Function "sum_add" has no return value assignment.
+# Loading sv_std.std
+# Loading work._00constraint_sv_unit(fast)
+# Loading work.constraintss(fast)
+# a=3	,b=11	.sum=14
+# a=4	,b=14	.sum=18
+# a=0	,b=13	.sum=13
+# a=0	,b=12	.sum=12
+# a=2	,b=11	.sum=13
+# a=2	,b=14	.sum=16
+# a=0	,b=14	.sum=14
+# a=2	,b=12	.sum=14
+# a=2	,b=11	.sum=13
+# a=0	,b=15	.sum=15
+do 00constraint.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:13:20 on Mar 01,2023
+# vlog -reportprogress 300 00constraint.sv 
+# ** Error: 00constraint.sv(13):  Failed to find the name 'name' in scope 'normal_constraint' at 00constraint.sv(1).
+# ** Error: 00constraint.sv(13): (vlog-2948) No prototype specified for constraint block 'name'.
+# ** Error: 00constraint.sv(13): (vlog-2730) Undefined variable: 'a'.
+# ** Error: (vlog-13069) 00constraint.sv(13): near ",": syntax error, unexpected ','.
+# 00constraint.sv(23): Verilog Compiler exiting
+# End time: 23:13:20 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00constraint.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00constraint.sv"
+do 00constraint.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:14:29 on Mar 01,2023
+# vlog -reportprogress 300 00constraint.sv 
+# ** Error: 00constraint.sv(13):  Failed to find the name 'c_name' in scope 'normal_constraint' at 00constraint.sv(1).
+# ** Error: 00constraint.sv(13): (vlog-2948) No prototype specified for constraint block 'c_name'.
+# ** Error: 00constraint.sv(13): (vlog-2730) Undefined variable: 'a'.
+# ** Error: (vlog-13069) 00constraint.sv(13): near ",": syntax error, unexpected ','.
+# 00constraint.sv(23): Verilog Compiler exiting
+# End time: 23:14:29 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00constraint.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00constraint.sv"
+do 00constraint.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:15:44 on Mar 01,2023
+# vlog -reportprogress 300 00constraint.sv 
+# ** Error: 00constraint.sv(15):  Failed to find the name 'c_name' in scope 'normal_constraint' at 00constraint.sv(1).
+# ** Error: 00constraint.sv(15): (vlog-2948) No prototype specified for constraint block 'c_name'.
+# ** Error: 00constraint.sv(15): (vlog-2730) Undefined variable: 'a'.
+# ** Error: (vlog-13069) 00constraint.sv(15): near ",": syntax error, unexpected ','.
+# 00constraint.sv(25): Verilog Compiler exiting
+# End time: 23:15:44 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00constraint.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00constraint.sv"
+do 00constraint.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:15:54 on Mar 01,2023
+# vlog -reportprogress 300 00constraint.sv 
+# ** Error: (vlog-13069) 00constraint.sv(15): near ",": syntax error, unexpected ','.
+# 00constraint.sv(25): Verilog Compiler exiting
+# End time: 23:15:54 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00constraint.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00constraint.sv"
+do 00constraint.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:16:02 on Mar 01,2023
+# vlog -reportprogress 300 00constraint.sv 
+# ** Error: (vlog-13069) 00constraint.sv(15): near ",": syntax error, unexpected ','.
+# End time: 23:16:02 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00constraint.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00constraint.sv"
+do 00constraint.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:16:10 on Mar 01,2023
+# vlog -reportprogress 300 00constraint.sv 
+# -- Compiling package _00constraint_sv_unit
+# -- Compiling module constraintss
+# ** Warning: 00constraint.sv(24): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00constraint.sv(25): (vlog-2240) Treating stand-alone use of function 'sum_add' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraintss
+# End time: 23:16:10 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 23:16:12 on Mar 01,2023, Elapsed time: 0:05:11
+# Errors: 29, Warnings: 5
+# vsim work.constraintss -l 00constraint.log 
+# Start time: 23:16:12 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00constraint.sv(24): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 00constraint.sv(25): (vopt-2240) Treating stand-alone use of function 'sum_add' as an implicit VOID cast.
+# ** Warning: 00constraint.sv(7): (vopt-2250) Function "sum_add" has no return value assignment.
+# Loading sv_std.std
+# Loading work._00constraint_sv_unit(fast)
+# Loading work.constraintss(fast)
+# a=14	,b=0	.sum=14
+# a=15	,b=3	.sum=18
+# a=11	,b=2	.sum=13
+# a=11	,b=1	.sum=12
+# a=13	,b=0	.sum=13
+# a=13	,b=3	.sum=16
+# a=11	,b=3	.sum=14
+# a=13	,b=1	.sum=14
+# a=13	,b=0	.sum=13
+# a=11	,b=4	.sum=15
+do 01constraints_methods_outside_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:28:34 on Mar 01,2023
+# vlog -reportprogress 300 01constraints_methods_outside_class.sv 
+# -- Compiling package _01constraints_methods_outside_class_sv_unit
+# ** Error: 01constraints_methods_outside_class.sv(10): Return type of extern method 'sum_adder' does not match prototype.
+# -- Compiling module constraint_out
+# ** Error: 01constraints_methods_outside_class.sv(10): Return type of extern method 'sum_adder' does not match prototype.
+# ** Warning: 01constraints_methods_outside_class.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# End time: 23:28:34 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01constraints_methods_outside_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01constraints_methods_outside_class.sv"
+do 01constraints_methods_outside_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:29:34 on Mar 01,2023
+# vlog -reportprogress 300 01constraints_methods_outside_class.sv 
+# -- Compiling package _01constraints_methods_outside_class_sv_unit
+# -- Compiling module constraint_out
+# ** Warning: 01constraints_methods_outside_class.sv(21): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_out
+# End time: 23:29:34 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

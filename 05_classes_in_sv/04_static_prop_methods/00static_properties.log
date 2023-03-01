@@ -1,0 +1,73 @@
+# vsim work.static_prop01 -l 00static_properties.log 
+# Start time: 17:20:22 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work._00static_properties_sv_unit(fast)
+# Loading work.static_prop01(fast)
+# value of static var a is [1] and non-static var b is [1]
+# value of static var a is [2] and non-static var b is [1]
+# value of static var a is [3] and non-static var b is [1]
+# value of static var a is [4] and non-static var b is [1]
+# value of static var a is [5] and non-static var b is [1]
+do 00static_properties.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:22:40 on Mar 01,2023
+# vlog -reportprogress 300 00static_properties.sv 
+# -- Compiling package _00static_properties_sv_unit
+# -- Compiling module static_prop01
+# 
+# Top level modules:
+# 	static_prop01
+# End time: 17:22:41 on Mar 01,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:22:42 on Mar 01,2023, Elapsed time: 0:02:20
+# Errors: 0, Warnings: 0
+# vsim work.static_prop01 -l 00static_properties.log 
+# Start time: 17:22:42 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._00static_properties_sv_unit(fast)
+# Loading work.static_prop01(fast)
+# value of static var a is [1]:static updates from prev shared mem and non-static var b is [1] but non static doesnt updates from prev shared mem
+# value of static var a is [2]:static updates from prev shared mem and non-static var b is [1] but non static doesnt updates from prev shared mem
+# value of static var a is [3]:static updates from prev shared mem and non-static var b is [1] but non static doesnt updates from prev shared mem
+# value of static var a is [4]:static updates from prev shared mem and non-static var b is [1] but non static doesnt updates from prev shared mem
+# value of static var a is [5]:static updates from prev shared mem and non-static var b is [1] but non static doesnt updates from prev shared mem
+do 00static_properties.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:23:51 on Mar 01,2023
+# vlog -reportprogress 300 00static_properties.sv 
+# -- Compiling package _00static_properties_sv_unit
+# -- Compiling module static_prop01
+# 
+# Top level modules:
+# 	static_prop01
+# End time: 17:23:51 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:23:53 on Mar 01,2023, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 0
+# vsim work.static_prop01 -l 00static_properties.log 
+# Start time: 17:23:53 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._00static_properties_sv_unit(fast)
+# Loading work.static_prop01(fast)
+# value of static var a is [1] and non-static var b is [1] 
+# value of static var a is [2] and non-static var b is [1] 
+# value of static var a is [3] and non-static var b is [1] 
+# value of static var a is [4] and non-static var b is [1] 
+# value of static var a is [5] and non-static var b is [1] 
+do 01static_methods.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:34:53 on Mar 01,2023
+# vlog -reportprogress 300 01static_methods.sv 
+# -- Compiling package _01static_methods_sv_unit
+# -- Compiling module topp
+# 
+# Top level modules:
+# 	topp
+# End time: 17:34:53 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

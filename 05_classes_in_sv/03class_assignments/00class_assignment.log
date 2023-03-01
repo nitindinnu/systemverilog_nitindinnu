@@ -1,0 +1,46 @@
+# End time: 14:51:10 on Mar 01,2023, Elapsed time: 0:31:50
+# Errors: 14, Warnings: 0
+# vsim work.module_assign -l 01class_assignment.log 
+# Start time: 14:51:10 on Mar 01,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work._01class_assignment_sv_unit(fast)
+# Loading work.module_assign(fast)
+# value is 15
+do 02constructor_with_args.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:51:40 on Mar 01,2023
+# vlog -reportprogress 300 02constructor_with_args.sv 
+# -- Compiling package _02constructor_with_args_sv_unit
+# -- Compiling module constructor_with_args
+# 
+# Top level modules:
+# 	constructor_with_args
+# End time: 14:51:40 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:51:42 on Mar 01,2023, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# vsim work.module constructor_with_args -l 01class_assignment.log 
+# Start time: 14:51:42 on Mar 01,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit module.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./02constructor_with_args.do PAUSED at line 3
+do 00constructor_default.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:52:21 on Mar 01,2023
+# vlog -reportprogress 300 00constructor_default.sv 
+# -- Compiling package _00constructor_default_sv_unit
+# -- Compiling module class_constructor
+# 
+# Top level modules:
+# 	class_constructor
+# End time: 14:52:21 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

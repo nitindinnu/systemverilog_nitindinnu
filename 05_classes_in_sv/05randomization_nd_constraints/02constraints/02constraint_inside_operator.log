@@ -1,0 +1,563 @@
+# End time: 00:09:05 on Mar 02,2023, Elapsed time: 0:39:29
+# Errors: 10, Warnings: 2
+# vsim work.constraint_inside_operator -l 02constraint_inside_operator.log 
+# Start time: 00:09:05 on Mar 02,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 02constraint_inside_operator.sv(19): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._02constraint_inside_operator_sv_unit(fast)
+# Loading work.constraint_inside_operator(fast)
+# a=7	,b=2	.sum=9
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:09:34 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# -- Compiling package _02constraint_inside_operator_sv_unit
+# -- Compiling module constraint_inside_operator
+# ** Warning: 02constraint_inside_operator.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_inside_operator
+# End time: 00:09:34 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:09:35 on Mar 02,2023, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 2
+# vsim work.constraint_inside_operator -l 02constraint_inside_operator.log 
+# Start time: 00:09:35 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02constraint_inside_operator.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._02constraint_inside_operator_sv_unit(fast)
+# Loading work.constraint_inside_operator(fast)
+# a=7	,b=2	.sum=9
+# a=1	,b=8	.sum=9
+# a=1	,b=6	.sum=7
+# a=1	,b=6	.sum=7
+# a=5	,b=2	.sum=7
+# a=5	,b=8	.sum=13
+# a=1	,b=8	.sum=9
+# a=5	,b=6	.sum=11
+# a=3	,b=2	.sum=5
+# a=5	,b=4	.sum=9
+# a=7	,b=6	.sum=13
+# a=3	,b=4	.sum=7
+# a=5	,b=6	.sum=11
+# a=1	,b=8	.sum=9
+# a=3	,b=2	.sum=5
+# a=7	,b=2	.sum=9
+# a=7	,b=2	.sum=9
+# a=1	,b=2	.sum=3
+# a=7	,b=4	.sum=11
+# a=1	,b=6	.sum=7
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:09:54 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# -- Compiling package _02constraint_inside_operator_sv_unit
+# -- Compiling module constraint_inside_operator
+# ** Warning: 02constraint_inside_operator.sv(20): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_inside_operator
+# End time: 00:09:54 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:09:55 on Mar 02,2023, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 2
+# vsim work.constraint_inside_operator -l 02constraint_inside_operator.log 
+# Start time: 00:09:55 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02constraint_inside_operator.sv(20): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._02constraint_inside_operator_sv_unit(fast)
+# Loading work.constraint_inside_operator(fast)
+# a=7	,b=2	.sum=9
+# a=3	,b=8	.sum=11
+# a=5	,b=6	.sum=11
+# a=1	,b=4	.sum=5
+# a=3	,b=2	.sum=5
+# a=5	,b=4	.sum=9
+# a=7	,b=6	.sum=13
+# a=1	,b=8	.sum=9
+# a=5	,b=2	.sum=7
+# a=1	,b=8	.sum=9
+# a=7	,b=6	.sum=13
+# a=3	,b=4	.sum=7
+# a=3	,b=6	.sum=9
+# a=5	,b=4	.sum=9
+# a=1	,b=2	.sum=3
+# a=7	,b=8	.sum=15
+# a=7	,b=2	.sum=9
+# a=1	,b=8	.sum=9
+# a=5	,b=6	.sum=11
+# a=3	,b=4	.sum=7
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:11:54 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# ** Error: (vlog-13069) 02constraint_inside_operator.sv(10): near ":": syntax error, unexpected ':', expecting ',' or '}'.
+# End time: 00:11:54 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./02constraint_inside_operator.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 02constraint_inside_operator.sv"
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:12:51 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# ** Error: (vlog-13069) 02constraint_inside_operator.sv(10): near ":": syntax error, unexpected ':', expecting ',' or '}'.
+# ** Error: (vlog-13069) 02constraint_inside_operator.sv(10): near "}": syntax error, unexpected '}'.
+# End time: 00:12:51 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./02constraint_inside_operator.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 02constraint_inside_operator.sv"
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:13:20 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# ** Error: (vlog-13069) 02constraint_inside_operator.sv(10): near ":": syntax error, unexpected ':', expecting ',' or '}'.
+# End time: 00:13:20 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./02constraint_inside_operator.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 02constraint_inside_operator.sv"
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:13:56 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# -- Compiling package _02constraint_inside_operator_sv_unit
+# -- Compiling module constraint_inside_operator
+# ** Warning: 02constraint_inside_operator.sv(22): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_inside_operator
+# End time: 00:13:56 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:13:57 on Mar 02,2023, Elapsed time: 0:04:02
+# Errors: 13, Warnings: 2
+# vsim work.constraint_inside_operator -l 02constraint_inside_operator.log 
+# Start time: 00:13:58 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02constraint_inside_operator.sv(22): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._02constraint_inside_operator_sv_unit(fast)
+# Loading work.constraint_inside_operator(fast)
+# a=2	,b=12	.sum=14
+# a=4	,b=9	.sum=13
+# a=3	,b=11	.sum=14
+# a=2	,b=8	.sum=10
+# a=4	,b=10	.sum=14
+# a=3	,b=8	.sum=11
+# a=2	,b=11	.sum=13
+# a=4	,b=9	.sum=13
+# a=3	,b=12	.sum=15
+# a=3	,b=10	.sum=13
+# a=2	,b=9	.sum=11
+# a=4	,b=10	.sum=14
+# a=3	,b=11	.sum=14
+# a=2	,b=12	.sum=14
+# a=4	,b=8	.sum=12
+# a=3	,b=11	.sum=14
+# a=4	,b=12	.sum=16
+# a=2	,b=8	.sum=10
+# a=2	,b=10	.sum=12
+# a=4	,b=9	.sum=13
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:16:20 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# -- Compiling package _02constraint_inside_operator_sv_unit
+# -- Compiling module constraint_inside_operator
+# ** Warning: 02constraint_inside_operator.sv(23): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_inside_operator
+# End time: 00:16:20 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:16:21 on Mar 02,2023, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 2
+# vsim work.constraint_inside_operator -l 02constraint_inside_operator.log 
+# Start time: 00:16:21 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02constraint_inside_operator.sv(23): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._02constraint_inside_operator_sv_unit(fast)
+# Loading work.constraint_inside_operator(fast)
+# a=9	,b=12	.sum=21
+# a=1	,b=7	.sum=8
+# a=3	,b=11	.sum=14
+# a=10	,b=4	.sum=14
+# a=15	,b=6	.sum=21
+# a=8	,b=2	.sum=10
+# a=1	,b=3	.sum=4
+# a=10	,b=7	.sum=17
+# a=3	,b=11	.sum=14
+# a=15	,b=4	.sum=19
+# a=8	,b=6	.sum=14
+# a=9	,b=2	.sum=11
+# a=10	,b=3	.sum=13
+# a=8	,b=12	.sum=20
+# a=15	,b=12	.sum=27
+# a=9	,b=7	.sum=16
+# a=1	,b=6	.sum=7
+# a=3	,b=3	.sum=6
+# a=9	,b=11	.sum=20
+# a=8	,b=4	.sum=12
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:18:13 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# -- Compiling package _02constraint_inside_operator_sv_unit
+# -- Compiling module constraint_inside_operator
+# ** Warning: 02constraint_inside_operator.sv(24): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_inside_operator
+# End time: 00:18:13 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:18:14 on Mar 02,2023, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 2
+# vsim work.constraint_inside_operator -l 02constraint_inside_operator.log 
+# Start time: 00:18:14 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02constraint_inside_operator.sv(24): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._02constraint_inside_operator_sv_unit(fast)
+# Loading work.constraint_inside_operator(fast)
+# a=0	,b=12	.sum=12
+# a=0	,b=7	.sum=7
+# a=0	,b=11	.sum=11
+# a=0	,b=4	.sum=4
+# a=0	,b=6	.sum=6
+# a=0	,b=2	.sum=2
+# a=0	,b=3	.sum=3
+# a=0	,b=7	.sum=7
+# a=0	,b=11	.sum=11
+# a=0	,b=4	.sum=4
+# a=0	,b=6	.sum=6
+# a=0	,b=2	.sum=2
+# a=0	,b=3	.sum=3
+# a=0	,b=12	.sum=12
+# a=0	,b=12	.sum=12
+# a=0	,b=7	.sum=7
+# a=0	,b=6	.sum=6
+# a=0	,b=3	.sum=3
+# a=0	,b=11	.sum=11
+# a=0	,b=4	.sum=4
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:18:37 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# -- Compiling package _02constraint_inside_operator_sv_unit
+# -- Compiling module constraint_inside_operator
+# ** Warning: 02constraint_inside_operator.sv(24): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_inside_operator
+# End time: 00:18:37 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:18:38 on Mar 02,2023, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 2
+# vsim work.constraint_inside_operator -l 02constraint_inside_operator.log 
+# Start time: 00:18:38 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02constraint_inside_operator.sv(24): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._02constraint_inside_operator_sv_unit(fast)
+# Loading work.constraint_inside_operator(fast)
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:19:14 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# -- Compiling package _02constraint_inside_operator_sv_unit
+# -- Compiling module constraint_inside_operator
+# ** Warning: 02constraint_inside_operator.sv(24): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_inside_operator
+# End time: 00:19:14 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:19:15 on Mar 02,2023, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 2
+# vsim work.constraint_inside_operator -l 02constraint_inside_operator.log 
+# Start time: 00:19:15 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02constraint_inside_operator.sv(24): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._02constraint_inside_operator_sv_unit(fast)
+# Loading work.constraint_inside_operator(fast)
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:20:19 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# ** Error: 02constraint_inside_operator.sv(13): (vlog-2950) Constraint block 'nn' is multiply defined.
+# End time: 00:20:19 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./02constraint_inside_operator.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 02constraint_inside_operator.sv"
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:20:51 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# ** Error: (vlog-13069) 02constraint_inside_operator.sv(5): near ",": syntax error, unexpected ',', expecting '{'.
+# End time: 00:20:51 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./02constraint_inside_operator.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 02constraint_inside_operator.sv"
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:21:07 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# -- Compiling package _02constraint_inside_operator_sv_unit
+# -- Compiling module constraint_inside_operator
+# ** Warning: 02constraint_inside_operator.sv(26): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_inside_operator
+# End time: 00:21:07 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:21:08 on Mar 02,2023, Elapsed time: 0:01:53
+# Errors: 8, Warnings: 2
+# vsim work.constraint_inside_operator -l 02constraint_inside_operator.log 
+# Start time: 00:21:08 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02constraint_inside_operator.sv(26): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._02constraint_inside_operator_sv_unit(fast)
+# Loading work.constraint_inside_operator(fast)
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+# a=0	,b=0	.sum=0
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:21:57 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# -- Compiling package _02constraint_inside_operator_sv_unit
+# -- Compiling module constraint_inside_operator
+# ** Warning: 02constraint_inside_operator.sv(24): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_inside_operator
+# End time: 00:21:57 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:21:58 on Mar 02,2023, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 2
+# vsim work.constraint_inside_operator -l 02constraint_inside_operator.log 
+# Start time: 00:21:58 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02constraint_inside_operator.sv(24): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._02constraint_inside_operator_sv_unit(fast)
+# Loading work.constraint_inside_operator(fast)
+# a=12	,b=12	.sum=24
+# a=11	,b=7	.sum=18
+# a=2	,b=11	.sum=13
+# a=0	,b=4	.sum=4
+# a=6	,b=6	.sum=12
+# a=4	,b=2	.sum=6
+# a=14	,b=3	.sum=17
+# a=13	,b=7	.sum=20
+# a=7	,b=11	.sum=18
+# a=5	,b=4	.sum=9
+# a=6	,b=6	.sum=12
+# a=5	,b=2	.sum=7
+# a=0	,b=3	.sum=3
+# a=7	,b=12	.sum=19
+# a=13	,b=12	.sum=25
+# a=2	,b=7	.sum=9
+# a=14	,b=6	.sum=20
+# a=11	,b=3	.sum=14
+# a=4	,b=11	.sum=15
+# a=12	,b=4	.sum=16
+do 02constraint_inside_operator.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:22:43 on Mar 02,2023
+# vlog -reportprogress 300 02constraint_inside_operator.sv 
+# -- Compiling package _02constraint_inside_operator_sv_unit
+# -- Compiling module constraint_inside_operator
+# ** Warning: 02constraint_inside_operator.sv(24): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_inside_operator
+# End time: 00:22:43 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:22:44 on Mar 02,2023, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 2
+# vsim work.constraint_inside_operator -l 02constraint_inside_operator.log 
+# Start time: 00:22:44 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02constraint_inside_operator.sv(24): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._02constraint_inside_operator_sv_unit(fast)
+# Loading work.constraint_inside_operator(fast)
+# a=12	,b=4	.sum=16
+# a=11	,b=1	.sum=12
+# a=2	,b=3	.sum=5
+# a=0	,b=0	.sum=0
+# a=6	,b=2	.sum=8
+# a=4	,b=0	.sum=4
+# a=14	,b=3	.sum=17
+# a=13	,b=1	.sum=14
+# a=7	,b=4	.sum=11
+# a=5	,b=2	.sum=7
+# a=6	,b=1	.sum=7
+# a=5	,b=2	.sum=7
+# a=0	,b=3	.sum=3
+# a=7	,b=4	.sum=11
+# a=13	,b=0	.sum=13
+# a=2	,b=3	.sum=5
+# a=14	,b=4	.sum=18
+# a=11	,b=0	.sum=11
+# a=4	,b=2	.sum=6
+# a=12	,b=1	.sum=13
+03distribute_constraints.do
+# couldn't execute ".\03distribute_constraints.do": no such file or directory
+do 03distribute_constraints.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:32:09 on Mar 02,2023
+# vlog -reportprogress 300 03distribute_constraints.sv 
+# ** Error: (vlog-13069) 03distribute_constraints.sv(7): near ":": syntax error, unexpected ':', expecting ',' or '}'.
+# End time: 00:32:09 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./03distribute_constraints.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 03distribute_constraints.sv"
+do 03distribute_constraints.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:32:42 on Mar 02,2023
+# vlog -reportprogress 300 03distribute_constraints.sv 
+# ** Error: (vlog-13069) 03distribute_constraints.sv(7): near "(": syntax error, unexpected '(', expecting '{'.
+# End time: 00:32:42 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./03distribute_constraints.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 03distribute_constraints.sv"
+do 03distribute_constraints.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:33:25 on Mar 02,2023
+# vlog -reportprogress 300 03distribute_constraints.sv 
+# ** Error: (vlog-13069) 03distribute_constraints.sv(7): near ":": syntax error, unexpected ':', expecting ',' or '}'.
+# End time: 00:33:25 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./03distribute_constraints.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 03distribute_constraints.sv"
+do 03distribute_constraints.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:34:01 on Mar 02,2023
+# vlog -reportprogress 300 03distribute_constraints.sv 
+# ** Error: (vlog-13069) 03distribute_constraints.sv(7): near ":": syntax error, unexpected ':', expecting ',' or '}'.
+# End time: 00:34:01 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./03distribute_constraints.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 03distribute_constraints.sv"
+do 03distribute_constraints.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:34:26 on Mar 02,2023
+# vlog -reportprogress 300 03distribute_constraints.sv 
+# -- Compiling package _03distribute_constraints_sv_unit
+# -- Compiling module constraint_distributive_operator
+# ** Warning: 03distribute_constraints.sv(15): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_distributive_operator
+# End time: 00:34:26 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

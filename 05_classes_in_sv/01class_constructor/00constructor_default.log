@@ -1,0 +1,19 @@
+# vsim work.class_constructor -l 00constructor_default.log 
+# Start time: 14:51:42 on Mar 01,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._00constructor_default_sv_unit(fast)
+# Loading work.class_constructor(fast)
+#    0   0
+do 02constructor_with_args.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:52:50 on Mar 01,2023
+# vlog -reportprogress 300 02constructor_with_args.sv 
+# -- Compiling package _02constructor_with_args_sv_unit
+# -- Compiling module constructor_with_args
+# 
+# Top level modules:
+# 	constructor_with_args
+# End time: 14:52:50 on Mar 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
