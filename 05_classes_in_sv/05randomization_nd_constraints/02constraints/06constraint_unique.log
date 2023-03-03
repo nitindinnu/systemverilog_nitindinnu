@@ -1,0 +1,246 @@
+# End time: 16:07:38 on Mar 02,2023, Elapsed time: 0:12:28
+# Errors: 10, Warnings: 3
+# vsim work.constraint_unique -l 06constraint_unique.log 
+# Start time: 16:07:38 on Mar 02,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): 06constraint_unique.sv(12): (vopt-7063) Failed to find 'pl' in hierarchical name 'pl.a'.
+#         Region: constraint_unique
+# ** Error (suppressible): 06constraint_unique.sv(12): (vopt-7063) Failed to find 'pl' in hierarchical name 'pl.b'.
+#         Region: constraint_unique
+# ** Error (suppressible): 06constraint_unique.sv(12): (vopt-7063) Failed to find 'pl' in hierarchical name 'pl.c'.
+#         Region: constraint_unique
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./06constraint_unique.do PAUSED at line 3
+06constraint_unique.do
+# couldn't execute ".\06constraint_unique.do": no such file or directory
+do 06constraint_unique.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:08:13 on Mar 02,2023
+# vlog -reportprogress 300 06constraint_unique.sv 
+# -- Compiling package _06constraint_unique_sv_unit
+# -- Compiling module constraint_unique
+# ** Warning: 06constraint_unique.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_unique
+# End time: 16:08:13 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.constraint_unique -l 06constraint_unique.log 
+# Start time: 16:07:38 on Mar 02,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 06constraint_unique.sv(11): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Error: 06constraint_unique.sv(3): 'unique' expression not allowed here.
+# 06constraint_unique.sv(15): Vopt Compiler exiting
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 211.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./06constraint_unique.do PAUSED at line 3
+do 06constraint_unique.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:08:34 on Mar 02,2023
+# vlog -reportprogress 300 06constraint_unique.sv 
+# -- Compiling package _06constraint_unique_sv_unit
+# ** Error: 06constraint_unique.sv(3): (vlog-2952) 'randc' variable 'a' specified for 'unique' constraint.
+# ** Error: 06constraint_unique.sv(3): (vlog-2952) 'randc' variable 'b' specified for 'unique' constraint.
+# ** Error: 06constraint_unique.sv(3): (vlog-2952) 'randc' variable 'c' specified for 'unique' constraint.
+# -- Compiling module constraint_unique
+# ** Error: 06constraint_unique.sv(3): (vlog-2952) 'randc' variable 'a' specified for 'unique' constraint.
+# ** Error: 06constraint_unique.sv(3): (vlog-2952) 'randc' variable 'b' specified for 'unique' constraint.
+# ** Error: 06constraint_unique.sv(3): (vlog-2952) 'randc' variable 'c' specified for 'unique' constraint.
+# ** Warning: 06constraint_unique.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# End time: 16:08:34 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./06constraint_unique.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 06constraint_unique.sv"
+do 06constraint_unique.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:11:00 on Mar 02,2023
+# vlog -reportprogress 300 06constraint_unique.sv 
+# -- Compiling package _06constraint_unique_sv_unit
+# ** Error: 06constraint_unique.sv(3): (vlog-2952) 'randc' variable 'a' specified for 'unique' constraint.
+# ** Error: 06constraint_unique.sv(3): (vlog-2952) 'randc' variable 'b' specified for 'unique' constraint.
+# ** Error: 06constraint_unique.sv(3): (vlog-2952) 'randc' variable 'c' specified for 'unique' constraint.
+# -- Compiling module constraint_unique
+# ** Error: 06constraint_unique.sv(3): (vlog-2952) 'randc' variable 'a' specified for 'unique' constraint.
+# ** Error: 06constraint_unique.sv(3): (vlog-2952) 'randc' variable 'b' specified for 'unique' constraint.
+# ** Error: 06constraint_unique.sv(3): (vlog-2952) 'randc' variable 'c' specified for 'unique' constraint.
+# ** Warning: 06constraint_unique.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# End time: 16:11:00 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./06constraint_unique.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 06constraint_unique.sv"
+do 06constraint_unique.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:11:25 on Mar 02,2023
+# vlog -reportprogress 300 06constraint_unique.sv 
+# -- Compiling package _06constraint_unique_sv_unit
+# -- Compiling module constraint_unique
+# ** Warning: 06constraint_unique.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_unique
+# End time: 16:11:25 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim work.constraint_unique -l 06constraint_unique.log 
+# Start time: 16:07:38 on Mar 02,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 06constraint_unique.sv(11): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._06constraint_unique_sv_unit(fast)
+# Loading work.constraint_unique(fast)
+# value of a=4	 b=5 	 c=15
+# value of a=15	 b=9 	 c=0
+# value of a=15	 b=4 	 c=2
+# value of a=6	 b=14 	 c=10
+# value of a=15	 b=6 	 c=10
+# value of a=7	 b=11 	 c=0
+# value of a=2	 b=14 	 c=10
+# value of a=13	 b=9 	 c=14
+# value of a=9	 b=8 	 c=13
+# value of a=0	 b=8 	 c=10
+# value of a=10	 b=1 	 c=4
+# value of a=2	 b=4 	 c=7
+# value of a=2	 b=7 	 c=3
+# value of a=2	 b=15 	 c=12
+# value of a=13	 b=7 	 c=2
+# value of a=6	 b=5 	 c=3
+# value of a=4	 b=3 	 c=9
+# value of a=11	 b=10 	 c=13
+# value of a=9	 b=13 	 c=3
+# value of a=13	 b=5 	 c=15
+do 06constraint_unique.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:11:38 on Mar 02,2023
+# vlog -reportprogress 300 06constraint_unique.sv 
+# -- Compiling package _06constraint_unique_sv_unit
+# -- Compiling module constraint_unique
+# ** Warning: 06constraint_unique.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_unique
+# End time: 16:11:38 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:11:40 on Mar 02,2023, Elapsed time: 0:04:02
+# Errors: 5, Warnings: 3
+# vsim work.constraint_unique -l 06constraint_unique.log 
+# Start time: 16:11:40 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 06constraint_unique.sv(11): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._06constraint_unique_sv_unit(fast)
+# Loading work.constraint_unique(fast)
+# value of a=4	b=5	c=15
+# value of a=15	b=9	c=0
+# value of a=15	b=4	c=2
+# value of a=6	b=14	c=10
+# value of a=15	b=6	c=10
+# value of a=7	b=11	c=0
+# value of a=2	b=14	c=10
+# value of a=13	b=9	c=14
+# value of a=9	b=8	c=13
+# value of a=0	b=8	c=10
+# value of a=10	b=1	c=4
+# value of a=2	b=4	c=7
+# value of a=2	b=7	c=3
+# value of a=2	b=15	c=12
+# value of a=13	b=7	c=2
+# value of a=6	b=5	c=3
+# value of a=4	b=3	c=9
+# value of a=11	b=10	c=13
+# value of a=9	b=13	c=3
+# value of a=13	b=5	c=15
+do 06constraint_unique.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:11:57 on Mar 02,2023
+# vlog -reportprogress 300 06constraint_unique.sv 
+# -- Compiling package _06constraint_unique_sv_unit
+# -- Compiling module constraint_unique
+# ** Warning: 06constraint_unique.sv(11): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_unique
+# End time: 16:11:58 on Mar 02,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 16:11:59 on Mar 02,2023, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 2
+# vsim work.constraint_unique -l 06constraint_unique.log 
+# Start time: 16:11:59 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 06constraint_unique.sv(11): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._06constraint_unique_sv_unit(fast)
+# Loading work.constraint_unique(fast)
+# value of a=4 	 b=5 	 c=15
+# value of a=15 	 b=9 	 c=0
+# value of a=15 	 b=4 	 c=2
+# value of a=6 	 b=14 	 c=10
+# value of a=15 	 b=6 	 c=10
+# value of a=7 	 b=11 	 c=0
+# value of a=2 	 b=14 	 c=10
+# value of a=13 	 b=9 	 c=14
+# value of a=9 	 b=8 	 c=13
+# value of a=0 	 b=8 	 c=10
+# value of a=10 	 b=1 	 c=4
+# value of a=2 	 b=4 	 c=7
+# value of a=2 	 b=7 	 c=3
+# value of a=2 	 b=15 	 c=12
+# value of a=13 	 b=7 	 c=2
+# value of a=6 	 b=5 	 c=3
+# value of a=4 	 b=3 	 c=9
+# value of a=11 	 b=10 	 c=13
+# value of a=9 	 b=13 	 c=3
+# value of a=13 	 b=5 	 c=15
+do 06constraint_unique.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:12:29 on Mar 02,2023
+# vlog -reportprogress 300 06constraint_unique.sv 
+# -- Compiling package _06constraint_unique_sv_unit
+# ** Error: 06constraint_unique.sv(4): (vlog-2952) 'randc' variable 'a' specified for 'unique' constraint.
+# ** Error: 06constraint_unique.sv(4): (vlog-2952) 'randc' variable 'b' specified for 'unique' constraint.
+# ** Error: 06constraint_unique.sv(4): (vlog-2952) 'randc' variable 'c' specified for 'unique' constraint.
+# -- Compiling module constraint_unique
+# ** Error: 06constraint_unique.sv(4): (vlog-2952) 'randc' variable 'a' specified for 'unique' constraint.
+# ** Error: 06constraint_unique.sv(4): (vlog-2952) 'randc' variable 'b' specified for 'unique' constraint.
+# ** Error: 06constraint_unique.sv(4): (vlog-2952) 'randc' variable 'c' specified for 'unique' constraint.
+# ** Warning: 06constraint_unique.sv(12): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# End time: 16:12:29 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./06constraint_unique.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 06constraint_unique.sv"
+do 08constraint_disabling.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:19:26 on Mar 02,2023
+# vlog -reportprogress 300 08constraint_disabling.sv 
+# ** Warning: 08constraint_disabling.sv(12): (vlog-2244) Variable 'pl' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _08constraint_disabling_sv_unit
+# -- Compiling module constraint_disable
+# ** Warning: 08constraint_disabling.sv(12): (vlog-2244) Variable 'pl' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 08constraint_disabling.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_disable
+# End time: 16:19:26 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3

@@ -1,0 +1,25 @@
+# vsim work.static_constraints -l 09static_constraint.log 
+# Start time: 00:35:23 on Mar 03,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work._09static_constraint_sv_unit(fast)
+# Loading work.static_constraints(fast)
+# before disabling constraint
+# 	pkt1.addr =5
+# 	pkt2.addr =5
+# after disabling constraint
+# 	pkt1.addr =11
+# 	pkt2.addr =13
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:35:34 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# -- Compiling package _11constraints_functions_sv_unit
+# -- Compiling module constraint_functional
+# ** Warning: 11constraints_functions.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_functional
+# End time: 00:35:34 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

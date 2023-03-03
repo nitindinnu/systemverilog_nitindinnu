@@ -1,0 +1,153 @@
+# End time: 23:29:45 on Mar 02,2023, Elapsed time: 0:11:57
+# Errors: 0, Warnings: 7
+# vsim work.static_constraints -l 10constraint_inline.log 
+# Start time: 23:29:45 on Mar 02,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work._09static_constraint_sv_unit(fast)
+# Loading work.static_constraints(fast)
+# before disabling constraint
+# 	pkt1.addr =5
+# 	pkt2.addr =5
+# after disabling constraint
+# 	pkt1.addr =5
+# 	pkt2.addr =5
+do 10constraint_inline.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:30:08 on Mar 02,2023
+# vlog -reportprogress 300 10constraint_inline.sv 
+# -- Compiling package _10constraint_inline_sv_unit
+# -- Compiling module inlinee_const
+# ** Warning: 10constraint_inline.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	inlinee_const
+# End time: 23:30:08 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 23:30:09 on Mar 02,2023, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 1
+# vsim work.inlinee_const -l 10constraint_inline.log 
+# Start time: 23:30:09 on Mar 02,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 10constraint_inline.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._10constraint_inline_sv_unit(fast)
+# Loading work.inlinee_const(fast)
+# values of addr = [8]
+# values of addr = [9]
+# values of addr = [10]
+# values of addr = [10]
+# values of addr = [8]
+# values of addr = [9]
+# values of addr = [8]
+# values of addr = [10]
+# values of addr = [9]
+# values of addr = [10]
+# values of addr = [8]
+# values of addr = [9]
+# values of addr = [9]
+# values of addr = [10]
+# values of addr = [8]
+do 10constraint_inline.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:31:39 on Mar 02,2023
+# vlog -reportprogress 300 10constraint_inline.sv 
+# -- Compiling package _10constraint_inline_sv_unit
+# -- Compiling module inlinee_const
+# ** Warning: 10constraint_inline.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	inlinee_const
+# End time: 23:31:39 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 23:31:40 on Mar 02,2023, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 2
+# vsim work.inlinee_const -l 10constraint_inline.log 
+# Start time: 23:31:40 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 10constraint_inline.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._10constraint_inline_sv_unit(fast)
+# Loading work.inlinee_const(fast)
+# values of addr = [8]
+# values of addr = [8]
+# values of addr = [9]
+# values of addr = [10]
+# values of addr = [8]
+# values of addr = [8]
+# values of addr = [10]
+# values of addr = [9]
+# values of addr = [10]
+# values of addr = [8]
+# values of addr = [10]
+# values of addr = [8]
+# values of addr = [8]
+# values of addr = [9]
+# values of addr = [8]
+do 10constraint_inline.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:32:00 on Mar 02,2023
+# vlog -reportprogress 300 10constraint_inline.sv 
+# -- Compiling package _10constraint_inline_sv_unit
+# -- Compiling module inlinee_const
+# ** Warning: 10constraint_inline.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	inlinee_const
+# End time: 23:32:00 on Mar 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 23:32:01 on Mar 02,2023, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 2
+# vsim work.inlinee_const -l 10constraint_inline.log 
+# Start time: 23:32:01 on Mar 02,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 10constraint_inline.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._10constraint_inline_sv_unit(fast)
+# Loading work.inlinee_const(fast)
+# values of addr = [10]
+# values of addr = [6]
+# values of addr = [4]
+# values of addr = [7]
+# values of addr = [5]
+# values of addr = [9]
+# values of addr = [8]
+# values of addr = [4]
+# values of addr = [10]
+# values of addr = [8]
+# values of addr = [7]
+# values of addr = [6]
+# values of addr = [5]
+# values of addr = [9]
+# values of addr = [4]
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:24:36 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# ** Error: (vlog-13069) 11constraints_functions.sv(3): near "}": syntax error, unexpected '}'.
+# ** Error: (vlog-13069) 11constraints_functions.sv(6): near "begin": syntax error, unexpected begin.
+# 11constraints_functions.sv(20): Verilog Compiler exiting
+# End time: 00:24:36 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./11constraints_functions.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 11constraints_functions.sv"
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:25:24 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# -- Compiling package _11constraints_functions_sv_unit
+# -- Compiling module constraint_functional
+# ** Warning: 11constraints_functions.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_functional
+# End time: 00:25:24 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

@@ -1,0 +1,499 @@
+# End time: 00:35:35 on Mar 03,2023, Elapsed time: 0:00:12
+# Errors: 2, Warnings: 1
+# vsim work.constraint_functional -l 11constraints_functions.log 
+# Start time: 00:35:35 on Mar 03,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 11constraints_functions.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 11constraints_functions.sv(5): (vopt-2250) Function "bb" has no return value assignment.
+# Loading sv_std.std
+# Loading work._11constraints_functions_sv_unit(fast)
+# Loading work.constraint_functional(fast)
+# 	function constraint aa value =0,cc value =0
+# 	aa value =0,cc value =0
+# 	function constraint aa value =0,cc value =0
+# bb=0
+# 	function constraint aa value =8,cc value =12
+# 	aa value =0,cc value =12
+# 	function constraint aa value =8,cc value =12
+# bb=0
+# 	function constraint aa value =2,cc value =6
+# 	aa value =0,cc value =6
+# 	function constraint aa value =2,cc value =6
+# bb=0
+# 	function constraint aa value =2,cc value =6
+# 	aa value =0,cc value =6
+# 	function constraint aa value =2,cc value =6
+# bb=0
+# 	function constraint aa value =7,cc value =11
+# 	aa value =0,cc value =11
+# 	function constraint aa value =7,cc value =11
+# bb=0
+# 	function constraint aa value =0,cc value =4
+# 	aa value =0,cc value =4
+# 	function constraint aa value =0,cc value =4
+# bb=0
+# 	function constraint aa value =0,cc value =1
+# 	aa value =0,cc value =1
+# 	function constraint aa value =0,cc value =1
+# bb=0
+# 	function constraint aa value =7,cc value =11
+# 	aa value =0,cc value =11
+# 	function constraint aa value =7,cc value =11
+# bb=0
+# 	function constraint aa value =0,cc value =1
+# 	aa value =0,cc value =1
+# 	function constraint aa value =0,cc value =1
+# bb=0
+# 	function constraint aa value =6,cc value =10
+# 	aa value =0,cc value =10
+# 	function constraint aa value =6,cc value =10
+# bb=0
+# 	function constraint aa value =10,cc value =14
+# 	aa value =0,cc value =14
+# 	function constraint aa value =10,cc value =14
+# bb=0
+# 	function constraint aa value =6,cc value =10
+# 	aa value =0,cc value =10
+# 	function constraint aa value =6,cc value =10
+# bb=0
+# 	function constraint aa value =0,cc value =1
+# 	aa value =0,cc value =1
+# 	function constraint aa value =0,cc value =1
+# bb=0
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:36:02 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# -- Compiling package _11constraints_functions_sv_unit
+# -- Compiling module constraint_functional
+# ** Warning: 11constraints_functions.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_functional
+# End time: 00:36:02 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:36:03 on Mar 03,2023, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 3
+# vsim work.constraint_functional -l 11constraints_functions.log 
+# Start time: 00:36:03 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 11constraints_functions.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 11constraints_functions.sv(5): (vopt-2250) Function "bb" has no return value assignment.
+# Loading sv_std.std
+# Loading work._11constraints_functions_sv_unit(fast)
+# Loading work.constraint_functional(fast)
+# 	aa value =0,cc value =0
+# bb=0
+# 	aa value =0,cc value =12
+# bb=0
+# 	aa value =0,cc value =6
+# bb=0
+# 	aa value =0,cc value =6
+# bb=0
+# 	aa value =0,cc value =11
+# bb=0
+# 	aa value =0,cc value =4
+# bb=0
+# 	aa value =0,cc value =1
+# bb=0
+# 	aa value =0,cc value =11
+# bb=0
+# 	aa value =0,cc value =1
+# bb=0
+# 	aa value =0,cc value =10
+# bb=0
+# 	aa value =0,cc value =14
+# bb=0
+# 	aa value =0,cc value =10
+# bb=0
+# 	aa value =0,cc value =1
+# bb=0
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:37:21 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# -- Compiling package _11constraints_functions_sv_unit
+# -- Compiling module constraint_functional
+# ** Warning: 11constraints_functions.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_functional
+# End time: 00:37:21 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:37:22 on Mar 03,2023, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 3
+# vsim work.constraint_functional -l 11constraints_functions.log 
+# Start time: 00:37:22 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 11constraints_functions.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 11constraints_functions.sv(5): (vopt-2250) Function "bb" has no return value assignment.
+# Loading sv_std.std
+# Loading work._11constraints_functions_sv_unit(fast)
+# Loading work.constraint_functional(fast)
+# 	aa value =0,cc value =0
+# bb=0
+# 	aa value =0,cc value =12
+# bb=0
+# 	aa value =0,cc value =6
+# bb=0
+# 	aa value =0,cc value =6
+# bb=0
+# 	aa value =0,cc value =11
+# bb=0
+# 	aa value =0,cc value =4
+# bb=0
+# 	aa value =0,cc value =1
+# bb=0
+# 	aa value =0,cc value =11
+# bb=0
+# 	aa value =0,cc value =1
+# bb=0
+# 	aa value =0,cc value =10
+# bb=0
+# 	aa value =0,cc value =14
+# bb=0
+# 	aa value =0,cc value =10
+# bb=0
+# 	aa value =0,cc value =1
+# bb=0
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:39:23 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# -- Compiling package _11constraints_functions_sv_unit
+# -- Compiling module constraint_functional
+# ** Warning: 11constraints_functions.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_functional
+# End time: 00:39:23 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:39:24 on Mar 03,2023, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 3
+# vsim work.constraint_functional -l 11constraints_functions.log 
+# Start time: 00:39:24 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 11constraints_functions.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 11constraints_functions.sv(5): (vopt-2250) Function "bb" has no return value assignment.
+# Loading sv_std.std
+# Loading work._11constraints_functions_sv_unit(fast)
+# Loading work.constraint_functional(fast)
+# 	aa value =0,cc value =0
+# bb=0
+# 	aa value =0,cc value =12
+# bb=0
+# 	aa value =0,cc value =6
+# bb=0
+# 	aa value =0,cc value =6
+# bb=0
+# 	aa value =0,cc value =11
+# bb=0
+# 	aa value =0,cc value =4
+# bb=0
+# 	aa value =0,cc value =1
+# bb=0
+# 	aa value =0,cc value =11
+# bb=0
+# 	aa value =0,cc value =1
+# bb=0
+# 	aa value =0,cc value =10
+# bb=0
+# 	aa value =0,cc value =14
+# bb=0
+# 	aa value =0,cc value =10
+# bb=0
+# 	aa value =0,cc value =1
+# bb=0
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:40:05 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# -- Compiling package _11constraints_functions_sv_unit
+# -- Compiling module constraint_functional
+# ** Warning: 11constraints_functions.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_functional
+# End time: 00:40:05 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:40:06 on Mar 03,2023, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 3
+# vsim work.constraint_functional -l 11constraints_functions.log 
+# Start time: 00:40:06 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 11constraints_functions.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._11constraints_functions_sv_unit(fast)
+# Loading work.constraint_functional(fast)
+# 	aa value =0,cc value =0
+# bb=0
+# 	aa value =8,cc value =12
+# bb=8
+# 	aa value =2,cc value =6
+# bb=2
+# 	aa value =2,cc value =6
+# bb=2
+# 	aa value =7,cc value =11
+# bb=7
+# 	aa value =0,cc value =4
+# bb=0
+# 	aa value =0,cc value =1
+# bb=0
+# 	aa value =7,cc value =11
+# bb=7
+# 	aa value =0,cc value =1
+# bb=0
+# 	aa value =6,cc value =10
+# bb=6
+# 	aa value =10,cc value =14
+# bb=10
+# 	aa value =6,cc value =10
+# bb=6
+# 	aa value =0,cc value =1
+# bb=0
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:40:33 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# -- Compiling package _11constraints_functions_sv_unit
+# -- Compiling module constraint_functional
+# ** Warning: 11constraints_functions.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_functional
+# End time: 00:40:33 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:40:35 on Mar 03,2023, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 2
+# vsim work.constraint_functional -l 11constraints_functions.log 
+# Start time: 00:40:35 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 11constraints_functions.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._11constraints_functions_sv_unit(fast)
+# Loading work.constraint_functional(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Process: /constraint_functional/#INITIAL#16 File: 11constraints_functions.sv
+# Fatal error at 11constraints_functions.sv line 18
+# 
+# HDL call sequence:
+# Stopped at 11constraints_functions.sv 18  
+# 
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:40:51 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# -- Compiling package _11constraints_functions_sv_unit
+# -- Compiling module constraint_functional
+# ** Warning: 11constraints_functions.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_functional
+# End time: 00:40:51 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:40:52 on Mar 03,2023, Elapsed time: 0:00:17
+# Errors: 2, Warnings: 2
+# vsim work.constraint_functional -l 11constraints_functions.log 
+# Start time: 00:40:52 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 11constraints_functions.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._11constraints_functions_sv_unit(fast)
+# Loading work.constraint_functional(fast)
+# 	aa value =0,cc value =0
+# bb=0
+# 	aa value =8,cc value =12
+# bb=8
+# 	aa value =2,cc value =6
+# bb=2
+# 	aa value =2,cc value =6
+# bb=2
+# 	aa value =7,cc value =11
+# bb=7
+# 	aa value =0,cc value =4
+# bb=0
+# 	aa value =0,cc value =1
+# bb=0
+# 	aa value =7,cc value =11
+# bb=7
+# 	aa value =0,cc value =1
+# bb=0
+# 	aa value =6,cc value =10
+# bb=6
+# 	aa value =10,cc value =14
+# bb=10
+# 	aa value =6,cc value =10
+# bb=6
+# 	aa value =0,cc value =1
+# bb=0
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:44:18 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# -- Compiling package _11constraints_functions_sv_unit
+# -- Compiling module constraint_functional
+# ** Warning: 11constraints_functions.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_functional
+# End time: 00:44:18 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:44:19 on Mar 03,2023, Elapsed time: 0:03:27
+# Errors: 0, Warnings: 2
+# vsim work.constraint_functional -l 11constraints_functions.log 
+# Start time: 00:44:19 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 11constraints_functions.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._11constraints_functions_sv_unit(fast)
+# Loading work.constraint_functional(fast)
+# 	bb=0 ,aa value =0,cc value =0
+# 	bb=8 ,aa value =8,cc value =12
+# 	bb=2 ,aa value =2,cc value =6
+# 	bb=2 ,aa value =2,cc value =6
+# 	bb=7 ,aa value =7,cc value =11
+# 	bb=0 ,aa value =0,cc value =4
+# 	bb=0 ,aa value =0,cc value =1
+# 	bb=7 ,aa value =7,cc value =11
+# 	bb=0 ,aa value =0,cc value =1
+# 	bb=6 ,aa value =6,cc value =10
+# 	bb=10 ,aa value =10,cc value =14
+# 	bb=6 ,aa value =6,cc value =10
+# 	bb=0 ,aa value =0,cc value =1
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:45:08 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# -- Compiling package _11constraints_functions_sv_unit
+# -- Compiling module constraint_functional
+# ** Warning: 11constraints_functions.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_functional
+# End time: 00:45:08 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 00:45:10 on Mar 03,2023, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2
+# vsim work.constraint_functional -l 11constraints_functions.log 
+# Start time: 00:45:10 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 11constraints_functions.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._11constraints_functions_sv_unit(fast)
+# Loading work.constraint_functional(fast)
+# 	bb=0 ,aa value =0 function bb matching with var aa ,cc value =0
+# 	bb=8 ,aa value =8 function bb matching with var aa ,cc value =12
+# 	bb=2 ,aa value =2 function bb matching with var aa ,cc value =6
+# 	bb=2 ,aa value =2 function bb matching with var aa ,cc value =6
+# 	bb=7 ,aa value =7 function bb matching with var aa ,cc value =11
+# 	bb=0 ,aa value =0 function bb matching with var aa ,cc value =4
+# 	bb=0 ,aa value =0 function bb matching with var aa ,cc value =1
+# 	bb=7 ,aa value =7 function bb matching with var aa ,cc value =11
+# 	bb=0 ,aa value =0 function bb matching with var aa ,cc value =1
+# 	bb=6 ,aa value =6 function bb matching with var aa ,cc value =10
+# 	bb=10 ,aa value =10 function bb matching with var aa ,cc value =14
+# 	bb=6 ,aa value =6 function bb matching with var aa ,cc value =10
+# 	bb=0 ,aa value =0 function bb matching with var aa ,cc value =1
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 00:46:57 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# -- Compiling package _11constraints_functions_sv_unit
+# -- Compiling module constraint_functional
+# ** Warning: 11constraints_functions.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_functional
+# End time: 00:46:58 on Mar 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 00:46:59 on Mar 03,2023, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 2
+# vsim work.constraint_functional -l 11constraints_functions.log 
+# Start time: 00:46:59 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 11constraints_functions.sv(18): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._11constraints_functions_sv_unit(fast)
+# Loading work.constraint_functional(fast)
+# 	bb=0 ,aa value =0 function bb matching with var aa using constraint unidirectional,cc value =0
+# 	bb=8 ,aa value =8 function bb matching with var aa using constraint unidirectional,cc value =12
+# 	bb=2 ,aa value =2 function bb matching with var aa using constraint unidirectional,cc value =6
+# 	bb=2 ,aa value =2 function bb matching with var aa using constraint unidirectional,cc value =6
+# 	bb=7 ,aa value =7 function bb matching with var aa using constraint unidirectional,cc value =11
+# 	bb=0 ,aa value =0 function bb matching with var aa using constraint unidirectional,cc value =4
+# 	bb=0 ,aa value =0 function bb matching with var aa using constraint unidirectional,cc value =1
+# 	bb=7 ,aa value =7 function bb matching with var aa using constraint unidirectional,cc value =11
+# 	bb=0 ,aa value =0 function bb matching with var aa using constraint unidirectional,cc value =1
+# 	bb=6 ,aa value =6 function bb matching with var aa using constraint unidirectional,cc value =10
+# 	bb=10 ,aa value =10 function bb matching with var aa using constraint unidirectional,cc value =14
+# 	bb=6 ,aa value =6 function bb matching with var aa using constraint unidirectional,cc value =10
+# 	bb=0 ,aa value =0 function bb matching with var aa using constraint unidirectional,cc value =1
+do 11constraints_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 01:40:38 on Mar 03,2023
+# vlog -reportprogress 300 11constraints_functions.sv 
+# -- Compiling package _11constraints_functions_sv_unit
+# -- Compiling module constraint_functional
+# ** Warning: 11constraints_functions.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_functional
+# End time: 01:40:38 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 01:40:40 on Mar 03,2023, Elapsed time: 0:53:41
+# Errors: 0, Warnings: 2
+# vsim work.constraint_functional -l 11constraints_functions.log 
+# Start time: 01:40:40 on Mar 03,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work._11constraints_functions_sv_unit(fast)
+# Loading work.constraint_functional(fast)
+# 	bb=0 ,aa value =0 function bb matching with var aa using constraint unidirectional,cc value =0
+# 	bb=8 ,aa value =8 function bb matching with var aa using constraint unidirectional,cc value =12
+# 	bb=2 ,aa value =2 function bb matching with var aa using constraint unidirectional,cc value =6
+# 	bb=2 ,aa value =2 function bb matching with var aa using constraint unidirectional,cc value =6
+# 	bb=7 ,aa value =7 function bb matching with var aa using constraint unidirectional,cc value =11
+# 	bb=0 ,aa value =0 function bb matching with var aa using constraint unidirectional,cc value =4
+# 	bb=0 ,aa value =0 function bb matching with var aa using constraint unidirectional,cc value =1
+# 	bb=7 ,aa value =7 function bb matching with var aa using constraint unidirectional,cc value =11
+# 	bb=0 ,aa value =0 function bb matching with var aa using constraint unidirectional,cc value =1
+# 	bb=6 ,aa value =6 function bb matching with var aa using constraint unidirectional,cc value =10
+# 	bb=10 ,aa value =10 function bb matching with var aa using constraint unidirectional,cc value =14
+# 	bb=6 ,aa value =6 function bb matching with var aa using constraint unidirectional,cc value =10
+# 	bb=0 ,aa value =0 function bb matching with var aa using constraint unidirectional,cc value =1
+do 12constraint_inheritance.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 01:40:50 on Mar 03,2023
+# vlog -reportprogress 300 12constraint_inheritance.sv 
+# ** Error: (vlog-13069) 12constraint_inheritance.sv(22): near "0": syntax error, unexpected INTEGER NUMBER.
+# End time: 01:40:51 on Mar 03,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./12constraint_inheritance.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 12constraint_inheritance.sv"
+do 12constraint_inheritance.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 01:41:34 on Mar 03,2023
+# vlog -reportprogress 300 12constraint_inheritance.sv 
+# -- Compiling package _12constraint_inheritance_sv_unit
+# -- Compiling module constraint_inheritance
+# ** Warning: 12constraint_inheritance.sv(25): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_inheritance
+# End time: 01:41:34 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
