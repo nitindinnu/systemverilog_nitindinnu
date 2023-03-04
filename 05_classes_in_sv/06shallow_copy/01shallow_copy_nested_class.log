@@ -1,0 +1,840 @@
+# End time: 15:25:10 on Mar 03,2023, Elapsed time: 0:26:54
+# Errors: 43, Warnings: 9
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 15:25:10 on Mar 03,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(27): (vopt-7063) Failed to find 'na' in hierarchical name 'na.ac'.
+#         Region: shallow_cp_nested
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(28): (vopt-7063) Failed to find 'na' in hierarchical name 'na.ad'.
+#         Region: shallow_cp_nested
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(29): (vopt-7063) Failed to find 'na' in hierarchical name 'na.nest_class_1.aa'.
+#         Region: shallow_cp_nested
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(30): (vopt-7063) Failed to find 'na' in hierarchical name 'na.nest_class_1.bb'.
+#         Region: shallow_cp_nested
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(38): (vopt-7063) Failed to find 'na' in hierarchical name 'na.nest_class_1'.
+#         Region: shallow_cp_nested
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./01shallow_copy_nested_class.do PAUSED at line 3
+01shallow_copy_nested_class.do
+# couldn't execute ".\01shallow_copy_nested_class.do": no such file or directory
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:25:53 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vlog-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vlog-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error (suppressible): (vlog-13276) 01shallow_copy_nested_class.sv(29): Could not find field/method name (bb) in 'nest_class_1' of 'na.nest_class_1.bb'.
+# End time: 15:25:53 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:26:51 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vlog-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vlog-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error (suppressible): (vlog-13276) 01shallow_copy_nested_class.sv(29): Could not find field/method name (bb) in 'nest_class_1' of 'na.nest_class_1.bb'.
+# End time: 15:26:51 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:27:05 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# ** Error (suppressible): (vlog-13276) 01shallow_copy_nested_class.sv(29): Could not find field/method name (bb) in 'nest_class_1' of 'na.nest_class_1.bb'.
+# End time: 15:27:05 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:27:16 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 15:27:16 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 15:25:10 on Mar 03,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work._01shallow_copy_nested_class_sv_unit(fast)
+# Loading work.shallow_cp_nested(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Instance: /shallow_cp_nested/displayy File: 01shallow_copy_nested_class.sv
+# ** Fatal: (vsim-8324) Parameter 2 is bad. This may involve a null ref handle.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /shallow_cp_nested/#INITIAL#14 File: 01shallow_copy_nested_class.sv
+# Fatal error at 01shallow_copy_nested_class.sv line 26
+# 
+# HDL call sequence:
+# Stopped at 01shallow_copy_nested_class.sv 26  
+# called from  01shallow_copy_nested_class.sv 22  
+# 
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:27:53 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vlog-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vlog-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 01shallow_copy_nested_class.sv(22): (vlog-2240) Treating stand-alone use of function 'displayy' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 15:27:53 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# End time: 15:27:55 on Mar 03,2023, Elapsed time: 0:02:45
+# Errors: 8, Warnings: 3
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 15:27:55 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vopt-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 01shallow_copy_nested_class.sv(22): (vopt-2240) Treating stand-alone use of function 'displayy' as an implicit VOID cast.
+# ** Warning: 01shallow_copy_nested_class.sv(25): (vopt-2250) Function "displayy" has no return value assignment.
+# Loading sv_std.std
+# Loading work._01shallow_copy_nested_class_sv_unit(fast)
+# Loading work.shallow_cp_nested(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Instance: /shallow_cp_nested/displayy File: 01shallow_copy_nested_class.sv
+# ** Fatal: (vsim-8324) Parameter 2 is bad. This may involve a null ref handle.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /shallow_cp_nested/#INITIAL#14 File: 01shallow_copy_nested_class.sv
+# Fatal error at 01shallow_copy_nested_class.sv line 26
+# 
+# HDL call sequence:
+# Stopped at 01shallow_copy_nested_class.sv 26  
+# called from  01shallow_copy_nested_class.sv 22  
+# 
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:28:18 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vlog-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vlog-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 15:28:18 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 15:28:19 on Mar 03,2023, Elapsed time: 0:00:24
+# Errors: 3, Warnings: 5
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 15:28:19 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vopt-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# Loading sv_std.std
+# Loading work._01shallow_copy_nested_class_sv_unit(fast)
+# Loading work.shallow_cp_nested(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Instance: /shallow_cp_nested/displayy File: 01shallow_copy_nested_class.sv
+# ** Fatal: (vsim-8324) Parameter 2 is bad. This may involve a null ref handle.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /shallow_cp_nested/#INITIAL#14 File: 01shallow_copy_nested_class.sv
+# Fatal error at 01shallow_copy_nested_class.sv line 26
+# 
+# HDL call sequence:
+# Stopped at 01shallow_copy_nested_class.sv 26  
+# called from  01shallow_copy_nested_class.sv 22  
+# 
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:33:57 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vlog-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vlog-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 15:33:57 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 15:33:58 on Mar 03,2023, Elapsed time: 0:05:39
+# Errors: 3, Warnings: 3
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 15:33:58 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01shallow_copy_nested_class.sv(15): (vopt-2244) Variable 'na' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# Loading sv_std.std
+# Loading work._01shallow_copy_nested_class_sv_unit(fast)
+# Loading work.shallow_cp_nested(fast)
+# ** Fatal: (SIGSEGV) Bad handle or reference.
+#    Time: 0 ns  Iteration: 0  Instance: /shallow_cp_nested/displayy File: 01shallow_copy_nested_class.sv
+# ** Fatal: (vsim-8324) Parameter 2 is bad. This may involve a null ref handle.
+# 
+#    Time: 0 ns  Iteration: 0  Process: /shallow_cp_nested/#INITIAL#14 File: 01shallow_copy_nested_class.sv
+# Fatal error at 01shallow_copy_nested_class.sv line 26
+# 
+# HDL call sequence:
+# Stopped at 01shallow_copy_nested_class.sv 26  
+# called from  01shallow_copy_nested_class.sv 22  
+# 
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:37:28 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error: (vlog-13069) 01shallow_copy_nested_class.sv(14): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) 01shallow_copy_nested_class.sv(16): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 15:37:28 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:38:06 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(13): near ")": syntax error.
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(14): near ")": syntax error.
+# End time: 15:38:06 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:38:34 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(13): near ";": syntax error.
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(14): near ";": syntax error.
+# End time: 15:38:34 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:39:20 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(13): near ")": syntax error.
+# End time: 15:39:20 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:40:24 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(13): near ",": syntax error.
+# End time: 15:40:24 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:40:38 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(13): near ";": syntax error.
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(14): near ";": syntax error.
+# End time: 15:40:38 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:40:52 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(14): near "class_2": syntax error.
+# ** Error: (vlog-13069) 01shallow_copy_nested_class.sv(19): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) 01shallow_copy_nested_class.sv(20): near ".": syntax error, unexpected '.', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) 01shallow_copy_nested_class.sv(21): near ".": syntax error, unexpected '.', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: 01shallow_copy_nested_class.sv(22): (vlog-13205) Syntax error found in the scope following 'displayy'. Is there a missing '::'?
+# End time: 15:40:52 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:41:23 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(14): near ";": syntax error.
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(16): near ";": syntax error.
+# End time: 15:41:23 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:41:32 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(14): near ")": syntax error.
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(16): near ")": syntax error.
+# End time: 15:41:32 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:42:48 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(13): near ")": syntax error.
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(14): near ")": syntax error.
+# End time: 15:42:48 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:47:12 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(13): near ")": syntax error.
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(30): near ")": syntax error.
+# End time: 15:47:12 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:49:18 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(14): (vlog-2388) 'na' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(15): near ")": syntax error.
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(16): (vlog-2388) 'nb' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(17): near ")": syntax error.
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(33): (vlog-2388) 'nb' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(33): near ")": syntax error.
+# End time: 15:49:18 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:50:32 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(15): (vlog-2388) 'na' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-13069) 01shallow_copy_nested_class.sv(16): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(17): (vlog-2388) 'nb' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-13069) 01shallow_copy_nested_class.sv(18): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(34): (vlog-2388) 'nb' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(34): near ")": syntax error.
+# End time: 15:50:32 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:50:49 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(15): (vlog-2388) 'na' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(15): near ")": syntax error.
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(16): (vlog-2388) 'nb' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(16): near ")": syntax error.
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(32): (vlog-2388) 'nb' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(32): near ")": syntax error.
+# End time: 15:50:49 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:51:01 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(15): (vlog-2388) 'na' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-13069) 01shallow_copy_nested_class.sv(15): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(16): (vlog-2388) 'nb' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-13069) 01shallow_copy_nested_class.sv(16): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(32): (vlog-2388) 'nb' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(32): near ")": syntax error.
+# End time: 15:51:01 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:51:49 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(15): (vlog-2388) 'na' already declared in this scope (shallow_cp_nested).
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(16): (vlog-2388) 'nb' already declared in this scope (shallow_cp_nested).
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(33): (vlog-2388) 'nb' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(33): near ")": syntax error.
+# End time: 15:51:49 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:52:14 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(33): (vlog-2388) 'nb' already declared in this scope (shallow_cp_nested).
+# ** Error: (vlog-18047) 01shallow_copy_nested_class.sv(33): near ")": syntax error.
+# End time: 15:52:14 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:52:52 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 15:52:52 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:52:54 on Mar 03,2023, Elapsed time: 0:18:56
+# Errors: 91, Warnings: 1
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 15:52:54 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01shallow_copy_nested_class_sv_unit(fast)
+# Loading work.shallow_cp_nested(fast)
+# ac =15
+# ad =25
+# aa =0
+# ab =0
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:53:55 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 15:53:55 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:53:57 on Mar 03,2023, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 15:53:57 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01shallow_copy_nested_class_sv_unit(fast)
+# Loading work.shallow_cp_nested(fast)
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:55:46 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 15:55:47 on Mar 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:55:48 on Mar 03,2023, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 15:55:48 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01shallow_copy_nested_class_sv_unit(fast)
+# Loading work.shallow_cp_nested(fast)
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:57:18 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 15:57:18 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:57:19 on Mar 03,2023, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 0
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 15:57:19 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01shallow_copy_nested_class_sv_unit(fast)
+# Loading work.shallow_cp_nested(fast)
+# -----------------------------
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+# -----------------------------
+# -----------------------------
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+# -----------------------------
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:01:12 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# ** Error: (vlog-13069) 01shallow_copy_nested_class.sv(27): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: (vlog-13069) 01shallow_copy_nested_class.sv(36): near "endtask": syntax error, unexpected endtask.
+# ** Error: (vlog-13069) 01shallow_copy_nested_class.sv(45): near "endfunction": syntax error, unexpected endfunction.
+# End time: 16:01:12 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:01:22 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# ** Error: 01shallow_copy_nested_class.sv(21): Number of actuals and formals does not match in task call.
+# ** Error: 01shallow_copy_nested_class.sv(23): Number of actuals and formals does not match in task call.
+# ** Error: 01shallow_copy_nested_class.sv(26): Number of actuals and formals does not match in task call.
+# End time: 16:01:22 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01shallow_copy_nested_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01shallow_copy_nested_class.sv"
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:01:37 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 16:01:37 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:01:39 on Mar 03,2023, Elapsed time: 0:04:20
+# Errors: 12, Warnings: 0
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 16:01:39 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01shallow_copy_nested_class_sv_unit(fast)
+# Loading work.shallow_cp_nested(fast)
+# ----------updating aa,bb,cc,dd------------------
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+# ----------updating aa,bb,cc,dd------------------
+# ----------copying na handle of class 2 to nb handle------------------
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+# ----------copying na handle of class 2 to nb handle------------------
+# ----------printing nb.nest_class_1.aa=33;nb.nest_class_1.ab=26;------------------
+# ac =15
+# ad =25
+# aa =33
+# ab =26
+# ----------printing nb.nest_class_1.aa=33;nb.nest_class_1.ab=26;------------------
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:02:56 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 16:02:57 on Mar 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:02:58 on Mar 03,2023, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 0
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 16:02:58 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01shallow_copy_nested_class_sv_unit(fast)
+# Loading work.shallow_cp_nested(fast)
+# ----------updating aa,bb,cc,dd------------------
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+# ----------updating aa,bb,cc,dd------------------
+# ----------copying na handle of class 2 to nb handle------------------
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+# ----------copying na handle of class 2 to nb handle------------------
+# ----------printing nb.nest_class_1.aa=33;nb.nest_class_1.ab=26;------------------
+# ac =15
+# ad =25
+# aa =33
+# ab =26
+# ----------printing nb.nest_class_1.aa=33;nb.nest_class_1.ab=26;------------------
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:04:33 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 16:04:33 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:04:35 on Mar 03,2023, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 0
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 16:04:35 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): 01shallow_copy_nested_class.sv(27): (vopt-7063) Failed to find 'displayy1' in hierarchical name 'displayy1'.
+#         Region: shallow_cp_nested
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./01shallow_copy_nested_class.do PAUSED at line 3
+01shallow_copy_nested_class.do
+# couldn't execute ".\01shallow_copy_nested_class.do": no such file or directory
+01shallow_copy_nested_class.do
+# couldn't execute ".\01shallow_copy_nested_class.do": no such file or directory
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:05:00 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 16:05:00 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 16:04:35 on Mar 03,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work._01shallow_copy_nested_class_sv_unit(fast)
+# Loading work.shallow_cp_nested(fast)
+# ----------updating aa,bb,cc,dd------------------
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+# ----------updating aa,bb,cc,dd------------------
+# ----------copying na handle of class 2 to nb handle------------------
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+# ----------copying na handle of class 2 to nb handle------------------
+# ----------printing nb.nest_class_1------------------
+# ac =15
+# ad =25
+# aa =33
+# ab =26
+# ----------printing nb.nest_class_1------------------
+# ----------printing na.nest_class_1------------------
+# ac =15
+# ad =25
+# aa =33
+# ab =26
+# ----------printing na.nest_class_1------------------
+do 01shallow_copy_nested_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:07:08 on Mar 03,2023
+# vlog -reportprogress 300 01shallow_copy_nested_class.sv 
+# -- Compiling package _01shallow_copy_nested_class_sv_unit
+# -- Compiling module shallow_cp_nested
+# 
+# Top level modules:
+# 	shallow_cp_nested
+# End time: 16:07:08 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:07:10 on Mar 03,2023, Elapsed time: 0:02:35
+# Errors: 1, Warnings: 0
+# vsim work.shallow_cp_nested -l 01shallow_copy_nested_class.log 
+# Start time: 16:07:10 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._01shallow_copy_nested_class_sv_unit(fast)
+# Loading work.shallow_cp_nested(fast)
+# ----------updating aa,bb,cc,dd------------------
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+# ----------updating aa,bb,cc,dd------------------
+# ----------copying na handle of class 2 to nb handle using a function------------------
+# ac =15
+# ad =25
+# aa =10
+# ab =55
+# ----------copying na handle of class 2 to nb handle using a function------------------
+# ----------printing nb.nest_class_1------------------
+# ac =15
+# ad =25
+# aa =33
+# ab =26
+# ----------printing nb.nest_class_1------------------
+# ----------printing na.nest_class_1------------------
+# ac =15
+# ad =25
+# aa =33
+# ab =26
+# ----------printing na.nest_class_1------------------
+q -sim
+# End time: 16:31:36 on Mar 03,2023, Elapsed time: 0:24:26
+# Errors: 0, Warnings: 0
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\07deep_copy}
+do 00deep_copy.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:31:47 on Mar 03,2023
+# vlog -reportprogress 300 00deep_copy.sv 
+# -- Compiling package _00deep_copy_sv_unit
+# -- Compiling module deep_coopy
+# 
+# Top level modules:
+# 	deep_coopy
+# End time: 16:31:47 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.deep_coopy-l 00deep_copy.log 
+# Start time: 16:31:47 on Mar 03,2023
+# ** Error (suppressible): (vsim-19) Failed to access library '00deep_copy' at "00deep_copy".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./00deep_copy.do PAUSED at line 3
+do 00deep_copy.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:32:17 on Mar 03,2023
+# vlog -reportprogress 300 00deep_copy.sv 
+# -- Compiling package _00deep_copy_sv_unit
+# -- Compiling module deep_coopy
+# 
+# Top level modules:
+# 	deep_coopy
+# End time: 16:32:17 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

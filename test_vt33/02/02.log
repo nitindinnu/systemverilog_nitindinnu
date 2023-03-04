@@ -1,0 +1,67 @@
+# End time: 13:02:41 on Mar 04,2023, Elapsed time: 0:08:23
+# Errors: 0, Warnings: 6
+# vsim work.softt_importance -l 02.log 
+# Start time: 13:02:41 on Mar 04,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 02.sv(27): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 02.sv(28): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 02.sv(16): (vopt-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 02.sv(5): (vopt-2250) Function "dispp01" has no return value assignment.
+# ** Warning: 02.sv(14): (vopt-2250) Function "dispp02" has no return value assignment.
+# Loading sv_std.std
+# Loading work._02_sv_unit(fast)
+# Loading work.softt_importance(fast)
+# --------------------class bc
+# a=[0],b=[0]
+# b=[0],c=[0]
+# --------------------class bc
+# --------------------class bc
+# a=[0],b=[0]
+# b=[0],c=[0]
+# --------------------class bc
+# --------------------class bc
+# a=[0],b=[0]
+# b=[0],c=[0]
+# --------------------class bc
+# --------------------class bc
+# a=[0],b=[0]
+# b=[0],c=[0]
+# --------------------class bc
+# --------------------class bc
+# a=[0],b=[0]
+# b=[0],c=[0]
+# --------------------class bc
+# --------------------class bc
+# a=[0],b=[0]
+# b=[0],c=[0]
+# --------------------class bc
+# --------------------class bc
+# a=[0],b=[0]
+# b=[0],c=[0]
+# --------------------class bc
+# --------------------class bc
+# a=[0],b=[0]
+# b=[0],c=[0]
+# --------------------class bc
+# --------------------class bc
+# a=[0],b=[0]
+# b=[0],c=[0]
+# --------------------class bc
+# --------------------class bc
+# a=[0],b=[0]
+# b=[0],c=[0]
+# --------------------class bc
+do 05.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:05:00 on Mar 04,2023
+# vlog -reportprogress 300 05.sv 
+# -- Compiling package _05_sv_unit
+# -- Compiling module top
+# ** Warning: 05.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 05.sv(19): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	top
+# End time: 13:05:00 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2

@@ -1,0 +1,13 @@
+# End time: 13:05:01 on Mar 04,2023, Elapsed time: 0:02:20
+# Errors: 0, Warnings: 7
+# vsim work.top -l 05.log 
+# Start time: 13:05:01 on Mar 04,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work._05_sv_unit(fast)
+# Loading work.top(fast)
+# a=[173],b=[142],cin=[125],==== sum=[0],carry[0]
+# a=[225],b=[235],cin=[17],==== sum=[0],carry[0]
+# a=[152],b=[228],cin=[198],==== sum=[0],carry[0]
+# End time: 13:05:17 on Mar 04,2023, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0

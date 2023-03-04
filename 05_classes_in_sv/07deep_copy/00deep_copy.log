@@ -1,0 +1,383 @@
+# vsim work.deep_coopy -l 00deep_copy.log 
+# Start time: 16:31:47 on Mar 03,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): 00deep_copy.sv(22): (vopt-7063) Failed to find 'aa' in hierarchical name '$root.aa'.
+#         Region: _00deep_copy_sv_unit
+# ** Error (suppressible): 00deep_copy.sv(22): (vopt-7063) Failed to find 'ab' in hierarchical name '$root.ab'.
+#         Region: _00deep_copy_sv_unit
+# ** Error (suppressible): 00deep_copy.sv(22): (vopt-7063) Failed to find 'y' in hierarchical name '$root.y'.
+#         Region: _00deep_copy_sv_unit
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./00deep_copy.do PAUSED at line 3
+do 00deep_copy.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:33:47 on Mar 03,2023
+# vlog -reportprogress 300 00deep_copy.sv 
+# -- Compiling package _00deep_copy_sv_unit
+# -- Compiling module deep_coopy
+# 
+# Top level modules:
+# 	deep_coopy
+# End time: 16:33:47 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.deep_coopy -l 00deep_copy.log 
+# Start time: 16:31:47 on Mar 03,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): 00deep_copy.sv(22): (vopt-7063) Failed to find 'nest_class1' in hierarchical name '$root.nest_class1.aa'.
+#         Region: _00deep_copy_sv_unit
+# ** Error (suppressible): 00deep_copy.sv(22): (vopt-7063) Failed to find 'nest_class1' in hierarchical name '$root.nest_class1.ab'.
+#         Region: _00deep_copy_sv_unit
+# ** Error (suppressible): 00deep_copy.sv(22): (vopt-7063) Failed to find 'nest_class1' in hierarchical name '$root.nest_class1.y'.
+#         Region: _00deep_copy_sv_unit
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./00deep_copy.do PAUSED at line 3
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\07deep_copy}
+do 00deep_copy.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:34:16 on Mar 03,2023
+# vlog -reportprogress 300 00deep_copy.sv 
+# -- Compiling package _00deep_copy_sv_unit
+# -- Compiling module deep_coopy
+# 
+# Top level modules:
+# 	deep_coopy
+# End time: 16:34:16 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.deep_coopy -l 00deep_copy.log 
+# Start time: 16:31:47 on Mar 03,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 00deep_copy.sv(11): (vopt-2250) Function "copy" has no return value assignment.
+# Loading sv_std.std
+# Loading work._00deep_copy_sv_unit(fast)
+# Loading work.deep_coopy(fast)
+# printing clas_2 g2 handle aa=[0],ab=[0],y=[],ac=[222],ad=[322],z=[nitin01]
+do 00deep_copy.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:37:29 on Mar 03,2023
+# vlog -reportprogress 300 00deep_copy.sv 
+# -- Compiling package _00deep_copy_sv_unit
+# -- Compiling module deep_coopy
+# ** Error (suppressible): (vlog-13276) 00deep_copy.sv(35): Could not find field/method name (nest_class1) in 'g2' of 'g2.nest_class1.aa'.
+# ** Error (suppressible): (vlog-13276) 00deep_copy.sv(36): Could not find field/method name (nest_class1) in 'g2' of 'g2.nest_class1.ab'.
+# ** Error (suppressible): (vlog-13276) 00deep_copy.sv(37): Could not find field/method name (nest_class1) in 'g2' of 'g2.nest_class1.z'.
+# End time: 16:37:29 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00deep_copy.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00deep_copy.sv"
+do 00deep_copy.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:38:01 on Mar 03,2023
+# vlog -reportprogress 300 00deep_copy.sv 
+# -- Compiling package _00deep_copy_sv_unit
+# -- Compiling module deep_coopy
+# ** Error (suppressible): (vlog-13276) 00deep_copy.sv(37): Could not find field/method name (z) in 'nest_class_1' of 'g2.nest_class_1.z'.
+# End time: 16:38:01 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00deep_copy.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00deep_copy.sv"
+do 00deep_copy.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:38:17 on Mar 03,2023
+# vlog -reportprogress 300 00deep_copy.sv 
+# -- Compiling package _00deep_copy_sv_unit
+# -- Compiling module deep_coopy
+# 
+# Top level modules:
+# 	deep_coopy
+# End time: 16:38:17 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:38:19 on Mar 03,2023, Elapsed time: 0:06:32
+# Errors: 13, Warnings: 1
+# vsim work.deep_coopy -l 00deep_copy.log 
+# Start time: 16:38:19 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00deep_copy.sv(11): (vopt-2250) Function "copy" has no return value assignment.
+# Loading sv_std.std
+# Loading work._00deep_copy_sv_unit(fast)
+# Loading work.deep_coopy(fast)
+# printing clas_2 g2 handle ** aa=[0],ab=[0],y=[],ac=[222],ad=[322],z=[nitin01]
+# printing clas_2 g2 handle ** aa=[111],ab=[114],y=[nition02],ac=[222],ad=[322],z=[nitin01]
+do 00deep_copy.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:10:47 on Mar 03,2023
+# vlog -reportprogress 300 00deep_copy.sv 
+# -- Compiling package _00deep_copy_sv_unit
+# -- Compiling module deep_coopy
+# 
+# Top level modules:
+# 	deep_coopy
+# End time: 17:10:47 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:10:47 on Mar 03,2023, Elapsed time: 0:32:28
+# Errors: 0, Warnings: 1
+# vsim work.deep_coopy -l 00deep_copy.log 
+# Start time: 17:10:47 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00deep_copy.sv(11): (vopt-2250) Function "copy" has no return value assignment.
+# Loading sv_std.std
+# Loading work._00deep_copy_sv_unit(fast)
+# Loading work.deep_coopy(fast)
+# printing clas_2 g2 handle ** aa=[0],ab=[0],y=[],ac=[222],ad=[322],z=[nitin01]
+# printing clas_2 g2 handle ** aa=[111],ab=[114],y=[nitin02],ac=[222],ad=[322],z=[nitin01]
+# printing clas_2 h2 handle ** aa=[0],ab=[0],y=[],ac=[0],ad=[0],z=[oo]
+# printing clas_2 h2 handle ** aa=[0],ab=[0],y=[hubble],ac=[0],ad=[0],z=[oo]
+do 00deep_copy.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:11:31 on Mar 03,2023
+# vlog -reportprogress 300 00deep_copy.sv 
+# -- Compiling package _00deep_copy_sv_unit
+# -- Compiling module deep_coopy
+# ** Warning: 00deep_copy.sv(54): (vlog-2240) Treating stand-alone use of function 'copy' as an implicit VOID cast.
+# ** Error: 00deep_copy.sv(55): (vlog-13266) No actual value has been specified for a formal argument 'hh' that does not have a default value.
+# ** Error: 00deep_copy.sv(55): Number of actuals and formals does not match in task call.
+# End time: 17:11:31 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00deep_copy.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00deep_copy.sv"
+do 00deep_copy.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:11:57 on Mar 03,2023
+# vlog -reportprogress 300 00deep_copy.sv 
+# -- Compiling package _00deep_copy_sv_unit
+# -- Compiling module deep_coopy
+# ** Warning: 00deep_copy.sv(54): (vlog-2240) Treating stand-alone use of function 'copy' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	deep_coopy
+# End time: 17:11:57 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:11:57 on Mar 03,2023, Elapsed time: 0:01:10
+# Errors: 5, Warnings: 3
+# vsim work.deep_coopy -l 00deep_copy.log 
+# Start time: 17:11:57 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00deep_copy.sv(54): (vopt-2240) Treating stand-alone use of function 'copy' as an implicit VOID cast.
+# ** Warning: 00deep_copy.sv(11): (vopt-2250) Function "copy" has no return value assignment.
+# Loading sv_std.std
+# Loading work._00deep_copy_sv_unit(fast)
+# Loading work.deep_coopy(fast)
+# printing clas_2 g2 handle ** aa=[0],ab=[0],y=[],ac=[222],ad=[322],z=[nitin01]
+# printing clas_2 g2 handle ** aa=[111],ab=[114],y=[nitin02],ac=[222],ad=[322],z=[nitin01]
+# printing clas_2 h2 handle ** aa=[0],ab=[0],y=[],ac=[0],ad=[0],z=[oo]
+# printing clas_2 h2 handle ** aa=[0],ab=[0],y=[hubble],ac=[0],ad=[0],z=[oo]
+# printing h2 : a copy of g2 ** aa=[0],ab=[0],y=[hubble],ac=[222],ad=[322],z=[nitin01]
+do 00deep_copy.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:13:46 on Mar 03,2023
+# vlog -reportprogress 300 00deep_copy.sv 
+# -- Compiling package _00deep_copy_sv_unit
+# -- Compiling module deep_coopy
+# ** Warning: 00deep_copy.sv(54): (vlog-2240) Treating stand-alone use of function 'copy' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	deep_coopy
+# End time: 17:13:47 on Mar 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 17:13:47 on Mar 03,2023, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 3
+# vsim work.deep_coopy -l 00deep_copy.log 
+# Start time: 17:13:47 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00deep_copy.sv(54): (vopt-2240) Treating stand-alone use of function 'copy' as an implicit VOID cast.
+# ** Warning: 00deep_copy.sv(11): (vopt-2250) Function "copy" has no return value assignment.
+# Loading sv_std.std
+# Loading work._00deep_copy_sv_unit(fast)
+# Loading work.deep_coopy(fast)
+# printing clas_2 g2 handle ** aa=[0]	,ab=[0]	,y=[]	,ac=[222]	,ad=[322]	,z=[nitin01]	
+# printing clas_2 g2 handle ** aa=[111]	,ab=[114]	,y=[nitin02]	,ac=[222]	,ad=[322]	,z=[nitin01]	
+# printing clas_2 h2 handle ** aa=[0]	,ab=[0]	,y=[]	,ac=[0]	,ad=[0]	,z=[oo]	
+# printing clas_2 h2 handle ** aa=[0]	,ab=[0]	,y=[hubble]	,ac=[0]	,ad=[0]	,z=[oo]	
+# printing h2:a copy of g2 ** aa=[0]	,ab=[0]	,y=[hubble]	,ac=[222]	,ad=[322]	,z=[nitin01]	
+do 00deep_copy.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:17:25 on Mar 03,2023
+# vlog -reportprogress 300 00deep_copy.sv 
+# -- Compiling package _00deep_copy_sv_unit
+# -- Compiling module deep_coopy
+# ** Warning: 00deep_copy.sv(54): (vlog-2240) Treating stand-alone use of function 'copy' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	deep_coopy
+# End time: 17:17:25 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 17:17:26 on Mar 03,2023, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 3
+# vsim work.deep_coopy -l 00deep_copy.log 
+# Start time: 17:17:26 on Mar 03,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00deep_copy.sv(54): (vopt-2240) Treating stand-alone use of function 'copy' as an implicit VOID cast.
+# ** Warning: 00deep_copy.sv(11): (vopt-2250) Function "copy" has no return value assignment.
+# Loading sv_std.std
+# Loading work._00deep_copy_sv_unit(fast)
+# Loading work.deep_coopy(fast)
+# printing clas_2 g2 handle ** aa=[0]	,ab=[0]	,y=[]	,ac=[222]	,ad=[322]	,z=[nitin01]	
+# printing clas_2 g2 handle ** aa=[111]	,ab=[114]	,y=[nitin02]	,ac=[222]	,ad=[322]	,z=[nitin01]	
+# printing clas_2 h2 handle ** aa=[0]	,ab=[0]	,y=[]	,ac=[0]	,ad=[0]	,z=[oo]	
+# printing clas_2 h2 handle ** aa=[0]	,ab=[0]	,y=[hubble]	,ac=[0]	,ad=[0]	,z=[oo]	
+# printing h2:a copy of g2 ** aa=[0]	,ab=[0]	,y=[hubble]	,ac=[222]	,ad=[322]	,z=[nitin01]	
+# displaying h2 ** aa=[2500]	,ab=[0]	,y=[hubble]	,ac=[222]	,ad=[322]	,z=[nitin01]	
+# displaying g2 ** aa=[111]	,ab=[114]	,y=[nitin02]	,ac=[222]	,ad=[322]	,z=[nitin01]	
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\05randomization_nd_constraints\02constraints}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+q -sim
+# End time: 23:29:20 on Mar 03,2023, Elapsed time: 6:11:54
+# Errors: 1, Warnings: 2
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\05randomization_nd_constraints\02constraints}
+do 07constraint_iterative.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:29:28 on Mar 03,2023
+# vlog -reportprogress 300 07constraint_iterative.sv 
+# ** Error: (vlog-13069) 07constraint_iterative.sv(8): near "}": syntax error, unexpected '}'.
+# 07constraint_iterative.sv(19): Verilog Compiler exiting
+# End time: 23:29:28 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./07constraint_iterative.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 07constraint_iterative.sv"
+do 07constraint_iterative.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:29:52 on Mar 03,2023
+# vlog -reportprogress 300 07constraint_iterative.sv 
+# ** Error: (vlog-13069) 07constraint_iterative.sv(8): near "}": syntax error, unexpected '}'.
+# 07constraint_iterative.sv(19): Verilog Compiler exiting
+# End time: 23:29:52 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./07constraint_iterative.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 07constraint_iterative.sv"
+do 07constraint_iterative.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:30:18 on Mar 03,2023
+# vlog -reportprogress 300 07constraint_iterative.sv 
+# -- Compiling package _07constraint_iterative_sv_unit
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(7): Could not find field/method name (size) in 'addr' of 'addr.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'data' of 'data.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'addr' of 'addr.size'.
+# -- Compiling module constraint_iter
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(7): Could not find field/method name (size) in 'addr' of 'addr.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'data' of 'data.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'addr' of 'addr.size'.
+# ** Warning: 07constraint_iterative.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(19): Could not find field/method name (size) in 'addr' of 'ab.addr.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(19): Could not find field/method name (size) in 'addr' of 'ab.addr.size.$$'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(19): Could not find field/method name (size) in 'data' of 'ab.data.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(19): Could not find field/method name (size) in 'data' of 'ab.data.size.$$'.
+# End time: 23:30:18 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./07constraint_iterative.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 07constraint_iterative.sv"
+do 07constraint_iterative.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:31:53 on Mar 03,2023
+# vlog -reportprogress 300 07constraint_iterative.sv 
+# -- Compiling package _07constraint_iterative_sv_unit
+# ** Error: 07constraint_iterative.sv(4): (vlog-2926) Invalid array variable 'addr' specified for iterative constraint.
+# ** Error: 07constraint_iterative.sv(5): (vlog-2926) Invalid array variable 'data' specified for iterative constraint.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(7): Could not find field/method name (size) in 'addr' of 'addr.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'data' of 'data.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'addr' of 'addr.size'.
+# -- Compiling module constraint_iter
+# ** Error: 07constraint_iterative.sv(4): (vlog-2926) Invalid array variable 'addr' specified for iterative constraint.
+# ** Error: 07constraint_iterative.sv(5): (vlog-2926) Invalid array variable 'data' specified for iterative constraint.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(7): Could not find field/method name (size) in 'addr' of 'addr.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'data' of 'data.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'addr' of 'addr.size'.
+# ** Warning: 07constraint_iterative.sv(19): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(20): Could not find field/method name (size) in 'addr' of 'ab.addr.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(20): Could not find field/method name (size) in 'addr' of 'ab.addr.size.$$'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(20): Could not find field/method name (size) in 'data' of 'ab.data.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(20): Could not find field/method name (size) in 'data' of 'ab.data.size.$$'.
+# End time: 23:31:53 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./07constraint_iterative.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 07constraint_iterative.sv"
+do 07constraint_iterative.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:32:12 on Mar 03,2023
+# vlog -reportprogress 300 07constraint_iterative.sv 
+# -- Compiling package _07constraint_iterative_sv_unit
+# ** Error: 07constraint_iterative.sv(4): (vlog-2926) Invalid array variable 'addr' specified for iterative constraint.
+# ** Error: 07constraint_iterative.sv(5): (vlog-2926) Invalid array variable 'data' specified for iterative constraint.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(7): Could not find field/method name (size) in 'addr' of 'addr.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'data' of 'data.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'data' of 'data.size.$$'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'addr' of 'addr.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'addr' of 'addr.size.$$'.
+# -- Compiling module constraint_iter
+# ** Error: 07constraint_iterative.sv(4): (vlog-2926) Invalid array variable 'addr' specified for iterative constraint.
+# ** Error: 07constraint_iterative.sv(5): (vlog-2926) Invalid array variable 'data' specified for iterative constraint.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(7): Could not find field/method name (size) in 'addr' of 'addr.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'data' of 'data.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'data' of 'data.size.$$'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'addr' of 'addr.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(8): Could not find field/method name (size) in 'addr' of 'addr.size.$$'.
+# ** Warning: 07constraint_iterative.sv(19): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(20): Could not find field/method name (size) in 'addr' of 'ab.addr.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(20): Could not find field/method name (size) in 'addr' of 'ab.addr.size.$$'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(20): Could not find field/method name (size) in 'data' of 'ab.data.size'.
+# ** Error (suppressible): (vlog-13276) 07constraint_iterative.sv(20): Could not find field/method name (size) in 'data' of 'ab.data.size.$$'.
+# End time: 23:32:12 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./07constraint_iterative.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 07constraint_iterative.sv"
+do 07constraint_iterative.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 23:33:45 on Mar 03,2023
+# vlog -reportprogress 300 07constraint_iterative.sv 
+# ** Warning: 07constraint_iterative.sv(41): (vlog-2244) Variable 'pkt' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _07constraint_iterative_sv_unit
+# -- Compiling module constraint_iter
+# ** Warning: 07constraint_iterative.sv(41): (vlog-2244) Variable 'pkt' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 07constraint_iterative.sv(45): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	constraint_iter
+# End time: 23:33:45 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3

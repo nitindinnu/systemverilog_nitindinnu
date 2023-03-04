@@ -1,0 +1,144 @@
+# End time: 12:20:17 on Mar 04,2023, Elapsed time: 0:06:42
+# Errors: 1, Warnings: 9
+# vsim work.randomizing -l 01.log 
+# Start time: 12:20:17 on Mar 04,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 01.sv(17): (vopt-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01.sv(6): (vopt-2250) Function "dispp" has no return value assignment.
+# Loading sv_std.std
+# Loading work._01_sv_unit(fast)
+# Loading work.randomizing(fast)
+# s1=[9]	,s2=[14]	,s3=[16]	,s4=[0]	,s5=[12]
+# s1=[0]	,s2=[16]	,s3=[10]	,s4=[9]	,s5=[13]
+# s1=[4]	,s2=[7]	,s3=[12]	,s4=[1]	,s5=[14]
+# s1=[12]	,s2=[13]	,s3=[8]	,s4=[9]	,s5=[3]
+# s1=[1]	,s2=[11]	,s3=[15]	,s4=[7]	,s5=[5]
+# s1=[12]	,s2=[13]	,s3=[4]	,s4=[1]	,s5=[2]
+# s1=[0]	,s2=[10]	,s3=[1]	,s4=[12]	,s5=[2]
+# s1=[9]	,s2=[16]	,s3=[7]	,s4=[12]	,s5=[2]
+# s1=[8]	,s2=[2]	,s3=[0]	,s4=[6]	,s5=[13]
+# s1=[13]	,s2=[16]	,s3=[8]	,s4=[1]	,s5=[2]
+# s1=[10]	,s2=[4]	,s3=[8]	,s4=[16]	,s5=[11]
+# s1=[8]	,s2=[11]	,s3=[9]	,s4=[14]	,s5=[5]
+# s1=[10]	,s2=[5]	,s3=[8]	,s4=[4]	,s5=[15]
+# s1=[10]	,s2=[4]	,s3=[7]	,s4=[15]	,s5=[13]
+# s1=[1]	,s2=[2]	,s3=[3]	,s4=[9]	,s5=[11]
+# A time value could not be extracted from the current line
+do 04.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:23:03 on Mar 04,2023
+# vlog -reportprogress 300 04.sv 
+# ** Error: 04.sv(5): (vlog-2730) Undefined variable: 'sum'.
+# End time: 12:23:03 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./04.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 04.sv "
+do 04.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:23:29 on Mar 04,2023
+# vlog -reportprogress 300 04.sv 
+# ** Error: 04.sv(6): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error (suppressible): 04.sv(9): (vlog-2388) 'sub' already declared in this scope (sub).
+# ** Error: 04.sv(12): Illegal declaration after the statement near line '10'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error (suppressible): 04.sv(15): (vlog-2388) 'mul' already declared in this scope (mul).
+# ** Error: 04.sv(18): Illegal declaration after the statement near line '16'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 12:23:29 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./04.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 04.sv "
+do 04.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:24:11 on Mar 04,2023
+# vlog -reportprogress 300 04.sv 
+# -- Compiling package _04_sv_unit
+# -- Compiling module functions_sum_sub_mul
+# ** Warning: 04.sv(31): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 04.sv(32): (vlog-2240) Treating stand-alone use of function 'addd' as an implicit VOID cast.
+# ** Error: 04.sv(32): (vlog-13266) No actual value has been specified for a formal argument 'a' that does not have a default value.
+# ** Error: 04.sv(32): (vlog-13266) No actual value has been specified for a formal argument 'b' that does not have a default value.
+# ** Error: 04.sv(32): Number of actuals and formals does not match in task call.
+# ** Error: 04.sv(33): task enable calls an object that is not a task.
+# ** Warning: 04.sv(34): (vlog-2240) Treating stand-alone use of function 'mull' as an implicit VOID cast.
+# ** Error: 04.sv(34): (vlog-13266) No actual value has been specified for a formal argument 'a' that does not have a default value.
+# ** Error: 04.sv(34): (vlog-13266) No actual value has been specified for a formal argument 'b' that does not have a default value.
+# ** Error: 04.sv(34): Number of actuals and formals does not match in task call.
+# ** Error: 04.sv(33): (vlog-2730) Undefined variable: 'b'.
+# End time: 12:24:11 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 3
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./04.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 04.sv "
+do 04.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:24:27 on Mar 04,2023
+# vlog -reportprogress 300 04.sv 
+# -- Compiling package _04_sv_unit
+# -- Compiling module functions_sum_sub_mul
+# ** Warning: 04.sv(31): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 04.sv(32): (vlog-2240) Treating stand-alone use of function 'addd' as an implicit VOID cast.
+# ** Error: 04.sv(32): (vlog-13266) No actual value has been specified for a formal argument 'a' that does not have a default value.
+# ** Error: 04.sv(32): (vlog-13266) No actual value has been specified for a formal argument 'b' that does not have a default value.
+# ** Error: 04.sv(32): Number of actuals and formals does not match in task call.
+# ** Warning: 04.sv(33): (vlog-2240) Treating stand-alone use of function 'subb' as an implicit VOID cast.
+# ** Error: 04.sv(33): (vlog-13266) No actual value has been specified for a formal argument 'a' that does not have a default value.
+# ** Error: 04.sv(33): (vlog-13266) No actual value has been specified for a formal argument 'b' that does not have a default value.
+# ** Error: 04.sv(33): Number of actuals and formals does not match in task call.
+# ** Warning: 04.sv(34): (vlog-2240) Treating stand-alone use of function 'mull' as an implicit VOID cast.
+# ** Error: 04.sv(34): (vlog-13266) No actual value has been specified for a formal argument 'a' that does not have a default value.
+# ** Error: 04.sv(34): (vlog-13266) No actual value has been specified for a formal argument 'b' that does not have a default value.
+# ** Error: 04.sv(34): Number of actuals and formals does not match in task call.
+# End time: 12:24:27 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 4
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./04.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 04.sv "
+do 04.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:24:45 on Mar 04,2023
+# vlog -reportprogress 300 04.sv 
+# -- Compiling package _04_sv_unit
+# -- Compiling module functions_sum_sub_mul
+# ** Warning: 04.sv(31): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 04.sv(32): (vlog-2240) Treating stand-alone use of function 'addd' as an implicit VOID cast.
+# ** Error: 04.sv(32): (vlog-2730) Undefined variable: 'a'.
+# ** Error: 04.sv(32): (vlog-2730) Undefined variable: 'b'.
+# ** Warning: 04.sv(33): (vlog-2240) Treating stand-alone use of function 'subb' as an implicit VOID cast.
+# ** Warning: 04.sv(34): (vlog-2240) Treating stand-alone use of function 'mull' as an implicit VOID cast.
+# End time: 12:24:45 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 4
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./04.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 04.sv "
+do 04.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:25:42 on Mar 04,2023
+# vlog -reportprogress 300 04.sv 
+# -- Compiling package _04_sv_unit
+# -- Compiling module functions_sum_sub_mul
+# ** Warning: 04.sv(33): (vlog-2240) Treating stand-alone use of function 'addd' as an implicit VOID cast.
+# ** Warning: 04.sv(34): (vlog-2240) Treating stand-alone use of function 'subb' as an implicit VOID cast.
+# ** Warning: 04.sv(35): (vlog-2240) Treating stand-alone use of function 'mull' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	functions_sum_sub_mul
+# End time: 12:25:42 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3

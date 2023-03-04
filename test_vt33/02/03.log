@@ -1,0 +1,679 @@
+# End time: 12:03:15 on Mar 04,2023, Elapsed time: 0:04:18
+# Errors: 0, Warnings: 10
+# vsim work.enabling_disabling_constraint -l 03.log 
+# Start time: 12:03:15 on Mar 04,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 03.sv(28): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(32): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(33): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(16): (vopt-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 03.sv(5): (vopt-2250) Function "dispp01" has no return value assignment.
+# ** Warning: 03.sv(14): (vopt-2250) Function "dispp02" has no return value assignment.
+# Loading sv_std.std
+# Loading work._03_sv_unit(fast)
+# Loading work.enabling_disabling_constraint(fast)
+# --------------------class bc
+# a=[4],b=[3]
+# b=[225],c=[245]
+# --------------------class bc
+# --------------------class bc
+# a=[-31],b=[-21]
+# b=[255],c=[227]
+# --------------------class bc
+# --------------------class bc
+# a=[127],b=[-109]
+# b=[245],c=[153]
+# --------------------class bc
+# --------------------class bc
+# a=[-22],b=[-101]
+# b=[195],c=[183]
+# --------------------class bc
+# --------------------class bc
+# a=[96],b=[80]
+# b=[217],c=[173]
+# --------------------class bc
+# --------------------class bc
+# a=[-97],b=[-125]
+# b=[215],c=[86]
+# --------------------class bc
+# --------------------class bc
+# a=[21],b=[88]
+# b=[45],c=[76]
+# --------------------class bc
+# --------------------class bc
+# a=[-128],b=[-117]
+# b=[59],c=[122]
+# --------------------class bc
+# --------------------class bc
+# a=[30],b=[64]
+# b=[49],c=[16]
+# --------------------class bc
+# --------------------class bc
+# a=[-75],b=[-77]
+# b=[15],c=[14]
+# --------------------class bc
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:04:38 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(16): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Warning: 03.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(33): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	enabling_disabling_constraint
+# End time: 12:04:38 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# End time: 12:04:39 on Mar 04,2023, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 11
+# vsim work.enabling_disabling_constraint -l 03.log 
+# Start time: 12:04:39 on Mar 04,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 03.sv(28): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(33): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._03_sv_unit(fast)
+# Loading work.enabling_disabling_constraint(fast)
+# --------------------class bc
+# a=[4],b=[3]
+# b=[225],c=[245]
+# --------------------class bc
+# --------------------class bc
+# a=[4],b=[3]
+# b=[225],c=[245]
+# --------------------class bc
+# --------------------class bc
+# a=[-31],b=[-21]
+# b=[255],c=[227]
+# --------------------class bc
+# --------------------class bc
+# a=[-31],b=[-21]
+# b=[255],c=[227]
+# --------------------class bc
+# --------------------class bc
+# a=[127],b=[-109]
+# b=[245],c=[153]
+# --------------------class bc
+# --------------------class bc
+# a=[127],b=[-109]
+# b=[245],c=[153]
+# --------------------class bc
+# --------------------class bc
+# a=[-22],b=[-101]
+# b=[195],c=[183]
+# --------------------class bc
+# --------------------class bc
+# a=[-22],b=[-101]
+# b=[195],c=[183]
+# --------------------class bc
+# --------------------class bc
+# a=[96],b=[80]
+# b=[217],c=[173]
+# --------------------class bc
+# --------------------class bc
+# a=[96],b=[80]
+# b=[217],c=[173]
+# --------------------class bc
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:05:41 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(17): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Error (suppressible): (vlog-13276) 03.sv(28): Could not find field/method name (ab) in 'ok' of 'ok.ab'.
+# ** Warning: 03.sv(30): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(31): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(35): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# End time: 12:05:41 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 4
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./03.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 03.sv "
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:06:10 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(16): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Warning: 03.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(33): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	enabling_disabling_constraint
+# End time: 12:06:10 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# End time: 12:06:11 on Mar 04,2023, Elapsed time: 0:01:32
+# Errors: 3, Warnings: 11
+# vsim work.enabling_disabling_constraint -l 03.log 
+# Start time: 12:06:11 on Mar 04,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 03.sv(28): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(33): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(16): (vopt-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 03.sv(5): (vopt-2250) Function "dispp01" has no return value assignment.
+# ** Warning: 03.sv(14): (vopt-2250) Function "dispp02" has no return value assignment.
+# Loading sv_std.std
+# Loading work._03_sv_unit(fast)
+# Loading work.enabling_disabling_constraint(fast)
+# --------------------class bc
+# a=[5],b=[6]
+# b=[225],c=[245]
+# --------------------class bc
+# --------------------class bc
+# a=[5],b=[6]
+# b=[225],c=[245]
+# --------------------class bc
+# --------------------class bc
+# a=[-31],b=[-21]
+# b=[255],c=[227]
+# --------------------class bc
+# --------------------class bc
+# a=[-31],b=[-21]
+# b=[255],c=[227]
+# --------------------class bc
+# --------------------class bc
+# a=[127],b=[-109]
+# b=[245],c=[153]
+# --------------------class bc
+# --------------------class bc
+# a=[127],b=[-109]
+# b=[245],c=[153]
+# --------------------class bc
+# --------------------class bc
+# a=[-22],b=[-101]
+# b=[195],c=[183]
+# --------------------class bc
+# --------------------class bc
+# a=[-22],b=[-101]
+# b=[195],c=[183]
+# --------------------class bc
+# --------------------class bc
+# a=[96],b=[80]
+# b=[217],c=[173]
+# --------------------class bc
+# --------------------class bc
+# a=[96],b=[80]
+# b=[217],c=[173]
+# --------------------class bc
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:07:38 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(16): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Warning: 03.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(33): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	enabling_disabling_constraint
+# End time: 12:07:38 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# End time: 12:07:39 on Mar 04,2023, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 10
+# vsim work.enabling_disabling_constraint -l 03.log 
+# Start time: 12:07:39 on Mar 04,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 03.sv(28): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(33): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(16): (vopt-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 03.sv(5): (vopt-2250) Function "dispp01" has no return value assignment.
+# ** Warning: 03.sv(14): (vopt-2250) Function "dispp02" has no return value assignment.
+# Loading sv_std.std
+# Loading work._03_sv_unit(fast)
+# Loading work.enabling_disabling_constraint(fast)
+# --------------------class bc
+# a=[4],b=[3]
+# b=[225],c=[245]
+# --------------------class bc
+# --------------------class bc
+# a=[4],b=[3]
+# b=[225],c=[245]
+# --------------------class bc
+# --------------------class bc
+# a=[225],b=[235]
+# b=[255],c=[227]
+# --------------------class bc
+# --------------------class bc
+# a=[225],b=[235]
+# b=[255],c=[227]
+# --------------------class bc
+# --------------------class bc
+# a=[127],b=[147]
+# b=[245],c=[153]
+# --------------------class bc
+# --------------------class bc
+# a=[127],b=[147]
+# b=[245],c=[153]
+# --------------------class bc
+# --------------------class bc
+# a=[234],b=[155]
+# b=[195],c=[183]
+# --------------------class bc
+# --------------------class bc
+# a=[234],b=[155]
+# b=[195],c=[183]
+# --------------------class bc
+# --------------------class bc
+# a=[96],b=[80]
+# b=[217],c=[173]
+# --------------------class bc
+# --------------------class bc
+# a=[96],b=[80]
+# b=[217],c=[173]
+# --------------------class bc
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:08:08 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(16): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Warning: 03.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(34): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	enabling_disabling_constraint
+# End time: 12:08:08 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# End time: 12:08:09 on Mar 04,2023, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 10
+# vsim work.enabling_disabling_constraint -l 03.log 
+# Start time: 12:08:09 on Mar 04,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 03.sv(28): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(34): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(16): (vopt-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 03.sv(5): (vopt-2250) Function "dispp01" has no return value assignment.
+# ** Warning: 03.sv(14): (vopt-2250) Function "dispp02" has no return value assignment.
+# Loading sv_std.std
+# Loading work._03_sv_unit(fast)
+# Loading work.enabling_disabling_constraint(fast)
+# --------------------class bc
+# a=[4],b=[3]
+# b=[225],c=[245]
+# --------------------class bc
+# constraints disabled for a and b
+# --------------------class bc
+# a=[4],b=[3]
+# b=[225],c=[245]
+# --------------------class bc
+# --------------------class bc
+# a=[225],b=[235]
+# b=[255],c=[227]
+# --------------------class bc
+# constraints disabled for a and b
+# --------------------class bc
+# a=[225],b=[235]
+# b=[255],c=[227]
+# --------------------class bc
+# --------------------class bc
+# a=[127],b=[147]
+# b=[245],c=[153]
+# --------------------class bc
+# constraints disabled for a and b
+# --------------------class bc
+# a=[127],b=[147]
+# b=[245],c=[153]
+# --------------------class bc
+# --------------------class bc
+# a=[234],b=[155]
+# b=[195],c=[183]
+# --------------------class bc
+# constraints disabled for a and b
+# --------------------class bc
+# a=[234],b=[155]
+# b=[195],c=[183]
+# --------------------class bc
+# --------------------class bc
+# a=[96],b=[80]
+# b=[217],c=[173]
+# --------------------class bc
+# constraints disabled for a and b
+# --------------------class bc
+# a=[96],b=[80]
+# b=[217],c=[173]
+# --------------------class bc
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:09:13 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(16): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Warning: 03.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Error (suppressible): (vlog-13276) 03.sv(31): Could not find field/method name (constraint_mode) in 'a' of 'ok.a.constraint_mode'.
+# ** Error (suppressible): (vlog-13276) 03.sv(31): Could not find field/method name (constraint_mode) in 'a' of 'ok.a.constraint_mode.$0'.
+# ** Warning: 03.sv(34): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# End time: 12:09:13 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 4
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./03.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 03.sv "
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:09:31 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(16): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Warning: 03.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Error (suppressible): (vlog-13276) 03.sv(31): Could not find field/method name (constraint_mode) in 'a' of 'ok.a.constraint_mode'.
+# ** Error (suppressible): (vlog-13276) 03.sv(31): Could not find field/method name (constraint_mode) in 'a' of 'ok.a.constraint_mode.$0'.
+# ** Warning: 03.sv(34): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# End time: 12:09:31 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 4
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./03.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 03.sv "
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:09:46 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(16): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Warning: 03.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Error (suppressible): (vlog-13276) 03.sv(31): Could not find field/method name (constraint_mode) in 'a' of 'ok.a.constraint_mode'.
+# ** Error (suppressible): (vlog-13276) 03.sv(31): Could not find field/method name (constraint_mode) in 'a' of 'ok.a.constraint_mode.$0'.
+# ** Warning: 03.sv(34): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# End time: 12:09:46 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 4
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./03.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 03.sv "
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:09:56 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(16): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Warning: 03.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Error (suppressible): (vlog-13276) 03.sv(31): Could not find field/method name (constraint_mode) in 'a' of 'ok.a.constraint_mode'.
+# ** Error (suppressible): (vlog-13276) 03.sv(31): Could not find field/method name (constraint_mode) in 'a' of 'ok.a.constraint_mode.$0'.
+# ** Warning: 03.sv(34): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# End time: 12:09:56 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 4
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./03.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 03.sv "
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:10:04 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(16): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Warning: 03.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(33): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	enabling_disabling_constraint
+# End time: 12:10:04 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# End time: 12:10:05 on Mar 04,2023, Elapsed time: 0:01:56
+# Errors: 12, Warnings: 26
+# vsim work.enabling_disabling_constraint -l 03.log 
+# Start time: 12:10:05 on Mar 04,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 03.sv(28): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(33): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(16): (vopt-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 03.sv(5): (vopt-2250) Function "dispp01" has no return value assignment.
+# ** Warning: 03.sv(14): (vopt-2250) Function "dispp02" has no return value assignment.
+# Loading sv_std.std
+# Loading work._03_sv_unit(fast)
+# Loading work.enabling_disabling_constraint(fast)
+# --------------------class bc
+# a=[4],b=[3]
+# b=[225],c=[245]
+# --------------------class bc
+# --------------------class bc
+# a=[4],b=[3]
+# b=[225],c=[245]
+# --------------------class bc
+# --------------------class bc
+# a=[225],b=[235]
+# b=[255],c=[227]
+# --------------------class bc
+# --------------------class bc
+# a=[225],b=[235]
+# b=[255],c=[227]
+# --------------------class bc
+# --------------------class bc
+# a=[127],b=[147]
+# b=[245],c=[153]
+# --------------------class bc
+# --------------------class bc
+# a=[127],b=[147]
+# b=[245],c=[153]
+# --------------------class bc
+# --------------------class bc
+# a=[234],b=[155]
+# b=[195],c=[183]
+# --------------------class bc
+# --------------------class bc
+# a=[234],b=[155]
+# b=[195],c=[183]
+# --------------------class bc
+# --------------------class bc
+# a=[96],b=[80]
+# b=[217],c=[173]
+# --------------------class bc
+# --------------------class bc
+# a=[96],b=[80]
+# b=[217],c=[173]
+# --------------------class bc
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:11:54 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(16): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Warning: 03.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(34): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(36): (vlog-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	enabling_disabling_constraint
+# End time: 12:11:54 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# End time: 12:11:55 on Mar 04,2023, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 11
+# vsim work.enabling_disabling_constraint -l 03.log 
+# Start time: 12:11:55 on Mar 04,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 03.sv(28): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(34): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(36): (vopt-2240) Treating stand-alone use of function 'dispp02' as an implicit VOID cast.
+# ** Warning: 03.sv(16): (vopt-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 03.sv(5): (vopt-2250) Function "dispp01" has no return value assignment.
+# ** Warning: 03.sv(14): (vopt-2250) Function "dispp02" has no return value assignment.
+# Loading sv_std.std
+# Loading work._03_sv_unit(fast)
+# Loading work.enabling_disabling_constraint(fast)
+# --------------------class bc
+# a=[4],b=[1]
+# b=[225],c=[245]
+# --------------------class bc
+# --------------------class bc
+# a=[2],b=[3]
+# b=[255],c=[227]
+# --------------------class bc
+# --------------------class bc
+# a=[2],b=[1]
+# b=[245],c=[153]
+# --------------------class bc
+# --------------------class bc
+# a=[4],b=[3]
+# b=[195],c=[183]
+# --------------------class bc
+# --------------------class bc
+# a=[4],b=[3]
+# b=[217],c=[173]
+# --------------------class bc
+# ========== disabling constraint
+# --------------------class bc
+# a=[2],b=[1]
+# b=[215],c=[86]
+# --------------------class bc
+# --------------------class bc
+# a=[167],b=[158]
+# b=[45],c=[76]
+# --------------------class bc
+# --------------------class bc
+# a=[94],b=[85]
+# b=[59],c=[122]
+# --------------------class bc
+# --------------------class bc
+# a=[8],b=[50]
+# b=[49],c=[16]
+# --------------------class bc
+# --------------------class bc
+# a=[250],b=[155]
+# b=[15],c=[14]
+# --------------------class bc
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:12:27 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(16): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Warning: 03.sv(28): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 03.sv(34): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(36): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	enabling_disabling_constraint
+# End time: 12:12:27 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# End time: 12:12:28 on Mar 04,2023, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 12
+# vsim work.enabling_disabling_constraint -l 03.log 
+# Start time: 12:12:28 on Mar 04,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 03.sv(28): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(29): (vopt-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 03.sv(34): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(36): (vopt-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._03_sv_unit(fast)
+# Loading work.enabling_disabling_constraint(fast)
+# a=[4],b=[1]
+# a=[2],b=[3]
+# a=[2],b=[1]
+# a=[4],b=[3]
+# a=[4],b=[3]
+# ========== disabling constraint
+# a=[2],b=[1]
+# a=[167],b=[158]
+# a=[94],b=[85]
+# a=[8],b=[50]
+# a=[250],b=[155]
+do 03.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:13:34 on Mar 04,2023
+# vlog -reportprogress 300 03.sv 
+# -- Compiling package _03_sv_unit
+# ** Warning: 03.sv(16): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# -- Compiling module enabling_disabling_constraint
+# ** Warning: 03.sv(29): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(30): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 03.sv(35): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(37): (vlog-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	enabling_disabling_constraint
+# End time: 12:13:34 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# End time: 12:13:35 on Mar 04,2023, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 9
+# vsim work.enabling_disabling_constraint -l 03.log 
+# Start time: 12:13:35 on Mar 04,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 03.sv(29): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(30): (vopt-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 03.sv(35): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 03.sv(37): (vopt-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 03.sv(16): (vopt-2240) Treating stand-alone use of function 'dispp01' as an implicit VOID cast.
+# ** Warning: 03.sv(5): (vopt-2250) Function "dispp01" has no return value assignment.
+# ** Warning: 03.sv(14): (vopt-2250) Function "dispp02" has no return value assignment.
+# Loading sv_std.std
+# Loading work._03_sv_unit(fast)
+# Loading work.enabling_disabling_constraint(fast)
+# ========== enabling constraint:its by default in sv
+# a=[4],b=[1]
+# a=[2],b=[3]
+# a=[2],b=[1]
+# a=[4],b=[3]
+# a=[4],b=[3]
+# ========== disabling constraint
+# a=[2],b=[1]
+# a=[167],b=[158]
+# a=[94],b=[85]
+# a=[8],b=[50]
+# a=[250],b=[155]
+01.do
+# couldn't execute ".\01.do": no such file or directory
+do 01.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:20:16 on Mar 04,2023
+# vlog -reportprogress 300 01.sv 
+# -- Compiling package _01_sv_unit
+# -- Compiling module randomizing
+# ** Warning: 01.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 01.sv(17): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	randomizing
+# End time: 12:20:16 on Mar 04,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2

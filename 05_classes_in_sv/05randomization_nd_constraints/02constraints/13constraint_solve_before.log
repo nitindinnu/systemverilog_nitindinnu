@@ -75,3 +75,47 @@ do 13constraint_solve_before.do
 # [5],a=1,b=3
 # [6],a=0,b=1
 # [7],a=0,b=0
+q -sim
+# End time: 14:34:24 on Mar 03,2023, Elapsed time: 3:38:06
+# Errors: 0, Warnings: 1
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\06shallow_copy}
+do 00shallow_copy_normal_class.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:34:40 on Mar 03,2023
+# vlog -reportprogress 300 00shallow_copy_normal_class.sv 
+# ** Error: 00shallow_copy_normal_class.sv(19): (vlog-2294) The 'var' keyword is missing.
+# ** Error: (vlog-18047) 00shallow_copy_normal_class.sv(19): near "(": syntax error.
+# End time: 14:34:40 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00shallow_copy_normal_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00shallow_copy_normal_class.sv"
+do 00shallow_copy_normal_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:34:58 on Mar 03,2023
+# vlog -reportprogress 300 00shallow_copy_normal_class.sv 
+# -- Compiling package _00shallow_copy_normal_class_sv_unit
+# -- Compiling module shallow_cp_normal
+# ** Error (suppressible): (vlog-13276) 00shallow_copy_normal_class.sv(19): Could not find field/method name (diaplay) in 'dg01' of 'dg01.diaplay'.
+# End time: 14:34:58 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00shallow_copy_normal_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00shallow_copy_normal_class.sv"
+do 00shallow_copy_normal_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:35:11 on Mar 03,2023
+# vlog -reportprogress 300 00shallow_copy_normal_class.sv 
+# -- Compiling package _00shallow_copy_normal_class_sv_unit
+# -- Compiling module shallow_cp_normal
+# 
+# Top level modules:
+# 	shallow_cp_normal
+# End time: 14:35:11 on Mar 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
