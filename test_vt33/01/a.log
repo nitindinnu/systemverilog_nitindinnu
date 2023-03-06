@@ -1,0 +1,10 @@
+# vsim work.test -l a.log 
+# Start time: 11:07:10 on Mar 06,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.test(fast)
+# street[0] =Tejon
+# street[2] =Platte
+# street[2] =Bijou
+# pop_back=Boulder
+# street.size=4

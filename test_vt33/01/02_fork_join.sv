@@ -1,5 +1,5 @@
 /*
-!write an svcode to demonstrate the fork-joi,join_any,join_none
+!write an svcode to demonstrate the fork-join,join_any,join_none
 */
 module fork_join01(
 );
