@@ -1,4 +1,4 @@
-//! enabling_disabling_constraint
+//! write a code to show enabling_disabling of constraint
 class ab;
     randc byte unsigned a,b;
     constraint k_name1 {a inside{2,4};b inside {1,3};}

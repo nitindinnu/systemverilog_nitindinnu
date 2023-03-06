@@ -1,3 +1,4 @@
+//! Write transaction and generator class for flla adder. Create a toP module and execute 
 class transaction;
     byte unsigned a,b,cin;
     byte sum,carry;

@@ -1,3 +1,6 @@
+//! Write A module code with functions each with two arguments. Inside first function do
+//! addition operation and return output and display 2 similarly in second function do
+//! subtraction and 5' third function do multiplication?
 class trnx;
     rand byte a,b;
     byte sum,sub;

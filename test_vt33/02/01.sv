@@ -1,4 +1,4 @@
-
+//!write a code by taking variable s1,s2,s3,s4,s5 of size [4:0].Use
 class trnx;
     rand bit[4:0] s1,s2,s3,s4,s5;
     // constraint no_same {unique {s1,s2,s3,s4,s5};}

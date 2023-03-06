@@ -1,4 +1,4 @@
-//! show importance of soft keyword
+//! Write code show the importance of using "soft keyword.
 class ab;
     randc byte a,b;
     constraint k_name1 {a inside{2,4,6,8};b inside {1,3,5,7};}
