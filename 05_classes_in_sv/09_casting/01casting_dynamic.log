@@ -1,0 +1,203 @@
+# vsim work.cast_dynamic -l 01casting_dynamic.log 
+# Start time: 16:11:13 on Mar 06,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 01casting_dynamic.sv(24): (vopt-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(11): (vopt-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(3): (vopt-2250) Function "dispp" has no return value assignment.
+# ** Warning: 01casting_dynamic.sv(10): (vopt-2250) Function "dispp" has no return value assignment.
+# Loading sv_std.std
+# Loading work._01casting_dynamic_sv_unit(fast)
+# Loading work.cast_dynamic(fast)
+# Addr = 11
+# Data = 5
+do 01casting_dynamic.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:18:01 on Mar 06,2023
+# vlog -reportprogress 300 01casting_dynamic.sv 
+# -- Compiling package _01casting_dynamic_sv_unit
+# ** Warning: 01casting_dynamic.sv(11): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# -- Compiling module cast_dynamic
+# ** Error: 01casting_dynamic.sv(25): (vlog-13216) Illegal assignment to type 'class _01casting_dynamic_sv_unit.class_02' from type 'class _01casting_dynamic_sv_unit.class_01': Types are not assignment compatible.
+# ** Warning: 01casting_dynamic.sv(27): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# End time: 16:18:01 on Mar 06,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01casting_dynamic.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01casting_dynamic.sv"
+do 01casting_dynamic.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:34:41 on Mar 06,2023
+# vlog -reportprogress 300 01casting_dynamic.sv 
+# ** Error: (vlog-13069) 01casting_dynamic.sv(30): near "function": syntax error, unexpected function.
+# ** Error: (vlog-13069) 01casting_dynamic.sv(33): near ",": syntax error, unexpected ',', expecting ';'.
+# ** Error: (vlog-13069) 01casting_dynamic.sv(35): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) 01casting_dynamic.sv(40): near "endfunction": syntax error, unexpected endfunction.
+# End time: 16:34:41 on Mar 06,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01casting_dynamic.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01casting_dynamic.sv"
+do 01casting_dynamic.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:35:13 on Mar 06,2023
+# vlog -reportprogress 300 01casting_dynamic.sv 
+# ** Error: (vlog-13069) 01casting_dynamic.sv(33): near ",": syntax error, unexpected ',', expecting ';'.
+# End time: 16:35:13 on Mar 06,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01casting_dynamic.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01casting_dynamic.sv"
+do 01casting_dynamic.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:35:45 on Mar 06,2023
+# vlog -reportprogress 300 01casting_dynamic.sv 
+# -- Compiling package _01casting_dynamic_sv_unit
+# ** Warning: 01casting_dynamic.sv(11): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# -- Compiling module cast_dynamic
+# ** Warning: 01casting_dynamic.sv(41): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(26): (vlog-2240) Treating stand-alone use of function 'legal_assignment_parent_to_child_class' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(27): (vlog-2240) Treating stand-alone use of function 'illegal_assignment_parent_to_child_class' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	cast_dynamic
+# End time: 16:35:45 on Mar 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# End time: 16:35:47 on Mar 06,2023, Elapsed time: 0:24:34
+# Errors: 15, Warnings: 10
+# vsim work.cast_dynamic -l 01casting_dynamic.log 
+# Start time: 16:35:47 on Mar 06,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): 01casting_dynamic.sv(35): (vopt-7063) Failed to find 'bc2' in hierarchical name 'bc2'.
+#         Region: cast_dynamic
+# ** Error (suppressible): 01casting_dynamic.sv(36): (vopt-7063) Failed to find 'bc2' in hierarchical name 'bc2.dispp'.
+#         Region: cast_dynamic
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./01casting_dynamic.do PAUSED at line 3
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\09_casting}
+do 01casting_dynamic.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:36:05 on Mar 06,2023
+# vlog -reportprogress 300 01casting_dynamic.sv 
+# -- Compiling package _01casting_dynamic_sv_unit
+# ** Warning: 01casting_dynamic.sv(11): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# -- Compiling module cast_dynamic
+# ** Warning: 01casting_dynamic.sv(41): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(26): (vlog-2240) Treating stand-alone use of function 'legal_assignment_parent_to_child_class' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(36): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(27): (vlog-2240) Treating stand-alone use of function 'illegal_assignment_parent_to_child_class' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	cast_dynamic
+# End time: 16:36:05 on Mar 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# vsim work.cast_dynamic -l 01casting_dynamic.log 
+# Start time: 16:35:47 on Mar 06,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 01casting_dynamic.sv(41): (vopt-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(26): (vopt-2240) Treating stand-alone use of function 'legal_assignment_parent_to_child_class' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(36): (vopt-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(27): (vopt-2240) Treating stand-alone use of function 'illegal_assignment_parent_to_child_class' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(30): (vopt-2250) Function "illegal_assignment_parent_to_child_class" has no return value assignment.
+# ** Warning: 01casting_dynamic.sv(39): (vopt-2250) Function "legal_assignment_parent_to_child_class" has no return value assignment.
+# ** Warning: 01casting_dynamic.sv(11): (vopt-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(3): (vopt-2250) Function "dispp" has no return value assignment.
+# ** Warning: 01casting_dynamic.sv(10): (vopt-2250) Function "dispp" has no return value assignment.
+# Loading sv_std.std
+# Loading work._01casting_dynamic_sv_unit(fast)
+# Loading work.cast_dynamic(fast)
+# Addr = 11
+# Data = 5
+# Addr = 11
+# Data = 5
+do 01casting_dynamic.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:39:11 on Mar 06,2023
+# vlog -reportprogress 300 01casting_dynamic.sv 
+# -- Compiling package _01casting_dynamic_sv_unit
+# ** Warning: 01casting_dynamic.sv(11): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# -- Compiling module cast_dynamic
+# ** Warning: 01casting_dynamic.sv(44): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(27): (vlog-2240) Treating stand-alone use of function 'legal_assignment_parent_to_child_class' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(39): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(28): (vlog-2240) Treating stand-alone use of function 'illegal_assignment_parent_to_child_class' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	cast_dynamic
+# End time: 16:39:11 on Mar 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# End time: 16:39:13 on Mar 06,2023, Elapsed time: 0:03:26
+# Errors: 2, Warnings: 14
+# vsim work.cast_dynamic -l 01casting_dynamic.log 
+# Start time: 16:39:13 on Mar 06,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01casting_dynamic.sv(44): (vopt-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(27): (vopt-2240) Treating stand-alone use of function 'legal_assignment_parent_to_child_class' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(39): (vopt-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(28): (vopt-2240) Treating stand-alone use of function 'illegal_assignment_parent_to_child_class' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(31): (vopt-2250) Function "illegal_assignment_parent_to_child_class" has no return value assignment.
+# ** Warning: 01casting_dynamic.sv(42): (vopt-2250) Function "legal_assignment_parent_to_child_class" has no return value assignment.
+# ** Warning: 01casting_dynamic.sv(11): (vopt-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(3): (vopt-2250) Function "dispp" has no return value assignment.
+# ** Warning: 01casting_dynamic.sv(10): (vopt-2250) Function "dispp" has no return value assignment.
+# Loading sv_std.std
+# Loading work._01casting_dynamic_sv_unit(fast)
+# Loading work.cast_dynamic(fast)
+# copying parent handle to class handle Addr = 11
+# copying parent handle to class handle Data = 5
+# using $cast to copy into handle bc1 Addr = 11
+# using $cast to copy into handle bc1 Data = 5
+do 01casting_dynamic.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:39:46 on Mar 06,2023
+# vlog -reportprogress 300 01casting_dynamic.sv 
+# -- Compiling package _01casting_dynamic_sv_unit
+# ** Warning: 01casting_dynamic.sv(11): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# -- Compiling module cast_dynamic
+# ** Warning: 01casting_dynamic.sv(44): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(27): (vlog-2240) Treating stand-alone use of function 'legal_assignment_parent_to_child_class' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(39): (vlog-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(28): (vlog-2240) Treating stand-alone use of function 'illegal_assignment_parent_to_child_class' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	cast_dynamic
+# End time: 16:39:46 on Mar 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# End time: 16:39:48 on Mar 06,2023, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 14
+# vsim work.cast_dynamic -l 01casting_dynamic.log 
+# Start time: 16:39:48 on Mar 06,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01casting_dynamic.sv(44): (vopt-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(27): (vopt-2240) Treating stand-alone use of function 'legal_assignment_parent_to_child_class' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(39): (vopt-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(28): (vopt-2240) Treating stand-alone use of function 'illegal_assignment_parent_to_child_class' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(31): (vopt-2250) Function "illegal_assignment_parent_to_child_class" has no return value assignment.
+# ** Warning: 01casting_dynamic.sv(42): (vopt-2250) Function "legal_assignment_parent_to_child_class" has no return value assignment.
+# ** Warning: 01casting_dynamic.sv(11): (vopt-2240) Treating stand-alone use of function 'dispp' as an implicit VOID cast.
+# ** Warning: 01casting_dynamic.sv(3): (vopt-2250) Function "dispp" has no return value assignment.
+# ** Warning: 01casting_dynamic.sv(10): (vopt-2250) Function "dispp" has no return value assignment.
+# Loading sv_std.std
+# Loading work._01casting_dynamic_sv_unit(fast)
+# Loading work.cast_dynamic(fast)
+# [copying parent handle to class handle] Addr = 11
+# [copying parent handle to class handle] Data = 5
+# [using $cast to copy into handle bc1] Addr = 11
+# [using $cast to copy into handle bc1] Data = 5
+# End time: 10:05:31 on Mar 07,2023, Elapsed time: 17:25:43
+# Errors: 0, Warnings: 9

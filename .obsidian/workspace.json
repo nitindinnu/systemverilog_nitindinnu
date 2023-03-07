@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4406922e9dad4e48",
+        "id": "f55dbc2070f9b880",
         "type": "tabs",
         "children": [
           {
-            "id": "d17678fe40c9a035",
+            "id": "9a3b65a440c52229",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test_vt33/01/README.md",
+                "file": "05_classes_in_sv/10_OOP/01_OOP_data_hiding_encapsulation/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test_vt33/01/README.md",
+                "file": "05_classes_in_sv/10_OOP/01_OOP_data_hiding_encapsulation/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test_vt33/01/README.md",
+                "file": "05_classes_in_sv/10_OOP/01_OOP_data_hiding_encapsulation/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test_vt33/01/README.md"
+                "file": "05_classes_in_sv/10_OOP/01_OOP_data_hiding_encapsulation/README.md"
               }
             }
           }
@@ -146,19 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d17678fe40c9a035",
+  "active": "9a3b65a440c52229",
   "lastOpenFiles": [
-    "test_vt33/01/work/@_opt/_lib4_0.qdx",
-    "test_vt33/01/work/@_opt/_lib3_0.qdx",
-    "test_vt33/01/work/_opt__lock",
-    "test_vt33/01/work/_lock",
-    "test_vt33/01/a.log",
-    "test_vt33/01/a.do",
-    "test_vt33/01/a.sv",
-    "Untitled.md",
+    "05_classes_in_sv/11_typedef_class/work/_tempmsg",
+    "05_classes_in_sv/11_typedef_class/work/_temp",
+    "05_classes_in_sv/11_typedef_class/work/@_opt/_lib4_0.qdx",
+    "05_classes_in_sv/11_typedef_class/work/@_opt/_lib4_0.qdb",
+    "05_classes_in_sv/11_typedef_class/work/@_opt/_lib4_0.qtl",
+    "05_classes_in_sv/11_typedef_class/work/@_opt/_lib4_0.qpg",
+    "05_classes_in_sv/11_typedef_class/work/@_opt/_lib3_0.qdx",
+    "05_classes_in_sv/11_typedef_class/work/@_opt/_lib2_0.qdb",
+    "05_classes_in_sv/11_typedef_class/work/@_opt/_lib2_0.qtl",
+    "05_classes_in_sv/11_typedef_class/work/@_opt/_lib3_0.qdb",
+    "05_classes_in_sv/11_typedef_class/work/@_opt/_lib3_0.qtl",
     "test_vt33/01/README.md",
-    "test_vt33/02/questions System Verilog.md",
     "test_vt33/02/README.md",
+    "Untitled.md",
+    "test_vt33/02/questions System Verilog.md",
     "README.md",
     "SV_notes.md",
     "Obsi/systemverilog_nitindinnu/00datatypes_sv/03/store_array_in_queue.sv.md"

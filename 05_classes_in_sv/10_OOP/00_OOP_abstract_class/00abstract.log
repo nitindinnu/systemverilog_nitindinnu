@@ -1,0 +1,98 @@
+# vsim work.virtual_classs -l 00abstract.log 
+# Start time: 18:45:53 on Mar 07,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work._00abstract_sv_unit(fast)
+# Loading work.virtual_classs(fast)
+# ** Fatal: (vsim-8250) 00abstract.sv (14): Class allocator method 'new' called on abstract class 'trnx'.
+#    Time: 0 ns  Iteration: 0  Process: /virtual_classs/#INITIAL#14 File: 00abstract.sv
+# Fatal error at 00abstract.sv line 14
+# 
+# HDL call sequence:
+# Stopped at 00abstract.sv 14  
+# 
+do 00abstract.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:52:22 on Mar 07,2023
+# vlog -reportprogress 300 00abstract.sv 
+# -- Compiling package _00abstract_sv_unit
+# -- Compiling module virtual_classs
+# ** Warning: 00abstract.sv(32): (vlog-2240) Treating stand-alone use of function 'disp' as an implicit VOID cast.
+# ** Warning: 00abstract.sv(34): (vlog-2240) Treating stand-alone use of function 'disp' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	virtual_classs
+# End time: 18:52:22 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 18:52:23 on Mar 07,2023, Elapsed time: 0:06:30
+# Errors: 2, Warnings: 2
+# vsim work.virtual_classs -l 00abstract.log 
+# Start time: 18:52:23 on Mar 07,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00abstract.sv(32): (vopt-2240) Treating stand-alone use of function 'disp' as an implicit VOID cast.
+# ** Warning: 00abstract.sv(34): (vopt-2240) Treating stand-alone use of function 'disp' as an implicit VOID cast.
+# ** Warning: 00abstract.sv(23): (vopt-2250) Function "disp" has no return value assignment.
+# Loading sv_std.std
+# Loading work._00abstract_sv_unit(fast)
+# Loading work.virtual_classs(fast)
+# value of a in abstract super class,accessing from sub-class is 0
+# value of a in abstract super class,accessing from sub-class is 9
+do 00abstract.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 18:52:43 on Mar 07,2023
+# vlog -reportprogress 300 00abstract.sv 
+# -- Compiling package _00abstract_sv_unit
+# -- Compiling module virtual_classs
+# ** Warning: 00abstract.sv(32): (vlog-2240) Treating stand-alone use of function 'disp' as an implicit VOID cast.
+# ** Warning: 00abstract.sv(34): (vlog-2240) Treating stand-alone use of function 'disp' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	virtual_classs
+# End time: 18:52:43 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 18:52:44 on Mar 07,2023, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 5
+# vsim work.virtual_classs -l 00abstract.log 
+# Start time: 18:52:44 on Mar 07,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 00abstract.sv(32): (vopt-2240) Treating stand-alone use of function 'disp' as an implicit VOID cast.
+# ** Warning: 00abstract.sv(34): (vopt-2240) Treating stand-alone use of function 'disp' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._00abstract_sv_unit(fast)
+# Loading work.virtual_classs(fast)
+# value of a in abstract super class,accessing from sub-class is 0
+# value of a in abstract super class,accessing from sub-class is 15
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\10_OOP\03_OOP_polymorphism}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+q -sim
+# End time: 19:59:31 on Mar 07,2023, Elapsed time: 1:06:47
+# Errors: 1, Warnings: 2
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\10_OOP\03_OOP_polymorphism}
+do 00polymorphism.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:59:42 on Mar 07,2023
+# vlog -reportprogress 300 00polymorphism.sv 
+# ** Error: (vlog-13069) 00polymorphism.sv(47): near "[": syntax error, unexpected '['.
+# ** Error: 00polymorphism.sv(47): (vlog-13205) Syntax error found in the scope following 'b_c'. Is there a missing '::'?
+# End time: 19:59:42 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00polymorphism.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00polymorphism.sv"
+do 00polymorphism.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:00:32 on Mar 07,2023
+# vlog -reportprogress 300 00polymorphism.sv 
+# -- Compiling package _00polymorphism_sv_unit
+# -- Compiling module class_polymorphism
+# 
+# Top level modules:
+# 	class_polymorphism
+# End time: 20:00:32 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

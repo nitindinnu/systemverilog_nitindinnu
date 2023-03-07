@@ -1,0 +1,108 @@
+# vsim work.encapsulate_local -l 00encapsulation_localclass.log 
+# Start time: 10:44:11 on Mar 07,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 00encapsulation_localclass.sv(23): (vopt-2244) Variable 'lo' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 00encapsulation_localclass.sv(25): (vopt-2240) Treating stand-alone use of function 'dispay' as an implicit VOID cast.
+# ** Warning: 00encapsulation_localclass.sv(15): (vopt-2250) Function "dispay" has no return value assignment.
+# Loading sv_std.std
+# Loading work._00encapsulation_localclass_sv_unit(fast)
+# Loading work.encapsulate_local(fast)
+# a = 4
+01encapsulation_protected.do
+# couldn't execute ".\01encapsulation_protected.do": no such file or directory
+do 01encapsulation_protected.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:58:04 on Mar 07,2023
+# vlog -reportprogress 300 01encapsulation_protected.sv 
+# ** Error: (vlog-13069) 01encapsulation_protected.sv(16): near "endfunction": syntax error, unexpected endfunction, expecting ';'.
+# ** Error: (vlog-13069) 01encapsulation_protected.sv(25): near "=": syntax error, unexpected '=', expecting ';'.
+# ** Error: (vlog-13069) 01encapsulation_protected.sv(26): near "=": syntax error, unexpected '=', expecting ';'.
+# ** Error: (vlog-13069) 01encapsulation_protected.sv(27): near "(": syntax error, unexpected '(', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) 01encapsulation_protected.sv(29): near "(": syntax error, unexpected '(', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 10:58:04 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01encapsulation_protected.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01encapsulation_protected.sv"
+01encapsulation_protected.do
+# couldn't execute ".\01encapsulation_protected.do": no such file or directory
+do 01encapsulation_protected.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:58:36 on Mar 07,2023
+# vlog -reportprogress 300 01encapsulation_protected.sv 
+# ** Error: (vlog-13069) 01encapsulation_protected.sv(25): near "=": syntax error, unexpected '=', expecting ';'.
+# ** Error: (vlog-13069) 01encapsulation_protected.sv(26): near "=": syntax error, unexpected '=', expecting ';'.
+# ** Error: (vlog-13069) 01encapsulation_protected.sv(27): near "(": syntax error, unexpected '(', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) 01encapsulation_protected.sv(29): near "(": syntax error, unexpected '(', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# End time: 10:58:36 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01encapsulation_protected.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01encapsulation_protected.sv"
+do 01encapsulation_protected.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:58:59 on Mar 07,2023
+# vlog -reportprogress 300 01encapsulation_protected.sv 
+# ** Error: (vlog-13069) 01encapsulation_protected.sv(25): near "=": syntax error, unexpected '=', expecting ';'.
+# ** Error: (vlog-13069) 01encapsulation_protected.sv(26): near "=": syntax error, unexpected '=', expecting ';'.
+# End time: 10:58:59 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01encapsulation_protected.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01encapsulation_protected.sv"
+do 01encapsulation_protected.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:59:21 on Mar 07,2023
+# vlog -reportprogress 300 01encapsulation_protected.sv 
+# -- Compiling package _01encapsulation_protected_sv_unit
+# ** Error: 01encapsulation_protected.sv(15): Super class constructor has non-default arguments.  Arguments can be specified in the "extends" clause or by calling super.new() explicitly.
+# ** Error: 01encapsulation_protected.sv(15): Number of actuals and formals does not match in task call.
+# -- Compiling module encapsulate_protected
+# ** Error: 01encapsulation_protected.sv(15): Super class constructor has non-default arguments.  Arguments can be specified in the "extends" clause or by calling super.new() explicitly.
+# ** Error: 01encapsulation_protected.sv(15): Number of actuals and formals does not match in task call.
+# ** Warning: 01encapsulation_protected.sv(31): (vlog-2240) Treating stand-alone use of function 'dispay' as an implicit VOID cast.
+# ** Error: 01encapsulation_protected.sv(26): Number of actuals and formals does not match in function call.
+# End time: 10:59:21 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 1
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01encapsulation_protected.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01encapsulation_protected.sv"
+do 01encapsulation_protected.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 10:59:57 on Mar 07,2023
+# vlog -reportprogress 300 01encapsulation_protected.sv 
+# ** Error: (vlog-13069) 01encapsulation_protected.sv(15): near "[": syntax error, unexpected '[', expecting '\''.
+# End time: 10:59:57 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01encapsulation_protected.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01encapsulation_protected.sv"
+do 01encapsulation_protected.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:00:21 on Mar 07,2023
+# vlog -reportprogress 300 01encapsulation_protected.sv 
+# -- Compiling package _01encapsulation_protected_sv_unit
+# -- Compiling module encapsulate_protected
+# ** Warning: 01encapsulation_protected.sv(31): (vlog-2240) Treating stand-alone use of function 'dispay' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	encapsulate_protected
+# End time: 11:00:21 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

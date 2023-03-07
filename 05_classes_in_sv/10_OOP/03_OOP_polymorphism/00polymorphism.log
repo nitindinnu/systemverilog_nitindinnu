@@ -1,0 +1,123 @@
+# vsim work.class_polymorphism -l 00polymorphism.log 
+# Start time: 20:00:32 on Mar 07,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work._00polymorphism_sv_unit(fast)
+# Loading work.class_polymorphism(fast)
+# Inside extended class 1
+# Inside extended class 2
+# Inside extended class 3
+01polymorphism.do
+# couldn't execute ".\01polymorphism.do": no such file or directory
+do 01polymorphism.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:06:31 on Mar 07,2023
+# vlog -reportprogress 300 01polymorphism.sv 
+# -- Compiling module top
+# ** Error: (vlog-13067) 01polymorphism.sv(4:22): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(4:23): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(4:24): Syntax error, unexpected non-printable character with the hex value '0x9c'.
+# ** Error: (vlog-13069) 01polymorphism.sv(4): near "is": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13067) 01polymorphism.sv(4:43): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(4:44): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(4:45): Syntax error, unexpected non-printable character with the hex value '0x9d'.
+# ** Error: (vlog-13067) 01polymorphism.sv(10:22): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(10:23): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(10:24): Syntax error, unexpected non-printable character with the hex value '0x9c'.
+# ** Error: (vlog-13069) 01polymorphism.sv(10): near "is": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13067) 01polymorphism.sv(10:47): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(10:48): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(10:49): Syntax error, unexpected non-printable character with the hex value '0x9d'.
+# ** Error: (vlog-13067) 01polymorphism.sv(21:18): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(21:19): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(21:20): Syntax error, unexpected non-printable character with the hex value '0x9c'.
+# ** Error: (vlog-13069) 01polymorphism.sv(21): near "Applying": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13067) 01polymorphism.sv(21:97): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(21:98): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(21:99): Syntax error, unexpected non-printable character with the hex value '0x9d'.
+# End time: 20:06:31 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 21, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01polymorphism.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01polymorphism.sv"
+do 01polymorphism.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:06:59 on Mar 07,2023
+# vlog -reportprogress 300 01polymorphism.sv 
+# ** Error: (vlog-13067) 01polymorphism.sv(3:18): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(3:19): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(3:20): Syntax error, unexpected non-printable character with the hex value '0x9c'.
+# ** Error: (vlog-13069) 01polymorphism.sv(3): near "is": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13067) 01polymorphism.sv(3:39): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(3:40): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(3:41): Syntax error, unexpected non-printable character with the hex value '0x9d'.
+# ** Error: (vlog-13067) 01polymorphism.sv(9:18): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(9:19): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(9:20): Syntax error, unexpected non-printable character with the hex value '0x9c'.
+# ** Error: (vlog-13069) 01polymorphism.sv(9): near "is": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13067) 01polymorphism.sv(9:43): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(9:44): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(9:45): Syntax error, unexpected non-printable character with the hex value '0x9d'.
+# ** Error: (vlog-13067) 01polymorphism.sv(23:18): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(23:19): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(23:20): Syntax error, unexpected non-printable character with the hex value '0x9c'.
+# ** Error: (vlog-13069) 01polymorphism.sv(23): near "Applying": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13067) 01polymorphism.sv(23:97): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(23:98): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(23:99): Syntax error, unexpected non-printable character with the hex value '0x9d'.
+# End time: 20:06:59 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 21, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01polymorphism.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01polymorphism.sv"
+do 01polymorphism.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:07:30 on Mar 07,2023
+# vlog -reportprogress 300 01polymorphism.sv 
+# ** Error: (vlog-13067) 01polymorphism.sv(3:18): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(3:19): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(3:20): Syntax error, unexpected non-printable character with the hex value '0x9c'.
+# ** Error: (vlog-13069) 01polymorphism.sv(3): near "is": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13067) 01polymorphism.sv(3:39): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(3:40): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(3:41): Syntax error, unexpected non-printable character with the hex value '0x9d'.
+# ** Error: (vlog-13067) 01polymorphism.sv(9:18): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(9:19): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(9:20): Syntax error, unexpected non-printable character with the hex value '0x9c'.
+# ** Error: (vlog-13069) 01polymorphism.sv(9): near "is": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13067) 01polymorphism.sv(9:43): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(9:44): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(9:45): Syntax error, unexpected non-printable character with the hex value '0x9d'.
+# ** Error: (vlog-13067) 01polymorphism.sv(23:18): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(23:19): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(23:20): Syntax error, unexpected non-printable character with the hex value '0x9c'.
+# ** Error: (vlog-13069) 01polymorphism.sv(23): near "Applying": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13067) 01polymorphism.sv(23:97): Syntax error, unexpected non-printable character with the hex value '0xe2'.
+# ** Error: (vlog-13067) 01polymorphism.sv(23:98): Syntax error, unexpected non-printable character with the hex value '0x80'.
+# ** Error: (vlog-13067) 01polymorphism.sv(23:99): Syntax error, unexpected non-printable character with the hex value '0x9d'.
+# End time: 20:07:30 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 21, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./01polymorphism.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 01polymorphism.sv"
+do 01polymorphism.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:08:33 on Mar 07,2023
+# vlog -reportprogress 300 01polymorphism.sv 
+# -- Compiling package _01polymorphism_sv_unit
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 20:08:33 on Mar 07,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

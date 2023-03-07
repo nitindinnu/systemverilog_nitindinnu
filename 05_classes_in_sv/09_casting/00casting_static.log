@@ -1,0 +1,97 @@
+# vsim work.casting00 -l 00casting_static.log 
+# Start time: 15:52:46 on Mar 06,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.casting00(fast)
+# real value is 35.000000
+# int value is           0
+do 00casting_static.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:53:33 on Mar 06,2023
+# vlog -reportprogress 300 00casting_static.sv 
+# -- Compiling module casting00
+# 
+# Top level modules:
+# 	casting00
+# End time: 15:53:33 on Mar 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:53:35 on Mar 06,2023, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim work.casting00 -l 00casting_static.log 
+# Start time: 15:53:35 on Mar 06,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.casting00(fast)
+# real value is 35.000000
+# int value is           0
+# real value is 35.000000
+# int value is          35
+do 00casting_static.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:53:52 on Mar 06,2023
+# vlog -reportprogress 300 00casting_static.sv 
+# -- Compiling module casting00
+# 
+# Top level modules:
+# 	casting00
+# End time: 15:53:52 on Mar 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:53:53 on Mar 06,2023, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+# vsim work.casting00 -l 00casting_static.log 
+# Start time: 15:53:53 on Mar 06,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.casting00(fast)
+# real value is 35.000000
+# int value is 0
+# real value is 35.000000
+# int value is 35
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\08parameterized_classes}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+q -sim
+# End time: 15:57:19 on Mar 06,2023, Elapsed time: 0:03:26
+# Errors: 1, Warnings: 0
+cd {D:\Obsi\systemverilog_nitindinnu\05_classes_in_sv\08parameterized_classes}
+do 00param_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:57:28 on Mar 06,2023
+# vlog -reportprogress 300 00param_class.sv 
+# ** Error (suppressible): 00param_class.sv(30): (vlog-2388) 'io2' already declared in this scope (parami).
+# ** Error: (vlog-13069) 00param_class.sv(30): near "#": syntax error, unexpected '#', expecting ';' or ','.
+# End time: 15:57:28 on Mar 06,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00param_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00param_class.sv"
+do 00param_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:57:58 on Mar 06,2023
+# vlog -reportprogress 300 00param_class.sv 
+# ** Error (suppressible): 00param_class.sv(30): (vlog-2388) 'io2' already declared in this scope (parami).
+# End time: 15:57:58 on Mar 06,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./00param_class.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 00param_class.sv"
+do 00param_class.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:58:07 on Mar 06,2023
+# vlog -reportprogress 300 00param_class.sv 
+# -- Compiling package _00param_class_sv_unit
+# -- Compiling module parami
+# 
+# Top level modules:
+# 	parami
+# End time: 15:58:07 on Mar 06,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

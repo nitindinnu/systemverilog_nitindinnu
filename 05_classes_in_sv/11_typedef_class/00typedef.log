@@ -1,0 +1,9 @@
+# vsim work.typedef_class -l 00typedef.log 
+# Start time: 20:55:47 on Mar 07,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work._00typedef_sv_unit(fast)
+# Loading work.typedef_class(fast)
+# Inside typedef_class
+# End time: 21:16:02 on Mar 07,2023, Elapsed time: 0:20:15
+# Errors: 0, Warnings: 0
