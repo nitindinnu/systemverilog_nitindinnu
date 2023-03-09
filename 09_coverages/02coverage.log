@@ -1,0 +1,30 @@
+# End time: 17:01:48 on Mar 09,2023, Elapsed time: 0:32:51
+# Errors: 20, Warnings: 10
+# vsim work.coverages_02 -l 02coverage.log 
+# Start time: 17:01:48 on Mar 09,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 02coverage.sv(41): (vopt-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 02coverage.sv(45): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._02coverage_sv_unit(fast)
+# Loading work.coverages_02(fast)
+# time[0],dd[72],ee[2],ff[4]
+# time[0],dd[11],ee[12],ff[11]
+# time[0],dd[202],ee[14],ff[2]
+# time[0],dd[181],ee[8],ff[5]
+# time[0],dd[108],ee[10],ff[8]
+# time[0],dd[47],ee[5],ff[3]
+# time[0],dd[238],ee[7],ff[9]
+# time[0],dd[169],ee[1],ff[0]
+# time[0],dd[65],ee[3],ff[14]
+# time[0],dd[0],ee[13],ff[1]
+# time[0],dd[195],ee[15],ff[15]
+# time[0],dd[130],ee[9],ff[6]
+# time[0],dd[101],ee[11],ff[12]
+# time[0],dd[36],ee[4],ff[7]
+# time[0],dd[231],ee[6],ff[10]
+# time[0],dd[166],ee[0],ff[13]
+# ** Note: $stop    : 02coverage.sv(49)
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_02
+# Break in Module coverages_02 at 02coverage.sv line 49
