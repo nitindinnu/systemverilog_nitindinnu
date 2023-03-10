@@ -1,0 +1,323 @@
+# vsim work.coverages_03 -l 03_coverage_transition_IGNORE_ILLEGAL.log 
+# Start time: 16:01:00 on Mar 10,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL.sv(37): (vopt-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL.sv(41): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._03_coverage_transition_IGNORE_ILLEGAL_sv_unit(fast)
+# Loading work.coverages_03(fast)
+# ** Warning: (vsim-8474) A higher value '40' is found in bin 'b2' of Coverpoint 'cp_01'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /coverages_03/#INITIAL#10 File: 03_coverage_transition_IGNORE_ILLEGAL.sv Line: 19
+# ** Warning: (vsim-8478) The value range list is empty for the transition item #1 of transition set #1 of the bin '\/coverages_03/#ublk#24796851#36/po .cp_01.b2'. This may be because all value ranges specified in the transition item are invalid values and can not be casted to the expression type of the coverpoint. This will result in the removal of the whole transition set.
+#    Time: 0 ns  Iteration: 0  Process: /coverages_03/#INITIAL#10 File: 03_coverage_transition_IGNORE_ILLEGAL.sv Line: 19
+# ** Warning: (vsim-8474) A higher value '80' is found in bin 'b2' of Coverpoint 'cp_01'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /coverages_03/#INITIAL#10 File: 03_coverage_transition_IGNORE_ILLEGAL.sv Line: 19
+# ** Warning: (vsim-8478) The value range list is empty for the transition item #1 of transition set #1 of the bin '\/coverages_03/#ublk#24796851#36/po .cp_01.b2'. This may be because all value ranges specified in the transition item are invalid values and can not be casted to the expression type of the coverpoint. This will result in the removal of the whole transition set.
+#    Time: 0 ns  Iteration: 0  Process: /coverages_03/#INITIAL#10 File: 03_coverage_transition_IGNORE_ILLEGAL.sv Line: 19
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid transitions, the transitions list associated with array bin 'b2' in Coverpoint 'cp_01' of Covergroup instance '\/coverages_03/#ublk#24796851#36/po ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[20],ee[20],ff[20]
+# time[0],dd[22],ee[22],ff[22]
+# time[0],dd[20],ee[20],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#36/po .cp_03.b8' is 1.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[20],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[22]
+# time[0],dd[22],ee[20],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#36/po .cp_03.b8' is 2.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[20],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#36/po .cp_03.b8' is 3.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[22],ee[20],ff[20]
+# time[0],dd[20],ee[22],ff[22]
+# time[0],dd[22],ee[20],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#36/po .cp_03.b8' is 4.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[22],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[22]
+# time[0],dd[20],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#36/po .cp_03.b8' is 5.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[22],ee[22],ff[22]
+# ** Note: $stop    : 03_coverage_transition_IGNORE_ILLEGAL.sv(45)
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# Break in Module coverages_03 at 03_coverage_transition_IGNORE_ILLEGAL.sv line 45
+do 03coverage.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# COMPILING SV FILE
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:05:14 on Mar 10,2023
+# vlog -reportprogress 300 "+acc" "+cover" -coveropt 3 -sv 03_coverage_transition_IGNORE_ILLEGAL.sv 
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL.sv(37): (vlog-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _03_coverage_transition_IGNORE_ILLEGAL_sv_unit
+# -- Compiling module coverages_03
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL.sv(37): (vlog-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL.sv(41): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	coverages_03
+# End time: 16:05:14 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# End time: 16:05:15 on Mar 10,2023, Elapsed time: 0:04:15
+# Errors: 5, Warnings: 11
+# vsim work.coverages_03 -l 03_coverage_transition_IGNORE_ILLEGAL.log 
+# Start time: 16:05:15 on Mar 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL.sv(37): (vopt-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL.sv(41): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._03_coverage_transition_IGNORE_ILLEGAL_sv_unit(fast)
+# Loading work.coverages_03(fast)
+# time[0],dd[20],ee[20],ff[20]
+# time[0],dd[22],ee[22],ff[22]
+# time[0],dd[20],ee[20],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#36/po .cp_03.b8' is 1.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[20],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[22]
+# time[0],dd[22],ee[20],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#36/po .cp_03.b8' is 2.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[20],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#36/po .cp_03.b8' is 3.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[22],ee[20],ff[20]
+# time[0],dd[20],ee[22],ff[22]
+# time[0],dd[22],ee[20],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#36/po .cp_03.b8' is 4.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[22],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[22]
+# time[0],dd[20],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#36/po .cp_03.b8' is 5.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[22],ee[22],ff[22]
+# ** Note: $stop    : 03_coverage_transition_IGNORE_ILLEGAL.sv(45)
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# Break in Module coverages_03 at 03_coverage_transition_IGNORE_ILLEGAL.sv line 45
+do 03coverage.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# COMPILING SV FILE
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:06:51 on Mar 10,2023
+# vlog -reportprogress 300 "+acc" "+cover" -coveropt 3 -sv 03_coverage_transition_IGNORE_ILLEGAL_cross.sv 
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(38): (vlog-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _03_coverage_transition_IGNORE_ILLEGAL_cross_sv_unit
+# -- Compiling module coverages_03
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(38): (vlog-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(42): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	coverages_03
+# End time: 16:06:51 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# End time: 16:06:52 on Mar 10,2023, Elapsed time: 0:01:37
+# Errors: 5, Warnings: 6
+# vsim work.coverages_03 -l 03_coverage_transition_IGNORE_ILLEGAL.log 
+# Start time: 16:06:52 on Mar 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(38): (vopt-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(42): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._03_coverage_transition_IGNORE_ILLEGAL_cross_sv_unit(fast)
+# Loading work.coverages_03(fast)
+# ** Warning: (vsim-8474) A higher value '40' is found in bin 'b2' of Coverpoint 'cp_01'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /coverages_03/#INITIAL#10 File: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv Line: 19
+# ** Warning: (vsim-8478) The value range list is empty for the transition item #1 of transition set #1 of the bin '\/coverages_03/#ublk#24796851#37/po .cp_01.b2'. This may be because all value ranges specified in the transition item are invalid values and can not be casted to the expression type of the coverpoint. This will result in the removal of the whole transition set.
+#    Time: 0 ns  Iteration: 0  Process: /coverages_03/#INITIAL#10 File: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv Line: 19
+# ** Warning: (vsim-8474) A higher value '80' is found in bin 'b2' of Coverpoint 'cp_01'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /coverages_03/#INITIAL#10 File: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv Line: 19
+# ** Warning: (vsim-8478) The value range list is empty for the transition item #1 of transition set #1 of the bin '\/coverages_03/#ublk#24796851#37/po .cp_01.b2'. This may be because all value ranges specified in the transition item are invalid values and can not be casted to the expression type of the coverpoint. This will result in the removal of the whole transition set.
+#    Time: 0 ns  Iteration: 0  Process: /coverages_03/#INITIAL#10 File: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv Line: 19
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid transitions, the transitions list associated with array bin 'b2' in Coverpoint 'cp_01' of Covergroup instance '\/coverages_03/#ublk#24796851#37/po ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[20],ee[20],ff[20]
+# time[0],dd[22],ee[22],ff[22]
+# time[0],dd[20],ee[20],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#37/po .cp_03.b8' is 1.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[20],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[22]
+# time[0],dd[22],ee[20],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#37/po .cp_03.b8' is 2.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[20],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#37/po .cp_03.b8' is 3.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[22],ee[20],ff[20]
+# time[0],dd[20],ee[22],ff[22]
+# time[0],dd[22],ee[20],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#37/po .cp_03.b8' is 4.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[22],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[22]
+# time[0],dd[20],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#37/po .cp_03.b8' is 5.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[22],ee[22],ff[22]
+# ** Note: $stop    : 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(46)
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# Break in Module coverages_03 at 03_coverage_transition_IGNORE_ILLEGAL_cross.sv line 46
+do 03coverage.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# COMPILING SV FILE
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:13:21 on Mar 10,2023
+# vlog -reportprogress 300 "+acc" "+cover" -coveropt 3 -sv 03_coverage_transition_IGNORE_ILLEGAL_cross.sv 
+# ** Error: (vlog-13069) 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(19): near "=>": syntax error, unexpected =>.
+# ** Error: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(39): (vlog-13205) Syntax error found in the scope following 'clk'. Is there a missing '::'?
+# End time: 16:13:21 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./03coverage.do line 6
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog +acc +cover -coveropt 3 -sv 03_coverage_transition_IGNORE_ILLEGAL_cross.sv"
+do 03coverage.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# COMPILING SV FILE
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:16:44 on Mar 10,2023
+# vlog -reportprogress 300 "+acc" "+cover" -coveropt 3 -sv 03_coverage_transition_IGNORE_ILLEGAL_cross.sv 
+# ** Error: (vlog-13069) 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(35): near "endgroup": syntax error, unexpected "SystemVerilog keyword 'endgroup'", expecting ':'.
+# ** Error: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(39): (vlog-13205) Syntax error found in the scope following 'clk'. Is there a missing '::'?
+# End time: 16:16:44 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./03coverage.do line 6
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog +acc +cover -coveropt 3 -sv 03_coverage_transition_IGNORE_ILLEGAL_cross.sv"
+do 03coverage.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# COMPILING SV FILE
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:17:04 on Mar 10,2023
+# vlog -reportprogress 300 "+acc" "+cover" -coveropt 3 -sv 03_coverage_transition_IGNORE_ILLEGAL_cross.sv 
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(38): (vlog-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _03_coverage_transition_IGNORE_ILLEGAL_cross_sv_unit
+# -- Compiling module coverages_03
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(38): (vlog-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(42): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	coverages_03
+# End time: 16:17:04 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# End time: 16:17:05 on Mar 10,2023, Elapsed time: 0:10:13
+# Errors: 15, Warnings: 13
+# vsim work.coverages_03 -l 03_coverage_transition_IGNORE_ILLEGAL.log 
+# Start time: 16:17:05 on Mar 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(38): (vopt-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(42): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._03_coverage_transition_IGNORE_ILLEGAL_cross_sv_unit(fast)
+# Loading work.coverages_03(fast)
+# ** Warning: (vsim-8474) A higher value '40' is found in bin 'b2' of Coverpoint 'cp_01'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /coverages_03/#INITIAL#10 File: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv Line: 19
+# ** Warning: (vsim-8478) The value range list is empty for the transition item #1 of transition set #1 of the bin '\/coverages_03/#ublk#24796851#37/po .cp_01.b2'. This may be because all value ranges specified in the transition item are invalid values and can not be casted to the expression type of the coverpoint. This will result in the removal of the whole transition set.
+#    Time: 0 ns  Iteration: 0  Process: /coverages_03/#INITIAL#10 File: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv Line: 19
+# ** Warning: (vsim-8474) A higher value '80' is found in bin 'b2' of Coverpoint 'cp_01'. It is invalid and will be ignored.
+#    Time: 0 ns  Iteration: 0  Process: /coverages_03/#INITIAL#10 File: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv Line: 19
+# ** Warning: (vsim-8478) The value range list is empty for the transition item #1 of transition set #1 of the bin '\/coverages_03/#ublk#24796851#37/po .cp_01.b2'. This may be because all value ranges specified in the transition item are invalid values and can not be casted to the expression type of the coverpoint. This will result in the removal of the whole transition set.
+#    Time: 0 ns  Iteration: 0  Process: /coverages_03/#INITIAL#10 File: 03_coverage_transition_IGNORE_ILLEGAL_cross.sv Line: 19
+# ** Warning: (vsim-8549) After dropping the illegal, ignore or invalid transitions, the transitions list associated with array bin 'b2' in Coverpoint 'cp_01' of Covergroup instance '\/coverages_03/#ublk#24796851#37/po ' has converged to empty list. The bin will be taken out of coverage calculation.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# ** Warning: (vsim-8522) The number of coverpoint bins is zero for the coverpoint 'cp_01' of covergroup instance '\/coverages_03/#ublk#24796851#37/po '. All the user defined bins in the coverpoint are empty bins and hence it would not contribute towards the overall coverage result.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[20],ee[20],ff[20]
+# time[0],dd[22],ee[22],ff[22]
+# time[0],dd[20],ee[20],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#37/po .cp_03.b8' is 1.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[20],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[22]
+# time[0],dd[22],ee[20],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#37/po .cp_03.b8' is 2.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[20],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#37/po .cp_03.b8' is 3.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[22],ee[20],ff[20]
+# time[0],dd[20],ee[22],ff[22]
+# time[0],dd[22],ee[20],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#37/po .cp_03.b8' is 4.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[22],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[22]
+# time[0],dd[20],ee[20],ff[22]
+# time[0],dd[22],ee[22],ff[20]
+# ** Error: (vsim-8564) Illegal transition bin was hit at value=20. The bin counter for the illegal bin '\/coverages_03/#ublk#24796851#37/po .cp_03.b8' is 5.
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# time[0],dd[22],ee[22],ff[22]
+# ** Note: $stop    : 03_coverage_transition_IGNORE_ILLEGAL_cross.sv(46)
+#    Time: 0 ns  Iteration: 0  Instance: /coverages_03
+# Break in Module coverages_03 at 03_coverage_transition_IGNORE_ILLEGAL_cross.sv line 46
+04_coerage_cross.do
+# couldn't execute ".\04_coerage_cross.do": no such file or directory
+do 04_coerage_cross.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# COMPILING SV FILE
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:25:52 on Mar 10,2023
+# vlog -reportprogress 300 "+acc" "+cover" -coveropt 3 -sv 04coverage_cross.sv 
+# ** Error: (vlog-13069) 04coverage_cross.sv(31): near ";": syntax error, unexpected ';', expecting ','.
+# ** Error: 04coverage_cross.sv(36): (vlog-13205) Syntax error found in the scope following 'clk'. Is there a missing '::'?
+# End time: 16:25:52 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./04_coerage_cross.do line 6
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog +acc +cover -coveropt 3 -sv 04coverage_cross.sv"
+do 04_coerage_cross.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# COMPILING SV FILE
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:26:05 on Mar 10,2023
+# vlog -reportprogress 300 "+acc" "+cover" -coveropt 3 -sv 04coverage_cross.sv 
+# ** Warning: 04coverage_cross.sv(35): (vlog-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# -- Compiling package _04coverage_cross_sv_unit
+# -- Compiling module coverages_04
+# ** Warning: 04coverage_cross.sv(35): (vlog-2244) Variable 'po' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Warning: 04coverage_cross.sv(39): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	coverages_04
+# End time: 16:26:05 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3

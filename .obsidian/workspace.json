@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "09_coverages/functional_coverage report.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "09_coverages/functional_coverage report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "09_coverages/functional_coverage report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "09_coverages/functional_coverage report.md"
               }
             }
           }
@@ -158,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,21 +170,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "287ae26ab957eafc",
+  "active": "6b0d81f9b040db8b",
   "lastOpenFiles": [
-    "08_creating_TB_environments/01_2x1mux/work/_tempmsg",
-    "08_creating_TB_environments/01_2x1mux/work/_temp",
-    "08_creating_TB_environments/01_2x1mux/work/@_opt/_lib5_0.qdx",
-    "08_creating_TB_environments/01_2x1mux/work/@_opt/_lib3_0.qdx",
-    "08_creating_TB_environments/01_2x1mux/work/@_opt/_lib2_0.qdx",
-    "08_creating_TB_environments/01_2x1mux/work/_lock",
-    "08_creating_TB_environments/01_2x1mux/work/_opt__lock",
-    "08_creating_TB_environments/01_2x1mux/work/@_opt/_lib6_0.qdx",
-    "08_creating_TB_environments/01_2x1mux/work/@_opt/_lib.qdx",
-    "08_creating_TB_environments/01_2x1mux/work/@_opt/_lib6_0.qdb",
-    "08_creating_TB_environments/01_2x1mux/work/@_opt/_lib6_0.qtl",
-    "09_coverages/functional_coverage report.md",
+    "09_coverages/work/_lock",
+    "09_coverages/work/_lib1_0.qdb",
+    "09_coverages/work/_lib1_0.qtl",
+    "09_coverages/work/_lib1_0.qpg",
+    "09_coverages/work/_tempmsg",
+    "09_coverages/work/_lib.qdb",
+    "09_coverages/work/_opt__lock",
+    "09_coverages/05_coverage_implicit_explicit.log",
+    "pdfs/ModelSim_Users_Manual_v10.1c.pdf",
+    "pdfs/Unconfirmed 572901.crdownload",
+    "pdfs/ee_cmds.pdf",
+    "09_coverages/Pasted image 20230310163333.png",
     "09_coverages/Pasted image 20230309170939.png",
+    "README.md",
+    "09_coverages/functional_coverage report.md",
     "09_coverages/Pasted image 20230309170831.png",
     "09_coverages/README.md",
     "imgs.md",
@@ -195,7 +196,6 @@
     "test_vt33/01/README.md",
     "test_vt33/02/README.md",
     "test_vt33/02/questions System Verilog.md",
-    "README.md",
     "SV_notes.md",
     "Obsi/systemverilog_nitindinnu/00datatypes_sv/03/store_array_in_queue.sv.md"
   ]

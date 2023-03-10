@@ -14,7 +14,7 @@ class opmonitor;
     task run();
         trnx=new();
         forever begin
-            @(inter.out);
+            @(inter.out); // if past dut-out doesnt change  this event doesnt get triggered so scoreboard test fails
             begin
                 trnx.out=inter.out;
                 $display(">>> OUTPUT MONITOR<<<");
