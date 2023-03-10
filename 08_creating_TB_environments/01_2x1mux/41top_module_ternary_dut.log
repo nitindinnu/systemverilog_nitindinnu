@@ -1,0 +1,375 @@
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt2".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:34:42 on Mar 10,2023
+# vlog -reportprogress 300 41top_module.sv 
+# -- Compiling interface mux_2x1_intf
+# -- Compiling module mux2x1_dut
+# -- Compiling package _41top_module_sv_unit
+# ** Warning: 01generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling program mux_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:34:42 on Mar 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 15:34:42 on Mar 10,2023, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 5
+# vsim work.top -l 41top_module_ternary_dut.log 
+# Start time: 15:34:42 on Mar 10,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 01generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading work._41top_module_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.mux_tb(fast)
+# Loading work.mux2x1_dut(fast)
+# Loading work.mux_2x1_intf(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.out=[x]
+# ------------------------------------------------------
+# 
+#  >>>TRANSACTION CLASS<<<
+# 
+# [transaction]: randomized input values of 2x1mux are i0=[12], i1=[3], sel=[1]
+# [transaction]:default output value of 2x1mux is out=[0]
+# ------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0]=12,i[1]=3,sel=1
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=12,i[1]=3,sel=1,out=0
+# [driver interface]: Data collected by driver is i[0]=12,i[1]=3,sel=1,out=x
+# ----------------------------------------------------------------------------------------------
+# >>> INPUT MONITOR<<<
+# [i/p monitor]: stored data in i/p monitor as packet data is  i0=[12],i1=[3],sel=[1]
+# [BFM]:trnx.out=[3]
+# [i/p monitor to mailbox] data sent from i/p monitor to mailbox is pkt.out=[3]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.out=[3]
+# ------------------------------------------------------
+# >>> OUTPUT MONITOR<<<
+# [O/P monitor] :stored data in o/p monitor as packet data  = [3]
+# [O/P monitor to mail box] :data sent from o/p monitor to mailbox  = [3]
+# ----------------------------------------------------------------------------------------------
+# >>> SCOREBOARD <<<
+# 
+# [scoreboard] ref_pkt.out=[3] 
+# [scoreboard] dut_pkt.out=[3] 
+# ----------------------------- TEST PASSED--[at time=1ns] -------------------------------------------
+# [scoreboard] ref_pkt.out=[3] , dut_pkt.out=[3] 
+# 
+#  >>>TRANSACTION CLASS<<<
+# 
+# [transaction]: randomized input values of 2x1mux are i0=[0], i1=[10], sel=[0]
+# [transaction]:default output value of 2x1mux is out=[0]
+# ------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0]=0,i[1]=10,sel=0
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=0,i[1]=10,sel=0,out=0
+# [driver interface]: Data collected by driver is i[0]=0,i[1]=10,sel=0,out=3
+# ----------------------------------------------------------------------------------------------
+# >>> INPUT MONITOR<<<
+# [i/p monitor]: stored data in i/p monitor as packet data is  i0=[0],i1=[10],sel=[0]
+# [BFM]:trnx.out=[0]
+# [i/p monitor to mailbox] data sent from i/p monitor to mailbox is pkt.out=[0]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.out=[0]
+# ------------------------------------------------------
+# >>> OUTPUT MONITOR<<<
+# [O/P monitor] :stored data in o/p monitor as packet data  = [0]
+# [O/P monitor to mail box] :data sent from o/p monitor to mailbox  = [0]
+# ----------------------------------------------------------------------------------------------
+# >>> SCOREBOARD <<<
+# 
+# [scoreboard] ref_pkt.out=[0] 
+# [scoreboard] dut_pkt.out=[0] 
+# ----------------------------- TEST PASSED--[at time=2ns] -------------------------------------------
+# [scoreboard] ref_pkt.out=[0] , dut_pkt.out=[0] 
+# 
+#  >>>TRANSACTION CLASS<<<
+# 
+# [transaction]: randomized input values of 2x1mux are i0=[4], i1=[13], sel=[0]
+# [transaction]:default output value of 2x1mux is out=[0]
+# ------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0]=4,i[1]=13,sel=0
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=4,i[1]=13,sel=0,out=0
+# [driver interface]: Data collected by driver is i[0]=4,i[1]=13,sel=0,out=0
+# ----------------------------------------------------------------------------------------------
+# >>> INPUT MONITOR<<<
+# [i/p monitor]: stored data in i/p monitor as packet data is  i0=[4],i1=[13],sel=[0]
+# [BFM]:trnx.out=[4]
+# [i/p monitor to mailbox] data sent from i/p monitor to mailbox is pkt.out=[4]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.out=[4]
+# ------------------------------------------------------
+# >>> OUTPUT MONITOR<<<
+# [O/P monitor] :stored data in o/p monitor as packet data  = [4]
+# [O/P monitor to mail box] :data sent from o/p monitor to mailbox  = [4]
+# ----------------------------------------------------------------------------------------------
+# >>> SCOREBOARD <<<
+# 
+# [scoreboard] ref_pkt.out=[4] 
+# [scoreboard] dut_pkt.out=[4] 
+# ----------------------------- TEST PASSED--[at time=3ns] -------------------------------------------
+# [scoreboard] ref_pkt.out=[4] , dut_pkt.out=[4] 
+# 
+#  >>>TRANSACTION CLASS<<<
+# 
+# [transaction]: randomized input values of 2x1mux are i0=[11], i1=[4], sel=[1]
+# [transaction]:default output value of 2x1mux is out=[0]
+# ------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0]=11,i[1]=4,sel=1
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=11,i[1]=4,sel=1,out=0
+# [driver interface]: Data collected by driver is i[0]=11,i[1]=4,sel=1,out=4
+# ----------------------------------------------------------------------------------------------
+# >>> INPUT MONITOR<<<
+# [i/p monitor]: stored data in i/p monitor as packet data is  i0=[11],i1=[4],sel=[1]
+# [BFM]:trnx.out=[4]
+# [i/p monitor to mailbox] data sent from i/p monitor to mailbox is pkt.out=[4]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.out=[4]
+# ------------------------------------------------------
+# 
+#  >>>TRANSACTION CLASS<<<
+# 
+# [transaction]: randomized input values of 2x1mux are i0=[15], i1=[15], sel=[1]
+# [transaction]:default output value of 2x1mux is out=[0]
+# ------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0]=15,i[1]=15,sel=1
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=15,i[1]=15,sel=1,out=0
+# [driver interface]: Data collected by driver is i[0]=15,i[1]=15,sel=1,out=4
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.out=[15]
+# ------------------------------------------------------
+# >>> OUTPUT MONITOR<<<
+# [O/P monitor] :stored data in o/p monitor as packet data  = [15]
+# [O/P monitor to mail box] :data sent from o/p monitor to mailbox  = [15]
+# ----------------------------------------------------------------------------------------------
+# >>> SCOREBOARD <<<
+# 
+# [scoreboard] ref_pkt.out=[4] 
+# [scoreboard] dut_pkt.out=[15] 
+# ----------------------------- TEST FAILED--[at time=5ns] --------------------------------------------
+# [scoreboard] ref_pkt.out=[4] ,  dut_pkt.out=[15]
+# ----------------------------------------------------------------------------------------------
+# 
+#  >>>TRANSACTION CLASS<<<
+# 
+# [transaction]: randomized input values of 2x1mux are i0=[3], i1=[6], sel=[0]
+# [transaction]:default output value of 2x1mux is out=[0]
+# ------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0]=3,i[1]=6,sel=0
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=3,i[1]=6,sel=0,out=0
+# [driver interface]: Data collected by driver is i[0]=3,i[1]=6,sel=0,out=15
+# ----------------------------------------------------------------------------------------------
+# >>> INPUT MONITOR<<<
+# [i/p monitor]: stored data in i/p monitor as packet data is  i0=[3],i1=[6],sel=[0]
+# [BFM]:trnx.out=[3]
+# [i/p monitor to mailbox] data sent from i/p monitor to mailbox is pkt.out=[3]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.out=[3]
+# ------------------------------------------------------
+# >>> OUTPUT MONITOR<<<
+# [O/P monitor] :stored data in o/p monitor as packet data  = [3]
+# [O/P monitor to mail box] :data sent from o/p monitor to mailbox  = [3]
+# ----------------------------------------------------------------------------------------------
+# >>> SCOREBOARD <<<
+# 
+# [scoreboard] ref_pkt.out=[3] 
+# [scoreboard] dut_pkt.out=[3] 
+# ----------------------------- TEST PASSED--[at time=6ns] -------------------------------------------
+# [scoreboard] ref_pkt.out=[3] , dut_pkt.out=[3] 
+# 
+#  >>>TRANSACTION CLASS<<<
+# 
+# [transaction]: randomized input values of 2x1mux are i0=[7], i1=[9], sel=[1]
+# [transaction]:default output value of 2x1mux is out=[0]
+# ------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0]=7,i[1]=9,sel=1
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=7,i[1]=9,sel=1,out=0
+# [driver interface]: Data collected by driver is i[0]=7,i[1]=9,sel=1,out=3
+# ----------------------------------------------------------------------------------------------
+# >>> INPUT MONITOR<<<
+# [i/p monitor]: stored data in i/p monitor as packet data is  i0=[7],i1=[9],sel=[1]
+# [BFM]:trnx.out=[9]
+# [i/p monitor to mailbox] data sent from i/p monitor to mailbox is pkt.out=[9]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.out=[9]
+# ------------------------------------------------------
+# >>> OUTPUT MONITOR<<<
+# [O/P monitor] :stored data in o/p monitor as packet data  = [9]
+# [O/P monitor to mail box] :data sent from o/p monitor to mailbox  = [9]
+# ----------------------------------------------------------------------------------------------
+# >>> SCOREBOARD <<<
+# 
+# [scoreboard] ref_pkt.out=[9] 
+# [scoreboard] dut_pkt.out=[9] 
+# ----------------------------- TEST PASSED--[at time=7ns] -------------------------------------------
+# [scoreboard] ref_pkt.out=[9] , dut_pkt.out=[9] 
+# 
+#  >>>TRANSACTION CLASS<<<
+# 
+# [transaction]: randomized input values of 2x1mux are i0=[10], i1=[0], sel=[0]
+# [transaction]:default output value of 2x1mux is out=[0]
+# ------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0]=10,i[1]=0,sel=0
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=10,i[1]=0,sel=0,out=0
+# [driver interface]: Data collected by driver is i[0]=10,i[1]=0,sel=0,out=9
+# ----------------------------------------------------------------------------------------------
+# >>> INPUT MONITOR<<<
+# [i/p monitor]: stored data in i/p monitor as packet data is  i0=[10],i1=[0],sel=[0]
+# [BFM]:trnx.out=[10]
+# [i/p monitor to mailbox] data sent from i/p monitor to mailbox is pkt.out=[10]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.out=[10]
+# ------------------------------------------------------
+# >>> OUTPUT MONITOR<<<
+# [O/P monitor] :stored data in o/p monitor as packet data  = [10]
+# [O/P monitor to mail box] :data sent from o/p monitor to mailbox  = [10]
+# ----------------------------------------------------------------------------------------------
+# >>> SCOREBOARD <<<
+# 
+# [scoreboard] ref_pkt.out=[10] 
+# [scoreboard] dut_pkt.out=[10] 
+# ----------------------------- TEST PASSED--[at time=8ns] -------------------------------------------
+# [scoreboard] ref_pkt.out=[10] , dut_pkt.out=[10] 
+# 
+#  >>>TRANSACTION CLASS<<<
+# 
+# [transaction]: randomized input values of 2x1mux are i0=[14], i1=[11], sel=[1]
+# [transaction]:default output value of 2x1mux is out=[0]
+# ------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0]=14,i[1]=11,sel=1
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=14,i[1]=11,sel=1,out=0
+# [driver interface]: Data collected by driver is i[0]=14,i[1]=11,sel=1,out=10
+# ----------------------------------------------------------------------------------------------
+# >>> INPUT MONITOR<<<
+# [i/p monitor]: stored data in i/p monitor as packet data is  i0=[14],i1=[11],sel=[1]
+# [BFM]:trnx.out=[11]
+# [i/p monitor to mailbox] data sent from i/p monitor to mailbox is pkt.out=[11]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.out=[11]
+# ------------------------------------------------------
+# >>> OUTPUT MONITOR<<<
+# [O/P monitor] :stored data in o/p monitor as packet data  = [11]
+# [O/P monitor to mail box] :data sent from o/p monitor to mailbox  = [11]
+# ----------------------------------------------------------------------------------------------
+# >>> SCOREBOARD <<<
+# 
+# [scoreboard] ref_pkt.out=[11] 
+# [scoreboard] dut_pkt.out=[11] 
+# ----------------------------- TEST PASSED--[at time=9ns] -------------------------------------------
+# [scoreboard] ref_pkt.out=[11] , dut_pkt.out=[11] 
+# 
+#  >>>TRANSACTION CLASS<<<
+# 
+# [transaction]: randomized input values of 2x1mux are i0=[2], i1=[2], sel=[0]
+# [transaction]:default output value of 2x1mux is out=[0]
+# ------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0]=2,i[1]=2,sel=0
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=2,i[1]=2,sel=0,out=0
+# [driver interface]: Data collected by driver is i[0]=2,i[1]=2,sel=0,out=11
+# ----------------------------------------------------------------------------------------------
+# >>> INPUT MONITOR<<<
+# [i/p monitor]: stored data in i/p monitor as packet data is  i0=[2],i1=[2],sel=[0]
+# [BFM]:trnx.out=[2]
+# [i/p monitor to mailbox] data sent from i/p monitor to mailbox is pkt.out=[2]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.out=[2]
+# ------------------------------------------------------
+# >>> OUTPUT MONITOR<<<
+# [O/P monitor] :stored data in o/p monitor as packet data  = [2]
+# [O/P monitor to mail box] :data sent from o/p monitor to mailbox  = [2]
+# ----------------------------------------------------------------------------------------------
+# >>> SCOREBOARD <<<
+# 
+# [scoreboard] ref_pkt.out=[2] 
+# [scoreboard] dut_pkt.out=[2] 
+# ----------------------------- TEST PASSED--[at time=10ns] -------------------------------------------
+# [scoreboard] ref_pkt.out=[2] , dut_pkt.out=[2] 
+# ** Note: implicit $finish from program    : 05scoreboard.sv(21)
+#    Time: 11 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.

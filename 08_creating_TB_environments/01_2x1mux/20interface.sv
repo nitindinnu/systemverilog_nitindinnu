@@ -1,7 +1,7 @@
-interface mux2x1_intf;
-    logic[3:0] i0,i1;
+interface mux_2x1_intf;
+    logic [3:0]i0,i1;
     logic sel;
-    logic[3:0] out;
+    logic [3:0]out;
 
     modport dut (
     input i0,i1,sel,

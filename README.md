@@ -7,6 +7,7 @@
 # Datatypes in SV
 
 - ![](https://www.chipverify.com/images/verilog/data-types.png)
+- 
 
 
 
