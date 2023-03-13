@@ -1,0 +1,846 @@
+# End time: 11:55:50 on Mar 13,2023, Elapsed time: 1:19:29
+# Errors: 9, Warnings: 10
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 11:55:50 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(42): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=0,i1=0,i2=0,i3=0
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=170,i1=209,i2=245,i3=142
+# out puts of decoder are y0=0,y1=0
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=170,i1=209,i2=245,i3=142
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=240,i1=184,i2=244,i3=185
+# out puts of decoder are y0=0,y1=0
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=240,i1=184,i2=244,i3=185
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=30,i1=3,i2=246,i3=168
+# out puts of decoder are y0=0,y1=0
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=30,i1=3,i2=246,i3=168
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=167,i1=235,i2=241,i3=91
+# out puts of decoder are y0=0,y1=0
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=167,i1=235,i2=241,i3=91
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=205,i1=114,i2=243,i3=74
+# out puts of decoder are y0=0,y1=0
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:59:31 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(42): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 11:59:31 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 11:59:32 on Mar 13,2023, Elapsed time: 0:03:42
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 11:59:32 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): 03driver.sv(53): (vopt-7063) Failed to find 'a' in hierarchical name '$root.a'.
+#         Region: _50top_sv_unit
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./60top.do PAUSED at line 6
+cd {D:\Obsi\systemverilog_nitindinnu\08_creating_TB_environments\02_encoder}
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:00:09 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(42): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:00:09 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 11:59:32 on Mar 13,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(42): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=0,i1=0,i2=0,i3=0
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=170,i1=209,i2=245,i3=142
+# out puts of decoder are y0=0,y1=0
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=170,i1=209,i2=245,i3=142
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=240,i1=184,i2=244,i3=185
+# out puts of decoder are y0=0,y1=0
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=240,i1=184,i2=244,i3=185
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=30,i1=3,i2=246,i3=168
+# out puts of decoder are y0=0,y1=0
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=30,i1=3,i2=246,i3=168
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=167,i1=235,i2=241,i3=91
+# out puts of decoder are y0=0,y1=0
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=167,i1=235,i2=241,i3=91
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=205,i1=114,i2=243,i3=74
+# out puts of decoder are y0=0,y1=0
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:04:44 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(42): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:04:45 on Mar 13,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# End time: 12:04:46 on Mar 13,2023, Elapsed time: 0:05:14
+# Errors: 1, Warnings: 6
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 12:04:46 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(42): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=0,i1=0,i2=0,i3=0
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=170,i1=209,i2=245,i3=142
+# out puts of decoder are y0=0,y1=0
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=170,i1=209,i2=245,i3=142
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=240,i1=184,i2=244,i3=185
+# out puts of decoder are y0=0,y1=0
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=240,i1=184,i2=244,i3=185
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=30,i1=3,i2=246,i3=168
+# out puts of decoder are y0=0,y1=0
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=30,i1=3,i2=246,i3=168
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=167,i1=235,i2=241,i3=91
+# out puts of decoder are y0=0,y1=0
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0=167,i1=235,i2=241,i3=91
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=205,i1=114,i2=243,i3=74
+# out puts of decoder are y0=0,y1=0
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:05:05 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(42): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:05:05 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:05:07 on Mar 13,2023, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 12:05:07 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(42): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=170,i1=209,i2=245,i3=142
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=240,i1=184,i2=244,i3=185
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=30,i1=3,i2=246,i3=168
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=167,i1=235,i2=241,i3=91
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=205,i1=114,i2=243,i3=74
+# out puts of decoder are y0=0,y1=0
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:07:50 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(42): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:07:50 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:07:52 on Mar 13,2023, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 12:07:52 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(42): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=170,i1=209,i2=245,i3=142
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=240,i1=184,i2=244,i3=185
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=30,i1=3,i2=246,i3=168
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=167,i1=235,i2=241,i3=91
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=205,i1=114,i2=243,i3=74
+# out puts of decoder are y0=0,y1=0
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:25:20 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Error: 06scoreboard.sv(14): (vlog-2730) Undefined variable: 'dut_pk'.
+# ** Warning: 10environment.sv(43): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# ** Error: 06scoreboard.sv(14): (vlog-2730) Undefined variable: 'dut_pk'.
+# -- Compiling module top
+# End time: 12:25:20 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./60top.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 50top.sv "
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:25:41 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:25:41 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:25:42 on Mar 13,2023, Elapsed time: 0:17:50
+# Errors: 5, Warnings: 9
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 12:25:42 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): 06scoreboard.sv(31): (vopt-7063) Failed to find 'a' in hierarchical name '$root.a.y'.
+#         Region: _50top_sv_unit
+# ** Error (suppressible): 06scoreboard.sv(31): (vopt-7063) Failed to find 'b' in hierarchical name '$root.b.y'.
+#         Region: _50top_sv_unit
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./60top.do PAUSED at line 6
+cd {D:\Obsi\systemverilog_nitindinnu\08_creating_TB_environments\02_encoder}
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:26:29 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:26:29 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 12:25:42 on Mar 13,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=170,i1=209,i2=245,i3=142
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=240,i1=184,i2=244,i3=185
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=30,i1=3,i2=246,i3=168
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=167,i1=235,i2=241,i3=91
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=205,i1=114,i2=243,i3=74
+# out puts of decoder are y0=0,y1=0
+# ** Note: implicit $finish from program    : 01transaction.sv(8)
+#    Time: 6 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:27:39 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:27:39 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:27:40 on Mar 13,2023, Elapsed time: 0:01:58
+# Errors: 2, Warnings: 6
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 12:27:40 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=170,i1=209,i2=245,i3=142
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=240,i1=184,i2=244,i3=185
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=30,i1=3,i2=246,i3=168
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=167,i1=235,i2=241,i3=91
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=205,i1=114,i2=243,i3=74
+# out puts of decoder are y0=0,y1=0
+# ** Note: implicit $finish from program    : 01transaction.sv(8)
+#    Time: 5 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:30:16 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:30:16 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:30:17 on Mar 13,2023, Elapsed time: 0:02:37
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 12:30:17 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=170,i1=209,i2=245,i3=142
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=240,i1=184,i2=244,i3=185
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=30,i1=3,i2=246,i3=168
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=167,i1=235,i2=241,i3=91
+# out puts of decoder are y0=0,y1=0
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0=205,i1=114,i2=243,i3=74
+# out puts of decoder are y0=0,y1=0
+# ** Note: implicit $finish from program    : 01transaction.sv(8)
+#    Time: 5 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:32:42 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:32:42 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:32:43 on Mar 13,2023, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 12:32:43 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [142 245 209 170]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [185 244 184 240]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [168 246 3 30]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [91 241 235 167]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [74 243 114 205]
+# out puts of decoder are y0,y1 =[0 0]
+# ** Note: implicit $finish from program    : 01transaction.sv(8)
+#    Time: 5 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:33:11 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:33:11 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:33:12 on Mar 13,2023, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 12:33:12 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [142 245 209 170]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [185 244 184 240]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [168 246 3 30]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [91 241 235 167]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [74 243 114 205]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [101 242 197 107]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [20 253 173 177]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [7 255 52 223]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [54 254 159 101]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [33 248 103 131]
+# out puts of decoder are y0,y1 =[0 0]
+# ** Note: implicit $finish from program    : 01transaction.sv(8)
+#    Time: 10 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:36:24 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:36:24 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:36:25 on Mar 13,2023, Elapsed time: 0:03:13
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 12:36:25 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [142 245 209 170]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [185 244 184 240]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [168 246 3 30]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [91 241 235 167]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [74 243 114 205]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [101 242 197 107]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [20 253 173 177]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [7 255 52 223]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [54 254 159 101]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [33 248 103 131]
+# out puts of decoder are y0,y1 =[0 0]
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:38:28 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:38:28 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:38:29 on Mar 13,2023, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 12:38:29 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[x x]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [142 245 209 170]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [185 244 184 240]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [168 246 3 30]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [91 241 235 167]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [74 243 114 205]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [101 242 197 107]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [20 253 173 177]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [7 255 52 223]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [54 254 159 101]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [33 248 103 131]
+# out puts of decoder are y0,y1 =[0 0]
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:39:19 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:39:19 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 12:39:19 on Mar 13,2023, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode2ndrun.log 
+# Start time: 12:39:19 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(43): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(28): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[x x]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [52 145 179 29]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [26 118 25 100]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [105 212 231 79]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [124 181 77 86]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [66 107 40 185]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [81 201 182 128]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [164 174 28 232]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [138 12 250 243]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [153 237 64 218]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [239 67 46 45]
+# out puts of decoder are y0,y1 =[0 0]
+# End time: 13:14:14 on Mar 13,2023, Elapsed time: 0:34:55
+# Errors: 0, Warnings: 3

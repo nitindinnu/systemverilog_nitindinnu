@@ -1,0 +1,1959 @@
+# vsim work.top_fa -l 30top01.log 
+# Start time: 22:13:07 on Mar 13,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 02generator.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(39): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(25): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._30top_sv_unit(fast)
+# Loading work.top_fa(fast)
+# Loading work.fa_pb_block(fast)
+# Loading work.fa_dut(fast)
+# Loading work.fa_interface(fast)
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 9, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,9,0]
+# at driver data recieved from mailbox = [a=1,b=9,cin=0]
+# 
+# at interface randomozed values through driver= [a=1,b=9,cin=0]
+# ----------------------------- TEST FAILED--[at time=1ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[8],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[0] 
+# at ///DUT/// sum =0,carry=10
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[8, 8, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[8,8,0]
+# at driver data recieved from mailbox = [a=8,b=8,cin=0]
+# 
+# at interface randomozed values through driver= [a=8,b=8,cin=0]
+# ----------------------------- TEST FAILED--[at time=2ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[0],dut_out.sum[0] , ref_out.carry=[8],dut_out.carry[10] 
+# at ///DUT/// sum =0,carry=16
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[5, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[5,4,0]
+# at driver data recieved from mailbox = [a=5,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=5,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=3ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[16] 
+# at ///DUT/// sum =0,carry=9
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 7, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,7,0]
+# at driver data recieved from mailbox = [a=6,b=7,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=7,cin=0]
+# ----------------------------- TEST FAILED--[at time=4ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[6],dut_out.carry[9] 
+# at ///DUT/// sum =0,carry=13
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[11, 10, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[11,10,0]
+# at driver data recieved from mailbox = [a=11,b=10,cin=0]
+# 
+# at interface randomozed values through driver= [a=11,b=10,cin=0]
+# ----------------------------- TEST FAILED--[at time=5ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[10],dut_out.carry[13] 
+# at ///DUT/// sum =0,carry=21
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[5, 3, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[5,3,0]
+# at driver data recieved from mailbox = [a=5,b=3,cin=0]
+# 
+# at interface randomozed values through driver= [a=5,b=3,cin=0]
+# ----------------------------- TEST FAILED--[at time=6ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[6],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[21] 
+# at ///DUT/// sum =0,carry=8
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[2, 12, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[2,12,0]
+# at driver data recieved from mailbox = [a=2,b=12,cin=0]
+# 
+# at interface randomozed values through driver= [a=2,b=12,cin=0]
+# ----------------------------- TEST FAILED--[at time=7ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[14],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[8] 
+# at ///DUT/// sum =0,carry=14
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 8, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,8,0]
+# at driver data recieved from mailbox = [a=12,b=8,cin=0]
+# 
+# at interface randomozed values through driver= [a=12,b=8,cin=0]
+# ----------------------------- TEST FAILED--[at time=8ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[4],dut_out.sum[0] , ref_out.carry=[8],dut_out.carry[14] 
+# at ///DUT/// sum =0,carry=20
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[14, 10, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[14,10,0]
+# at driver data recieved from mailbox = [a=14,b=10,cin=0]
+# 
+# at interface randomozed values through driver= [a=14,b=10,cin=0]
+# ----------------------------- TEST FAILED--[at time=9ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[4],dut_out.sum[0] , ref_out.carry=[10],dut_out.carry[20] 
+# at ///DUT/// sum =0,carry=24
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 5, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,5,0]
+# at driver data recieved from mailbox = [a=1,b=5,cin=0]
+# 
+# at interface randomozed values through driver= [a=1,b=5,cin=0]
+# ----------------------------- TEST FAILED--[at time=10ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[4],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[24] 
+# at ///DUT/// sum =0,carry=6
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[3, 3, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[3,3,0]
+# at driver data recieved from mailbox = [a=3,b=3,cin=0]
+# 
+# at interface randomozed values through driver= [a=3,b=3,cin=0]
+# ----------------------------- TEST FAILED--[at time=11ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[0],dut_out.sum[0] , ref_out.carry=[3],dut_out.carry[6] 
+# at ///DUT/// sum =0,carry=6
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[5, 14, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[5,14,0]
+# at driver data recieved from mailbox = [a=5,b=14,cin=0]
+# 
+# at interface randomozed values through driver= [a=5,b=14,cin=0]
+# ----------------------------- TEST FAILED--[at time=12ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[11],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[6] 
+# at ///DUT/// sum =0,carry=19
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[14, 3, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[14,3,0]
+# at driver data recieved from mailbox = [a=14,b=3,cin=0]
+# 
+# at interface randomozed values through driver= [a=14,b=3,cin=0]
+# ----------------------------- TEST FAILED--[at time=13ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[13],dut_out.sum[0] , ref_out.carry=[2],dut_out.carry[19] 
+# at ///DUT/// sum =0,carry=17
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 8, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,8,0]
+# at driver data recieved from mailbox = [a=6,b=8,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=8,cin=0]
+# ----------------------------- TEST FAILED--[at time=14ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[14],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[17] 
+# at ///DUT/// sum =0,carry=14
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,4,0]
+# at driver data recieved from mailbox = [a=6,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=15ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[14] 
+# at ///DUT/// sum =0,carry=10
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[5, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[5,4,0]
+# at driver data recieved from mailbox = [a=5,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=5,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=16ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[10] 
+# at ///DUT/// sum =0,carry=9
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[14, 15, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[14,15,0]
+# at driver data recieved from mailbox = [a=14,b=15,cin=0]
+# 
+# at interface randomozed values through driver= [a=14,b=15,cin=0]
+# ----------------------------- TEST FAILED--[at time=17ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[14],dut_out.carry[9] 
+# at ///DUT/// sum =0,carry=29
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,4,0]
+# at driver data recieved from mailbox = [a=6,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=18ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[29] 
+# at ///DUT/// sum =0,carry=10
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[11, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[11,4,0]
+# at driver data recieved from mailbox = [a=11,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=11,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=19ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[15],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[10] 
+# at ///DUT/// sum =0,carry=15
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 8, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,8,0]
+# at driver data recieved from mailbox = [a=6,b=8,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=8,cin=0]
+# ----------------------------- TEST FAILED--[at time=20ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[14],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[15] 
+# at ///DUT/// sum =0,carry=14
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[11, 6, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[11,6,0]
+# at driver data recieved from mailbox = [a=11,b=6,cin=0]
+# 
+# at interface randomozed values through driver= [a=11,b=6,cin=0]
+# ----------------------------- TEST FAILED--[at time=21ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[13],dut_out.sum[0] , ref_out.carry=[2],dut_out.carry[14] 
+# at ///DUT/// sum =0,carry=17
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[8, 10, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[8,10,0]
+# at driver data recieved from mailbox = [a=8,b=10,cin=0]
+# 
+# at interface randomozed values through driver= [a=8,b=10,cin=0]
+# ----------------------------- TEST FAILED--[at time=22ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[0] , ref_out.carry=[8],dut_out.carry[17] 
+# at ///DUT/// sum =0,carry=18
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 15, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,15,0]
+# at driver data recieved from mailbox = [a=12,b=15,cin=0]
+# 
+# at interface randomozed values through driver= [a=12,b=15,cin=0]
+# ----------------------------- TEST FAILED--[at time=23ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[3],dut_out.sum[0] , ref_out.carry=[12],dut_out.carry[18] 
+# at ///DUT/// sum =0,carry=27
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[2, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[2,4,0]
+# at driver data recieved from mailbox = [a=2,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=2,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=24ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[6],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[27] 
+# at ///DUT/// sum =0,carry=6
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 13, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,13,0]
+# at driver data recieved from mailbox = [a=12,b=13,cin=0]
+# 
+# at interface randomozed values through driver= [a=12,b=13,cin=0]
+# ----------------------------- TEST FAILED--[at time=25ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[12],dut_out.carry[6] 
+# at ///DUT/// sum =0,carry=25
+# ** Note: implicit $finish from program    : 20dut_fa.sv(7)
+#    Time: 26 ns  Iteration: 0  Instance: /top_fa/tb
+# 1
+# Simulation stop requested.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:14:12 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling package _30top_sv_unit
+# ** Warning: 02generator.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(39): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program fa_pb_block
+# -- Compiling interface fa_interface
+# -- Compiling module fa_dut
+# -- Compiling module top_fa
+# 
+# Top level modules:
+# 	top_fa
+# End time: 22:14:12 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 22:14:13 on Mar 13,2023, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 6
+# vsim work.top_fa -l 30top01.log 
+# Start time: 22:14:13 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(39): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(25): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._30top_sv_unit(fast)
+# Loading work.top_fa(fast)
+# Loading work.fa_pb_block(fast)
+# Loading work.fa_dut(fast)
+# Loading work.fa_interface(fast)
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 9, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,9,0]
+# at driver data recieved from mailbox = [a=1,b=9,cin=0]
+# 
+# at interface randomozed values through driver= [a=1,b=9,cin=0]
+# ----------------------------- TEST FAILED--[at time=1ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[8],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[0] 
+# at ///DUT/// sum =0,carry=10
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[8, 8, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[8,8,0]
+# at driver data recieved from mailbox = [a=8,b=8,cin=0]
+# 
+# at interface randomozed values through driver= [a=8,b=8,cin=0]
+# ----------------------------- TEST FAILED--[at time=2ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[0],dut_out.sum[0] , ref_out.carry=[8],dut_out.carry[10] 
+# at ///DUT/// sum =1,carry=0
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[5, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[5,4,0]
+# at driver data recieved from mailbox = [a=5,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=5,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=3ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[1] , ref_out.carry=[4],dut_out.carry[0] 
+# at ///DUT/// sum =0,carry=9
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 7, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,7,0]
+# at driver data recieved from mailbox = [a=6,b=7,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=7,cin=0]
+# ----------------------------- TEST FAILED--[at time=4ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[6],dut_out.carry[9] 
+# at ///DUT/// sum =0,carry=13
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[11, 10, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[11,10,0]
+# at driver data recieved from mailbox = [a=11,b=10,cin=0]
+# 
+# at interface randomozed values through driver= [a=11,b=10,cin=0]
+# ----------------------------- TEST FAILED--[at time=5ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[10],dut_out.carry[13] 
+# at ///DUT/// sum =1,carry=5
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[5, 3, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[5,3,0]
+# at driver data recieved from mailbox = [a=5,b=3,cin=0]
+# 
+# at interface randomozed values through driver= [a=5,b=3,cin=0]
+# ----------------------------- TEST FAILED--[at time=6ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[6],dut_out.sum[1] , ref_out.carry=[1],dut_out.carry[5] 
+# at ///DUT/// sum =0,carry=8
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[2, 12, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[2,12,0]
+# at driver data recieved from mailbox = [a=2,b=12,cin=0]
+# 
+# at interface randomozed values through driver= [a=2,b=12,cin=0]
+# ----------------------------- TEST FAILED--[at time=7ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[14],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[8] 
+# at ///DUT/// sum =0,carry=14
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 8, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,8,0]
+# at driver data recieved from mailbox = [a=12,b=8,cin=0]
+# 
+# at interface randomozed values through driver= [a=12,b=8,cin=0]
+# ----------------------------- TEST FAILED--[at time=8ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[4],dut_out.sum[0] , ref_out.carry=[8],dut_out.carry[14] 
+# at ///DUT/// sum =1,carry=4
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[14, 10, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[14,10,0]
+# at driver data recieved from mailbox = [a=14,b=10,cin=0]
+# 
+# at interface randomozed values through driver= [a=14,b=10,cin=0]
+# ----------------------------- TEST FAILED--[at time=9ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[4],dut_out.sum[1] , ref_out.carry=[10],dut_out.carry[4] 
+# at ///DUT/// sum =1,carry=8
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 5, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,5,0]
+# at driver data recieved from mailbox = [a=1,b=5,cin=0]
+# 
+# at interface randomozed values through driver= [a=1,b=5,cin=0]
+# ----------------------------- TEST FAILED--[at time=10ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[4],dut_out.sum[1] , ref_out.carry=[1],dut_out.carry[8] 
+# at ///DUT/// sum =0,carry=6
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[3, 3, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[3,3,0]
+# at driver data recieved from mailbox = [a=3,b=3,cin=0]
+# 
+# at interface randomozed values through driver= [a=3,b=3,cin=0]
+# ----------------------------- TEST FAILED--[at time=11ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[0],dut_out.sum[0] , ref_out.carry=[3],dut_out.carry[6] 
+# at ///DUT/// sum =0,carry=6
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[5, 14, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[5,14,0]
+# at driver data recieved from mailbox = [a=5,b=14,cin=0]
+# 
+# at interface randomozed values through driver= [a=5,b=14,cin=0]
+# ----------------------------- TEST FAILED--[at time=12ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[11],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[6] 
+# at ///DUT/// sum =1,carry=3
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[14, 3, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[14,3,0]
+# at driver data recieved from mailbox = [a=14,b=3,cin=0]
+# 
+# at interface randomozed values through driver= [a=14,b=3,cin=0]
+# ----------------------------- TEST FAILED--[at time=13ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[13],dut_out.sum[1] , ref_out.carry=[2],dut_out.carry[3] 
+# at ///DUT/// sum =1,carry=1
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 8, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,8,0]
+# at driver data recieved from mailbox = [a=6,b=8,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=8,cin=0]
+# ----------------------------- TEST FAILED--[at time=14ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[14],dut_out.sum[1] , ref_out.carry=[0],dut_out.carry[1] 
+# at ///DUT/// sum =0,carry=14
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,4,0]
+# at driver data recieved from mailbox = [a=6,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=15ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[14] 
+# at ///DUT/// sum =0,carry=10
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[5, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[5,4,0]
+# at driver data recieved from mailbox = [a=5,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=5,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=16ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[10] 
+# at ///DUT/// sum =0,carry=9
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[14, 15, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[14,15,0]
+# at driver data recieved from mailbox = [a=14,b=15,cin=0]
+# 
+# at interface randomozed values through driver= [a=14,b=15,cin=0]
+# ----------------------------- TEST FAILED--[at time=17ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[14],dut_out.carry[9] 
+# at ///DUT/// sum =1,carry=13
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,4,0]
+# at driver data recieved from mailbox = [a=6,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=18ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[1] , ref_out.carry=[4],dut_out.carry[13] 
+# at ///DUT/// sum =0,carry=10
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[11, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[11,4,0]
+# at driver data recieved from mailbox = [a=11,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=11,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=19ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[15],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[10] 
+# at ///DUT/// sum =0,carry=15
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 8, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,8,0]
+# at driver data recieved from mailbox = [a=6,b=8,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=8,cin=0]
+# ----------------------------- TEST FAILED--[at time=20ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[14],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[15] 
+# at ///DUT/// sum =0,carry=14
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[11, 6, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[11,6,0]
+# at driver data recieved from mailbox = [a=11,b=6,cin=0]
+# 
+# at interface randomozed values through driver= [a=11,b=6,cin=0]
+# ----------------------------- TEST FAILED--[at time=21ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[13],dut_out.sum[0] , ref_out.carry=[2],dut_out.carry[14] 
+# at ///DUT/// sum =1,carry=1
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[8, 10, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[8,10,0]
+# at driver data recieved from mailbox = [a=8,b=10,cin=0]
+# 
+# at interface randomozed values through driver= [a=8,b=10,cin=0]
+# ----------------------------- TEST FAILED--[at time=22ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[1] , ref_out.carry=[8],dut_out.carry[1] 
+# at ///DUT/// sum =1,carry=2
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 15, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,15,0]
+# at driver data recieved from mailbox = [a=12,b=15,cin=0]
+# 
+# at interface randomozed values through driver= [a=12,b=15,cin=0]
+# ----------------------------- TEST FAILED--[at time=23ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[3],dut_out.sum[1] , ref_out.carry=[12],dut_out.carry[2] 
+# at ///DUT/// sum =1,carry=11
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[2, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[2,4,0]
+# at driver data recieved from mailbox = [a=2,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=2,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=24ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[6],dut_out.sum[1] , ref_out.carry=[0],dut_out.carry[11] 
+# at ///DUT/// sum =0,carry=6
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 13, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,13,0]
+# at driver data recieved from mailbox = [a=12,b=13,cin=0]
+# 
+# at interface randomozed values through driver= [a=12,b=13,cin=0]
+# ----------------------------- TEST FAILED--[at time=25ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[12],dut_out.carry[6] 
+# at ///DUT/// sum =1,carry=9
+# ** Note: implicit $finish from program    : 20dut_fa.sv(7)
+#    Time: 26 ns  Iteration: 0  Instance: /top_fa/tb
+# 1
+# Simulation stop requested.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:18:37 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(1)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(6)
+# ** at 06scoreboard.sv(26): near "function": syntax error, unexpected function.
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(1)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(6)
+# ** at 06scoreboard.sv(29): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at 30top.sv(1)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** at 10environment.sv(21): Illegal declaration after the statement near line '8'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(1)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** at 10environment.sv(23): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(1)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** at 10environment.sv(36): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at 30top.sv(1)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(5): Invalid type 'environment_fa'. Please check the type of the variable 'env'.
+# ** Error: ** while parsing file included at 30top.sv(1)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(14): (vlog-2730) Undefined variable: 'env'.
+# End time: 22:18:37 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:19:45 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling package _30top_sv_unit
+# ** Warning: 02generator.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(39): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program fa_pb_block
+# -- Compiling interface fa_interface
+# -- Compiling module fa_dut
+# -- Compiling module top_fa
+# 
+# Top level modules:
+# 	top_fa
+# End time: 22:19:45 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 22:19:46 on Mar 13,2023, Elapsed time: 0:05:33
+# Errors: 10, Warnings: 7
+# vsim work.top_fa -l 30top01.log 
+# Start time: 22:19:46 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(39): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(25): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._30top_sv_unit(fast)
+# Loading work.top_fa(fast)
+# Loading work.fa_pb_block(fast)
+# Loading work.fa_dut(fast)
+# Loading work.fa_interface(fast)
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,4,0]
+# at driver data recieved from mailbox = [a=1,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=1,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=1ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[5],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[0] 
+# at ///DUT/// sum =0,carry=5
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 8, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,8,0]
+# at driver data recieved from mailbox = [a=1,b=8,cin=0]
+# 
+# at interface randomozed values through driver= [a=1,b=8,cin=0]
+# ----------------------------- TEST FAILED--[at time=2ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[9],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[5] 
+# at ///DUT/// sum =0,carry=9
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[11, 13, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[11,13,0]
+# at driver data recieved from mailbox = [a=11,b=13,cin=0]
+# 
+# at interface randomozed values through driver= [a=11,b=13,cin=0]
+# ----------------------------- TEST FAILED--[at time=3ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[6],dut_out.sum[0] , ref_out.carry=[9],dut_out.carry[9] 
+# at ///DUT/// sum =0,carry=24
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,4,0]
+# at driver data recieved from mailbox = [a=6,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=4ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[24] 
+# at ///DUT/// sum =0,carry=10
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[0, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[0,4,0]
+# at driver data recieved from mailbox = [a=0,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=0,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=5ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[4],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[10] 
+# at ///DUT/// sum =0,carry=4
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[8, 7, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[8,7,0]
+# at driver data recieved from mailbox = [a=8,b=7,cin=0]
+# 
+# at interface randomozed values through driver= [a=8,b=7,cin=0]
+# ----------------------------- TEST FAILED--[at time=6ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[15],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[4] 
+# at ///DUT/// sum =0,carry=15
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 5, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,5,0]
+# at driver data recieved from mailbox = [a=12,b=5,cin=0]
+# 
+# at interface randomozed values through driver= [a=12,b=5,cin=0]
+# ----------------------------- TEST FAILED--[at time=7ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[9],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[15] 
+# at ///DUT/// sum =0,carry=17
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[10, 13, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[10,13,0]
+# at driver data recieved from mailbox = [a=10,b=13,cin=0]
+# 
+# at interface randomozed values through driver= [a=10,b=13,cin=0]
+# ----------------------------- TEST FAILED--[at time=8ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[7],dut_out.sum[0] , ref_out.carry=[8],dut_out.carry[17] 
+# at ///DUT/// sum =0,carry=23
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[3, 9, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[3,9,0]
+# at driver data recieved from mailbox = [a=3,b=9,cin=0]
+# 
+# at interface randomozed values through driver= [a=3,b=9,cin=0]
+# ----------------------------- TEST FAILED--[at time=9ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[10],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[23] 
+# at ///DUT/// sum =0,carry=12
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[11, 5, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[11,5,0]
+# at driver data recieved from mailbox = [a=11,b=5,cin=0]
+# 
+# at interface randomozed values through driver= [a=11,b=5,cin=0]
+# ----------------------------- TEST FAILED--[at time=10ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[14],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[12] 
+# at ///DUT/// sum =0,carry=16
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[15, 2, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[15,2,0]
+# at driver data recieved from mailbox = [a=15,b=2,cin=0]
+# 
+# at interface randomozed values through driver= [a=15,b=2,cin=0]
+# ----------------------------- TEST FAILED--[at time=11ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[13],dut_out.sum[0] , ref_out.carry=[2],dut_out.carry[16] 
+# at ///DUT/// sum =0,carry=17
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[10, 9, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[10,9,0]
+# at driver data recieved from mailbox = [a=10,b=9,cin=0]
+# 
+# at interface randomozed values through driver= [a=10,b=9,cin=0]
+# ----------------------------- TEST FAILED--[at time=12ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[3],dut_out.sum[0] , ref_out.carry=[8],dut_out.carry[17] 
+# at ///DUT/// sum =0,carry=19
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[9, 15, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[9,15,0]
+# at driver data recieved from mailbox = [a=9,b=15,cin=0]
+# 
+# at interface randomozed values through driver= [a=9,b=15,cin=0]
+# ----------------------------- TEST FAILED--[at time=13ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[6],dut_out.sum[0] , ref_out.carry=[9],dut_out.carry[19] 
+# at ///DUT/// sum =0,carry=24
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[8, 11, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[8,11,0]
+# at driver data recieved from mailbox = [a=8,b=11,cin=0]
+# 
+# at interface randomozed values through driver= [a=8,b=11,cin=0]
+# ----------------------------- TEST FAILED--[at time=14ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[3],dut_out.sum[0] , ref_out.carry=[8],dut_out.carry[24] 
+# at ///DUT/// sum =0,carry=19
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[0, 1, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[0,1,0]
+# at driver data recieved from mailbox = [a=0,b=1,cin=0]
+# 
+# at interface randomozed values through driver= [a=0,b=1,cin=0]
+# ----------------------------- TEST FAILED--[at time=15ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[19] 
+# at ///DUT/// sum =0,carry=1
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[3, 14, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[3,14,0]
+# at driver data recieved from mailbox = [a=3,b=14,cin=0]
+# 
+# at interface randomozed values through driver= [a=3,b=14,cin=0]
+# ----------------------------- TEST FAILED--[at time=16ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[13],dut_out.sum[0] , ref_out.carry=[2],dut_out.carry[1] 
+# at ///DUT/// sum =0,carry=17
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 6, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,6,0]
+# at driver data recieved from mailbox = [a=12,b=6,cin=0]
+# 
+# at interface randomozed values through driver= [a=12,b=6,cin=0]
+# ----------------------------- TEST FAILED--[at time=17ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[10],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[17] 
+# at ///DUT/// sum =0,carry=18
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[14, 0, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[14,0,0]
+# at driver data recieved from mailbox = [a=14,b=0,cin=0]
+# 
+# at interface randomozed values through driver= [a=14,b=0,cin=0]
+# ----------------------------- TEST FAILED--[at time=18ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[14],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[18] 
+# at ///DUT/// sum =0,carry=14
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 12, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,12,0]
+# at driver data recieved from mailbox = [a=6,b=12,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=12,cin=0]
+# ----------------------------- TEST FAILED--[at time=19ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[10],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[14] 
+# at ///DUT/// sum =0,carry=18
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 14, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,14,0]
+# at driver data recieved from mailbox = [a=12,b=14,cin=0]
+# 
+# at interface randomozed values through driver= [a=12,b=14,cin=0]
+# ----------------------------- TEST FAILED--[at time=20ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[0] , ref_out.carry=[12],dut_out.carry[18] 
+# at ///DUT/// sum =0,carry=26
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[9, 1, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[9,1,0]
+# at driver data recieved from mailbox = [a=9,b=1,cin=0]
+# 
+# at interface randomozed values through driver= [a=9,b=1,cin=0]
+# ----------------------------- TEST FAILED--[at time=21ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[8],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[26] 
+# at ///DUT/// sum =0,carry=10
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 0, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,0,0]
+# at driver data recieved from mailbox = [a=1,b=0,cin=0]
+# 
+# at interface randomozed values through driver= [a=1,b=0,cin=0]
+# ----------------------------- TEST FAILED--[at time=22ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[10] 
+# at ///DUT/// sum =0,carry=1
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[7, 11, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[7,11,0]
+# at driver data recieved from mailbox = [a=7,b=11,cin=0]
+# 
+# at interface randomozed values through driver= [a=7,b=11,cin=0]
+# ----------------------------- TEST FAILED--[at time=23ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[12],dut_out.sum[0] , ref_out.carry=[3],dut_out.carry[1] 
+# at ///DUT/// sum =0,carry=18
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[9, 10, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[9,10,0]
+# at driver data recieved from mailbox = [a=9,b=10,cin=0]
+# 
+# at interface randomozed values through driver= [a=9,b=10,cin=0]
+# ----------------------------- TEST FAILED--[at time=24ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[3],dut_out.sum[0] , ref_out.carry=[8],dut_out.carry[18] 
+# at ///DUT/// sum =0,carry=19
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 9, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,9,0]
+# at driver data recieved from mailbox = [a=1,b=9,cin=0]
+# 
+# at interface randomozed values through driver= [a=1,b=9,cin=0]
+# ----------------------------- TEST FAILED--[at time=25ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[8],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[19] 
+# at ///DUT/// sum =0,carry=10
+# ** Note: implicit $finish from program    : 20dut_fa.sv(7)
+#    Time: 26 ns  Iteration: 0  Instance: /top_fa/tb
+# 1
+# Simulation stop requested.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:20:38 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling package _30top_sv_unit
+# ** Warning: 02generator.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(39): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program fa_pb_block
+# -- Compiling interface fa_interface
+# -- Compiling module fa_dut
+# -- Compiling module top_fa
+# 
+# Top level modules:
+# 	top_fa
+# End time: 22:20:38 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 22:20:39 on Mar 13,2023, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 6
+# vsim work.top_fa -l 30top01.log 
+# Start time: 22:20:39 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(39): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(25): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._30top_sv_unit(fast)
+# Loading work.top_fa(fast)
+# Loading work.fa_pb_block(fast)
+# Loading work.fa_dut(fast)
+# Loading work.fa_interface(fast)
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 4, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,4,1]
+# at driver data recieved from mailbox = [a=1,b=4,cin=1]
+# 
+# at interface randomozed values through driver= [a=1,b=4,cin=1]
+# ----------------------------- TEST FAILED--[at time=1ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[4],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[0] 
+# at ///DUT/// sum =0,carry=6
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 8, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,8,1]
+# at driver data recieved from mailbox = [a=1,b=8,cin=1]
+# 
+# at interface randomozed values through driver= [a=1,b=8,cin=1]
+# ----------------------------- TEST FAILED--[at time=2ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[8],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[6] 
+# at ///DUT/// sum =0,carry=10
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[11, 13, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[11,13,1]
+# at driver data recieved from mailbox = [a=11,b=13,cin=1]
+# 
+# at interface randomozed values through driver= [a=11,b=13,cin=1]
+# ----------------------------- TEST FAILED--[at time=3ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[7],dut_out.sum[0] , ref_out.carry=[9],dut_out.carry[10] 
+# at ///DUT/// sum =1,carry=9
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 4, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,4,1]
+# at driver data recieved from mailbox = [a=6,b=4,cin=1]
+# 
+# at interface randomozed values through driver= [a=6,b=4,cin=1]
+# ----------------------------- TEST FAILED--[at time=4ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[3],dut_out.sum[1] , ref_out.carry=[4],dut_out.carry[9] 
+# at ///DUT/// sum =0,carry=11
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[0, 4, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[0,4,1]
+# at driver data recieved from mailbox = [a=0,b=4,cin=1]
+# 
+# at interface randomozed values through driver= [a=0,b=4,cin=1]
+# ----------------------------- TEST FAILED--[at time=5ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[5],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[11] 
+# at ///DUT/// sum =0,carry=5
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[8, 7, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[8,7,1]
+# at driver data recieved from mailbox = [a=8,b=7,cin=1]
+# 
+# at interface randomozed values through driver= [a=8,b=7,cin=1]
+# ----------------------------- TEST FAILED--[at time=6ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[14],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[5] 
+# at ///DUT/// sum =1,carry=0
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 5, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,5,1]
+# at driver data recieved from mailbox = [a=12,b=5,cin=1]
+# 
+# at interface randomozed values through driver= [a=12,b=5,cin=1]
+# ----------------------------- TEST FAILED--[at time=7ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[8],dut_out.sum[1] , ref_out.carry=[5],dut_out.carry[0] 
+# at ///DUT/// sum =1,carry=2
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[10, 13, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[10,13,1]
+# at driver data recieved from mailbox = [a=10,b=13,cin=1]
+# 
+# at interface randomozed values through driver= [a=10,b=13,cin=1]
+# ----------------------------- TEST FAILED--[at time=8ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[6],dut_out.sum[1] , ref_out.carry=[9],dut_out.carry[2] 
+# at ///DUT/// sum =1,carry=8
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[3, 9, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[3,9,1]
+# at driver data recieved from mailbox = [a=3,b=9,cin=1]
+# 
+# at interface randomozed values through driver= [a=3,b=9,cin=1]
+# ----------------------------- TEST FAILED--[at time=9ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[11],dut_out.sum[1] , ref_out.carry=[1],dut_out.carry[8] 
+# at ///DUT/// sum =0,carry=13
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[11, 5, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[11,5,1]
+# at driver data recieved from mailbox = [a=11,b=5,cin=1]
+# 
+# at interface randomozed values through driver= [a=11,b=5,cin=1]
+# ----------------------------- TEST FAILED--[at time=10ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[15],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[13] 
+# at ///DUT/// sum =1,carry=1
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[15, 2, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[15,2,1]
+# at driver data recieved from mailbox = [a=15,b=2,cin=1]
+# 
+# at interface randomozed values through driver= [a=15,b=2,cin=1]
+# ----------------------------- TEST FAILED--[at time=11ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[12],dut_out.sum[1] , ref_out.carry=[3],dut_out.carry[1] 
+# at ///DUT/// sum =1,carry=2
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[10, 9, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[10,9,1]
+# at driver data recieved from mailbox = [a=10,b=9,cin=1]
+# 
+# at interface randomozed values through driver= [a=10,b=9,cin=1]
+# ----------------------------- TEST FAILED--[at time=12ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[1] , ref_out.carry=[9],dut_out.carry[2] 
+# at ///DUT/// sum =1,carry=4
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[9, 15, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[9,15,1]
+# at driver data recieved from mailbox = [a=9,b=15,cin=1]
+# 
+# at interface randomozed values through driver= [a=9,b=15,cin=1]
+# ----------------------------- TEST FAILED--[at time=13ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[7],dut_out.sum[1] , ref_out.carry=[9],dut_out.carry[4] 
+# at ///DUT/// sum =1,carry=9
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[8, 11, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[8,11,1]
+# at driver data recieved from mailbox = [a=8,b=11,cin=1]
+# 
+# at interface randomozed values through driver= [a=8,b=11,cin=1]
+# ----------------------------- TEST FAILED--[at time=14ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[1] , ref_out.carry=[9],dut_out.carry[9] 
+# at ///DUT/// sum =1,carry=4
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[0, 1, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[0,1,1]
+# at driver data recieved from mailbox = [a=0,b=1,cin=1]
+# 
+# at interface randomozed values through driver= [a=0,b=1,cin=1]
+# ----------------------------- TEST FAILED--[at time=15ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[0],dut_out.sum[1] , ref_out.carry=[1],dut_out.carry[4] 
+# at ///DUT/// sum =0,carry=2
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[3, 14, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[3,14,1]
+# at driver data recieved from mailbox = [a=3,b=14,cin=1]
+# 
+# at interface randomozed values through driver= [a=3,b=14,cin=1]
+# ----------------------------- TEST FAILED--[at time=16ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[12],dut_out.sum[0] , ref_out.carry=[3],dut_out.carry[2] 
+# at ///DUT/// sum =1,carry=2
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 6, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,6,1]
+# at driver data recieved from mailbox = [a=12,b=6,cin=1]
+# 
+# at interface randomozed values through driver= [a=12,b=6,cin=1]
+# ----------------------------- TEST FAILED--[at time=17ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[11],dut_out.sum[1] , ref_out.carry=[4],dut_out.carry[2] 
+# at ///DUT/// sum =1,carry=3
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[14, 0, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[14,0,1]
+# at driver data recieved from mailbox = [a=14,b=0,cin=1]
+# 
+# at interface randomozed values through driver= [a=14,b=0,cin=1]
+# ----------------------------- TEST FAILED--[at time=18ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[15],dut_out.sum[1] , ref_out.carry=[0],dut_out.carry[3] 
+# at ///DUT/// sum =0,carry=15
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 12, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,12,1]
+# at driver data recieved from mailbox = [a=6,b=12,cin=1]
+# 
+# at interface randomozed values through driver= [a=6,b=12,cin=1]
+# ----------------------------- TEST FAILED--[at time=19ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[11],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[15] 
+# at ///DUT/// sum =1,carry=3
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 14, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,14,1]
+# at driver data recieved from mailbox = [a=12,b=14,cin=1]
+# 
+# at interface randomozed values through driver= [a=12,b=14,cin=1]
+# ----------------------------- TEST FAILED--[at time=20ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[3],dut_out.sum[1] , ref_out.carry=[12],dut_out.carry[3] 
+# at ///DUT/// sum =1,carry=11
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[9, 1, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[9,1,1]
+# at driver data recieved from mailbox = [a=9,b=1,cin=1]
+# 
+# at interface randomozed values through driver= [a=9,b=1,cin=1]
+# ----------------------------- TEST FAILED--[at time=21ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[9],dut_out.sum[1] , ref_out.carry=[1],dut_out.carry[11] 
+# at ///DUT/// sum =0,carry=11
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 0, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,0,1]
+# at driver data recieved from mailbox = [a=1,b=0,cin=1]
+# 
+# at interface randomozed values through driver= [a=1,b=0,cin=1]
+# ----------------------------- TEST FAILED--[at time=22ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[0],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[11] 
+# at ///DUT/// sum =0,carry=2
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[7, 11, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[7,11,1]
+# at driver data recieved from mailbox = [a=7,b=11,cin=1]
+# 
+# at interface randomozed values through driver= [a=7,b=11,cin=1]
+# ----------------------------- TEST FAILED--[at time=23ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[13],dut_out.sum[0] , ref_out.carry=[3],dut_out.carry[2] 
+# at ///DUT/// sum =1,carry=3
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[9, 10, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[9,10,1]
+# at driver data recieved from mailbox = [a=9,b=10,cin=1]
+# 
+# at interface randomozed values through driver= [a=9,b=10,cin=1]
+# ----------------------------- TEST FAILED--[at time=24ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[1] , ref_out.carry=[9],dut_out.carry[3] 
+# at ///DUT/// sum =1,carry=4
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 9, 1]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,9,1]
+# at driver data recieved from mailbox = [a=1,b=9,cin=1]
+# 
+# at interface randomozed values through driver= [a=1,b=9,cin=1]
+# ----------------------------- TEST FAILED--[at time=25ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[9],dut_out.sum[1] , ref_out.carry=[1],dut_out.carry[4] 
+# at ///DUT/// sum =0,carry=11
+# ** Note: implicit $finish from program    : 20dut_fa.sv(7)
+#    Time: 26 ns  Iteration: 0  Instance: /top_fa/tb
+# 1
+# Simulation stop requested.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:21:04 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling package _30top_sv_unit
+# ** Warning: 02generator.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(39): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program fa_pb_block
+# -- Compiling interface fa_interface
+# -- Compiling module fa_dut
+# -- Compiling module top_fa
+# 
+# Top level modules:
+# 	top_fa
+# End time: 22:21:04 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 22:21:05 on Mar 13,2023, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 6
+# vsim work.top_fa -l 30top01.log 
+# Start time: 22:21:05 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(16): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(39): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(25): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._30top_sv_unit(fast)
+# Loading work.top_fa(fast)
+# Loading work.fa_pb_block(fast)
+# Loading work.fa_dut(fast)
+# Loading work.fa_interface(fast)
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,4,0]
+# at driver data recieved from mailbox = [a=1,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=1,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=1ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[5],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[0] 
+# at ///DUT/// sum =0,carry=5
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 8, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,8,0]
+# at driver data recieved from mailbox = [a=1,b=8,cin=0]
+# 
+# at interface randomozed values through driver= [a=1,b=8,cin=0]
+# ----------------------------- TEST FAILED--[at time=2ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[9],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[5] 
+# at ///DUT/// sum =0,carry=9
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[11, 13, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[11,13,0]
+# at driver data recieved from mailbox = [a=11,b=13,cin=0]
+# 
+# at interface randomozed values through driver= [a=11,b=13,cin=0]
+# ----------------------------- TEST FAILED--[at time=3ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[6],dut_out.sum[0] , ref_out.carry=[9],dut_out.carry[9] 
+# at ///DUT/// sum =1,carry=8
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,4,0]
+# at driver data recieved from mailbox = [a=6,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=4ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[1] , ref_out.carry=[4],dut_out.carry[8] 
+# at ///DUT/// sum =0,carry=10
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[0, 4, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[0,4,0]
+# at driver data recieved from mailbox = [a=0,b=4,cin=0]
+# 
+# at interface randomozed values through driver= [a=0,b=4,cin=0]
+# ----------------------------- TEST FAILED--[at time=5ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[4],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[10] 
+# at ///DUT/// sum =0,carry=4
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[8, 7, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[8,7,0]
+# at driver data recieved from mailbox = [a=8,b=7,cin=0]
+# 
+# at interface randomozed values through driver= [a=8,b=7,cin=0]
+# ----------------------------- TEST FAILED--[at time=6ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[15],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[4] 
+# at ///DUT/// sum =0,carry=15
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 5, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,5,0]
+# at driver data recieved from mailbox = [a=12,b=5,cin=0]
+# 
+# at interface randomozed values through driver= [a=12,b=5,cin=0]
+# ----------------------------- TEST FAILED--[at time=7ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[9],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[15] 
+# at ///DUT/// sum =1,carry=1
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[10, 13, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[10,13,0]
+# at driver data recieved from mailbox = [a=10,b=13,cin=0]
+# 
+# at interface randomozed values through driver= [a=10,b=13,cin=0]
+# ----------------------------- TEST FAILED--[at time=8ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[7],dut_out.sum[1] , ref_out.carry=[8],dut_out.carry[1] 
+# at ///DUT/// sum =1,carry=7
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[3, 9, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[3,9,0]
+# at driver data recieved from mailbox = [a=3,b=9,cin=0]
+# 
+# at interface randomozed values through driver= [a=3,b=9,cin=0]
+# ----------------------------- TEST FAILED--[at time=9ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[10],dut_out.sum[1] , ref_out.carry=[1],dut_out.carry[7] 
+# at ///DUT/// sum =0,carry=12
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[11, 5, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[11,5,0]
+# at driver data recieved from mailbox = [a=11,b=5,cin=0]
+# 
+# at interface randomozed values through driver= [a=11,b=5,cin=0]
+# ----------------------------- TEST FAILED--[at time=10ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[14],dut_out.sum[0] , ref_out.carry=[1],dut_out.carry[12] 
+# at ///DUT/// sum =1,carry=0
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[15, 2, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[15,2,0]
+# at driver data recieved from mailbox = [a=15,b=2,cin=0]
+# 
+# at interface randomozed values through driver= [a=15,b=2,cin=0]
+# ----------------------------- TEST FAILED--[at time=11ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[13],dut_out.sum[1] , ref_out.carry=[2],dut_out.carry[0] 
+# at ///DUT/// sum =1,carry=1
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[10, 9, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[10,9,0]
+# at driver data recieved from mailbox = [a=10,b=9,cin=0]
+# 
+# at interface randomozed values through driver= [a=10,b=9,cin=0]
+# ----------------------------- TEST FAILED--[at time=12ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[3],dut_out.sum[1] , ref_out.carry=[8],dut_out.carry[1] 
+# at ///DUT/// sum =1,carry=3
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[9, 15, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[9,15,0]
+# at driver data recieved from mailbox = [a=9,b=15,cin=0]
+# 
+# at interface randomozed values through driver= [a=9,b=15,cin=0]
+# ----------------------------- TEST FAILED--[at time=13ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[6],dut_out.sum[1] , ref_out.carry=[9],dut_out.carry[3] 
+# at ///DUT/// sum =1,carry=8
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[8, 11, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[8,11,0]
+# at driver data recieved from mailbox = [a=8,b=11,cin=0]
+# 
+# at interface randomozed values through driver= [a=8,b=11,cin=0]
+# ----------------------------- TEST FAILED--[at time=14ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[3],dut_out.sum[1] , ref_out.carry=[8],dut_out.carry[8] 
+# at ///DUT/// sum =1,carry=3
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[0, 1, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[0,1,0]
+# at driver data recieved from mailbox = [a=0,b=1,cin=0]
+# 
+# at interface randomozed values through driver= [a=0,b=1,cin=0]
+# ----------------------------- TEST FAILED--[at time=15ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[1] , ref_out.carry=[0],dut_out.carry[3] 
+# at ///DUT/// sum =0,carry=1
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[3, 14, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[3,14,0]
+# at driver data recieved from mailbox = [a=3,b=14,cin=0]
+# 
+# at interface randomozed values through driver= [a=3,b=14,cin=0]
+# ----------------------------- TEST FAILED--[at time=16ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[13],dut_out.sum[0] , ref_out.carry=[2],dut_out.carry[1] 
+# at ///DUT/// sum =1,carry=1
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 6, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,6,0]
+# at driver data recieved from mailbox = [a=12,b=6,cin=0]
+# 
+# at interface randomozed values through driver= [a=12,b=6,cin=0]
+# ----------------------------- TEST FAILED--[at time=17ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[10],dut_out.sum[1] , ref_out.carry=[4],dut_out.carry[1] 
+# at ///DUT/// sum =1,carry=2
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[14, 0, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[14,0,0]
+# at driver data recieved from mailbox = [a=14,b=0,cin=0]
+# 
+# at interface randomozed values through driver= [a=14,b=0,cin=0]
+# ----------------------------- TEST FAILED--[at time=18ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[14],dut_out.sum[1] , ref_out.carry=[0],dut_out.carry[2] 
+# at ///DUT/// sum =0,carry=14
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[6, 12, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[6,12,0]
+# at driver data recieved from mailbox = [a=6,b=12,cin=0]
+# 
+# at interface randomozed values through driver= [a=6,b=12,cin=0]
+# ----------------------------- TEST FAILED--[at time=19ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[10],dut_out.sum[0] , ref_out.carry=[4],dut_out.carry[14] 
+# at ///DUT/// sum =1,carry=2
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[12, 14, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12,14,0]
+# at driver data recieved from mailbox = [a=12,b=14,cin=0]
+# 
+# at interface randomozed values through driver= [a=12,b=14,cin=0]
+# ----------------------------- TEST FAILED--[at time=20ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[2],dut_out.sum[1] , ref_out.carry=[12],dut_out.carry[2] 
+# at ///DUT/// sum =1,carry=10
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[9, 1, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[9,1,0]
+# at driver data recieved from mailbox = [a=9,b=1,cin=0]
+# 
+# at interface randomozed values through driver= [a=9,b=1,cin=0]
+# ----------------------------- TEST FAILED--[at time=21ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[8],dut_out.sum[1] , ref_out.carry=[1],dut_out.carry[10] 
+# at ///DUT/// sum =0,carry=10
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 0, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,0,0]
+# at driver data recieved from mailbox = [a=1,b=0,cin=0]
+# 
+# at interface randomozed values through driver= [a=1,b=0,cin=0]
+# ----------------------------- TEST FAILED--[at time=22ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[1],dut_out.sum[0] , ref_out.carry=[0],dut_out.carry[10] 
+# at ///DUT/// sum =0,carry=1
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[7, 11, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[7,11,0]
+# at driver data recieved from mailbox = [a=7,b=11,cin=0]
+# 
+# at interface randomozed values through driver= [a=7,b=11,cin=0]
+# ----------------------------- TEST FAILED--[at time=23ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[12],dut_out.sum[0] , ref_out.carry=[3],dut_out.carry[1] 
+# at ///DUT/// sum =1,carry=2
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[9, 10, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[9,10,0]
+# at driver data recieved from mailbox = [a=9,b=10,cin=0]
+# 
+# at interface randomozed values through driver= [a=9,b=10,cin=0]
+# ----------------------------- TEST FAILED--[at time=24ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[3],dut_out.sum[1] , ref_out.carry=[8],dut_out.carry[2] 
+# at ///DUT/// sum =1,carry=3
+# 
+#  >>>TRANSACTION CLASS<<<
+# random inputs are a,b,c=[1, 9, 0]
+# default outputs at transaction are [0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[1,9,0]
+# at driver data recieved from mailbox = [a=1,b=9,cin=0]
+# 
+# at interface randomozed values through driver= [a=1,b=9,cin=0]
+# ----------------------------- TEST FAILED--[at time=25ns] -------------------------------------------
+# [scoreboard] ref_out.sum=[8],dut_out.sum[1] , ref_out.carry=[1],dut_out.carry[3] 
+# at ///DUT/// sum =0,carry=10
+# ** Note: implicit $finish from program    : 20dut_fa.sv(7)
+#    Time: 26 ns  Iteration: 0  Instance: /top_fa/tb
+# 1
+# Simulation stop requested.
+q -sim
+# End time: 22:22:31 on Mar 13,2023, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 3

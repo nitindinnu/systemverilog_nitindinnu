@@ -1,0 +1,1401 @@
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:39:19 on Mar 13,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [89 84 39 247]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[89 84 39 247]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=247,i[1]=39,i[1]=84,i[2]=89,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=247,i[1]=39,sel=84,out=89  X  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [46 122 236 240]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[46 122 236 240]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=240,i[1]=236,i[1]=122,i[2]=46,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=240,i[1]=236,sel=122,out=46  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [191 11 85 253]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[191 11 85 253]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=253,i[1]=85,i[1]=11,i[2]=191,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=253,i[1]=85,sel=11,out=191  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [12 217 18 249]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[12 217 18 249]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=249,i[1]=18,i[1]=217,i[2]=12,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=249,i[1]=18,sel=217,out=12  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [157 239 219 250]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[157 239 219 250]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=250,i[1]=219,i[1]=239,i[2]=157,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=250,i[1]=219,sel=239,out=157  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [98 189 128 230]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[98 189 128 230]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=230,i[1]=128,i[1]=189,i[2]=98,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=230,i[1]=128,sel=189,out=98  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [242 66 73 227]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[242 66 73 227]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=227,i[1]=73,i[1]=66,i[2]=242,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=227,i[1]=73,sel=66,out=242  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [67 16 54 239]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[67 16 54 239]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=239,i[1]=54,i[1]=16,i[2]=67,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=239,i[1]=54,sel=16,out=67  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [208 38 255 232]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[208 38 255 232]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=232,i[1]=255,i[1]=38,i[2]=208,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=232,i[1]=255,sel=38,out=208  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [161 244 164 149]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[161 244 164 149]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=149,i[1]=164,i[1]=244,i[2]=161,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=149,i[1]=164,sel=244,out=161  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 11 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:40:09 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:40:09 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:40:10 on Mar 13,2023, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:40:10 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[199 98 237 145]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=145,i[1]=237,i[1]=98,i[2]=199,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=145,i[1]=237,sel=98,out=199  X  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [73 209 78 104]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[73 209 78 104]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=104,i[1]=78,i[1]=209,i[2]=73,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=104,i[1]=78,sel=209,out=73  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [243 133 40 224]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[243 133 40 224]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=224,i[1]=40,i[1]=133,i[2]=243,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=224,i[1]=40,sel=133,out=243  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [100 73 181 123]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[100 73 181 123]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=123,i[1]=181,i[1]=73,i[2]=100,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=123,i[1]=181,sel=73,out=100  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [238 60 23 243]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[238 60 23 243]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=243,i[1]=23,i[1]=60,i[2]=238,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=243,i[1]=23,sel=60,out=238  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [16 224 240 74]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[16 224 240 74]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=74,i[1]=240,i[1]=224,i[2]=16,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=74,i[1]=240,sel=224,out=16  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [133 87 82 194]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[133 87 82 194]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=194,i[1]=82,i[1]=87,i[2]=133,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=194,i[1]=82,sel=87,out=133  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [15 27 63 69]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[15 27 63 69]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=69,i[1]=63,i[1]=27,i[2]=15,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=69,i[1]=63,sel=27,out=15  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [177 207 153 221]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[177 207 153 221]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=221,i[1]=153,i[1]=207,i[2]=177,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=221,i[1]=153,sel=207,out=177  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [59 178 122 84]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is a,b,cin =[59 178 122 84]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=84,i[1]=122,i[1]=178,i[2]=59,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=84,i[1]=122,sel=178,out=59  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 11 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:42:25 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:42:25 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:42:26 on Mar 13,2023, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:42:26 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# ------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [0 0 0 0]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[199 98 237 145]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=145,i[1]=237,i[1]=98,i[2]=199,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=145,i[1]=237,sel=98,out=199  X  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i0,i1,i2,i3 = [73 209 78 104]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[73 209 78 104]
+# >>>DRIVER CLASS<<<
+# 
+#  [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0]=104,i[1]=78,i[1]=209,i[2]=73,y[0]=0,y[1]=0
+# [driver interface]: Data collected by interface is is i[0]=104,i[1]=78,sel=209,out=73  3  0
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 3 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:46:11 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:46:11 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:46:12 on Mar 13,2023, Elapsed time: 0:03:46
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:46:12 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# ------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [0 0 0 0]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[199 98 237 145]
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 0]
+# 
+#  [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 X]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [73 209 78 104]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[73 209 78 104]
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 0]
+# 
+#  [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 3]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 3 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:47:31 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:47:31 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:47:32 on Mar 13,2023, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:47:32 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# ------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [0 0 0 0]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[199 98 237 145]
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 X]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [73 209 78 104]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[73 209 78 104]
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 3]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0 3]
+# ------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 3 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:48:01 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:48:01 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:48:02 on Mar 13,2023, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:48:02 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0xx]
+# ------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [0 0 0 0]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[199 98 237 145]
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 X]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[11]
+# ------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [73 209 78 104]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[73 209 78 104]
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 3]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[11]
+# ------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 3 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:48:19 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:48:19 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:48:20 on Mar 13,2023, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 3
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:48:20 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: 30dut_encoder.sv(21): (vopt-2123) Missing argument for format specification '%b'.
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./60top.do PAUSED at line 6
+cd {D:\Obsi\systemverilog_nitindinnu\08_creating_TB_environments\02_encoder_vectored}
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:48:54 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:48:54 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:48:20 on Mar 13,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 02generator.sv(13): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[0xx 0]
+# ------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [0 0 0 0]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[199 98 237 145]
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 X]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[11 0]
+# ------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [73 209 78 104]
+# out puts of decoder are y0,y1 =[0 0]
+# >>>GENERATOR CLASS<<<
+# 
+#  [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[73 209 78 104]
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 3]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# 
+#  [DUT] output for 2x1mux inter.y0,inter.y1=[11 0]
+# ------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 3 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:50:12 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:50:12 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:50:13 on Mar 13,2023, Elapsed time: 0:01:53
+# Errors: 2, Warnings: 6
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:50:13 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 0xx]
+# -------------------------------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [0 0 0 0]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[199 98 237 145]
+# ------------------------------------------------------------------
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 X]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 11]
+# -------------------------------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [73 209 78 104]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[73 209 78 104]
+# ------------------------------------------------------------------
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 3]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 11]
+# -------------------------------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 3 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:52:20 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:52:20 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:52:21 on Mar 13,2023, Elapsed time: 0:02:08
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:52:21 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 0xx]
+# -------------------------------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [0 0 0 0]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[199 98 237 145]
+# ------------------------------------------------------------------
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 X]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 11]
+# -------------------------------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [73 209 78 104]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[73 209 78 104]
+# ------------------------------------------------------------------
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 3]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 11]
+# -------------------------------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 3 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:53:22 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# ** Error: ** while parsing file included at 50top.sv(3)
+# ** while parsing file included at 40program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(6)
+# ** at 06scoreboard.sv(3): Invalid syntax. Please check if type is missing for variable 'ref_pkt'.
+# ** Error: ** while parsing file included at 50top.sv(3)
+# ** while parsing file included at 40program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(6)
+# ** at 06scoreboard.sv(4): Invalid syntax. Please check if type is missing for variable 'dut_pkt'.
+# End time: 21:53:22 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./60top.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 50top.sv "
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:55:16 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:55:16 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:55:17 on Mar 13,2023, Elapsed time: 0:02:56
+# Errors: 5, Warnings: 7
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:55:17 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 0xx]
+# -------------------------------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [0 0 0 0]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[199 98 237 145]
+# ------------------------------------------------------------------
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 X]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 11]
+# -------------------------------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [73 209 78 104]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[73 209 78 104]
+# ------------------------------------------------------------------
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 3]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 11]
+# -------------------------------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 3 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:56:18 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:56:18 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:56:19 on Mar 13,2023, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:56:19 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 0xx]
+# -------------------------------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [0 0 0 0]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[199 98 237 145]
+# ------------------------------------------------------------------
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 X]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 11]
+# -------------------------------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [73 209 78 104]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[73 209 78 104]
+# ------------------------------------------------------------------
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 3]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 11]
+# -------------------------------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 3 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:57:42 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:57:42 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:57:43 on Mar 13,2023, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:57:43 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 0xx]
+# -------------------------------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [0 0 0 0]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[199 98 237 145]
+# ------------------------------------------------------------------
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 X]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 11]
+# -------------------------------------------------------------------------------
+# >>>> before randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [73 209 78 104]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[73 209 78 104]
+# ------------------------------------------------------------------
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[73 209 78 104] \ y[0],y[1]=[0 3]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 11]
+# -------------------------------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 3 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:59:41 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:59:41 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 21:59:42 on Mar 13,2023, Elapsed time: 0:01:59
+# Errors: 0, Warnings: 6
+# vsim work.top -l 60encode3rdrun.log 
+# Start time: 21:59:42 on Mar 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# -------------------------------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[199 98 237 145]
+# ------------------------------------------------------------------
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 X]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# -------------------------------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 2 ns  Iteration: 0  Instance: /top/tb
+# 1
+# Simulation stop requested.
+do 60top.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:10:57 on Mar 13,2023
+# vlog -reportprogress 300 50top.sv 
+# -- Compiling package _50top_sv_unit
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program encoder_tb
+# -- Compiling interface interface_encoder
+# -- Compiling module encoder_dut
+# -- Compiling module top_en
+# 
+# Top level modules:
+# 	top_en
+# End time: 22:10:57 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# End time: 22:10:58 on Mar 13,2023, Elapsed time: 0:11:16
+# Errors: 0, Warnings: 6
+# vsim work.top_en -l 60encode3rdrun.log 
+# Start time: 22:10:58 on Mar 13,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: 02generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(41): (vopt-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Warning: 10environment.sv(26): (vopt-2250) Function "build" has no return value assignment.
+# Loading sv_std.std
+# Loading work._50top_sv_unit(fast)
+# Loading work.top_en(fast)
+# Loading work.encoder_tb(fast)
+# Loading work.encoder_dut(fast)
+# Loading work.interface_encoder(fast)
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# -------------------------------------------------------------------------------
+# >>>> after randomizing at generator class <<<<<
+# input of decoder values ar i[0],i[1],i[2],i[3]  = [199 98 237 145]
+# out puts of decoder are y0,y1 =[0 0]
+# ------------------------------------------------------------------
+# >>>GENERATOR CLASS<<<
+# [generator]:input values are randomized and sent to mailbox
+# [generator to mail box] data stored inside mailbox is i[0],i[1],i[2],i[3] =[199 98 237 145]
+# ------------------------------------------------------------------
+# >>>DRIVER-CLASS<<<
+# [driver] : Data sent from mailbox to driver
+# [mailbox to driver]: Data collected by driver is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 0]
+# 
+# [driver-interface]: Data collected by interface is is i[0],i[1],i[2]=i[3]=[199 98 237 145] \ y[0],y[1]=[0 X]
+# ----------------------------------------------------------------------------------------------
+# >>> DUT <<<
+# [DUT] output for 2x1mux inter.y0,inter.y1=[0 X]
+# -------------------------------------------------------------------------------
+# ** Note: implicit $finish from program    : 30dut_encoder.sv(22)
+#    Time: 2 ns  Iteration: 0  Instance: /top_en/tb
+# 1
+# Simulation stop requested.
+q -sim
+# End time: 22:12:48 on Mar 13,2023, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 3
+cd {D:\Obsi\systemverilog_nitindinnu\08_creating_TB_environments\03_full_adder}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:13:07 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling package _30top_sv_unit
+# ** Warning: 02generator.sv(16): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 10environment.sv(39): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program fa_pb_block
+# -- Compiling interface fa_interface
+# -- Compiling module fa_dut
+# -- Compiling module top_fa
+# 
+# Top level modules:
+# 	top_fa
+# End time: 22:13:07 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2

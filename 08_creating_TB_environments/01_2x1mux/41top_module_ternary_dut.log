@@ -1,27 +1,6 @@
-# ** Warning: (vlib-34) Library already exists at "work".
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is nitin@LAPTOP-JPCFC0PU.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is nitin@LAPTOP-JPCFC0PU.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt2".  Locker is nitin@LAPTOP-JPCFC0PU.
-# ** Warning: (vlib-34) Library already exists at "work".
-# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 15:34:42 on Mar 10,2023
-# vlog -reportprogress 300 41top_module.sv 
-# -- Compiling interface mux_2x1_intf
-# -- Compiling module mux2x1_dut
-# -- Compiling package _41top_module_sv_unit
-# ** Warning: 01generator.sv(14): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# -- Compiling program mux_tb
-# -- Compiling module top
-# 
-# Top level modules:
-# 	top
-# End time: 15:34:42 on Mar 10,2023, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# End time: 15:34:42 on Mar 10,2023, Elapsed time: 0:01:04
-# Errors: 0, Warnings: 5
 # vsim work.top -l 41top_module_ternary_dut.log 
-# Start time: 15:34:42 on Mar 10,2023
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Start time: 17:05:10 on Mar 13,2023
+# ** Note: (vsim-3812) Design is being optimized...
 # ** Warning: 01generator.sv(14): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
 # Loading sv_std.std
 # Loading work._41top_module_sv_unit(fast)
@@ -373,6 +352,707 @@
 #    Time: 11 ns  Iteration: 0  Instance: /top/tb
 # 1
 # Simulation stop requested.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     quit
-# End time: 15:37:41 on Mar 10,2023, Elapsed time: 0:02:59
-# Errors: 0, Warnings: 1
+.main clear
+cd {D:\Obsi\systemverilog_nitindinnu\08_creating_TB_environments\03_full_adder}
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+q -sim
+# End time: 17:28:42 on Mar 13,2023, Elapsed time: 0:23:32
+# Errors: 1, Warnings: 1
+q -sim
+cd {D:\Obsi\systemverilog_nitindinnu\08_creating_TB_environments\03_full_adder}
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:29:09 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(1)
+# ** at 20dut_fa.sv(6): (vlog-13161) unexpected '$display', expecting elaboration system task $fatal/$error/$warning/$info.
+# ** Error: (vlog-13053) ** while parsing file included at 30top.sv(2)
+# ** at 21program_block.sv(1): near "'i": Illegal base specifier in numeric constant.
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** at 21program_block.sv(1): near "'i": syntax error, unexpected BASE, expecting class.
+# End time: 17:29:10 on Mar 13,2023, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:30:21 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(1)
+# ** at 02generator.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'tranxfa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(1)
+# ** at 02generator.sv(3): (vlog-2730) Undefined variable: 'transaction_fa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(2)
+# ** at 03driver.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'tranxfa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(2)
+# ** at 03driver.sv(3): (vlog-2730) Undefined variable: 'transaction_fa'.
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(2)
+# ** at 03driver.sv(14): near "g2d": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(3)
+# ** at 04ipmonitor.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'tranxfa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(3)
+# ** at 04ipmonitor.sv(3): (vlog-2730) Undefined variable: 'transaction_fa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(4)
+# ** at 05opmonitor.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'tranxfa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(4)
+# ** at 05opmonitor.sv(3): (vlog-2730) Undefined variable: 'transaction_fa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(5)
+# ** at 06scoreboard.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'ref_out'.
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(5)
+# ** at 06scoreboard.sv(2): near ",": syntax error, unexpected ',', expecting function or task or "SystemVerilog keyword 'pure'".
+# End time: 17:30:21 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:31:20 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(1)
+# ** at 02generator.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'tranxfa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(1)
+# ** at 02generator.sv(3): (vlog-2730) Undefined variable: 'transaction_fa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(2)
+# ** at 03driver.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'tranxfa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(2)
+# ** at 03driver.sv(3): (vlog-2730) Undefined variable: 'transaction_fa'.
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(2)
+# ** at 03driver.sv(14): near "g2d": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(3)
+# ** at 04ipmonitor.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'tranxfa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(3)
+# ** at 04ipmonitor.sv(3): (vlog-2730) Undefined variable: 'transaction_fa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(4)
+# ** at 05opmonitor.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'tranxfa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(4)
+# ** at 05opmonitor.sv(3): (vlog-2730) Undefined variable: 'transaction_fa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(5)
+# ** at 06scoreboard.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'ref_out'.
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(5)
+# ** at 06scoreboard.sv(2): near ",": syntax error, unexpected ',', expecting function or task or "SystemVerilog keyword 'pure'".
+# End time: 17:31:20 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+q -sim
+cd {D:\Obsi\systemverilog_nitindinnu\08_creating_TB_environments\03_full_adder}
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:36:35 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(1)
+# ** at 02generator.sv(3): Invalid type 'transaction_fa'. Please check the type of the variable 'tranxfa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(1)
+# ** at 02generator.sv(4): (vlog-2730) Undefined variable: 'transaction_fa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(2)
+# ** at 03driver.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'tranxfa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(2)
+# ** at 03driver.sv(3): (vlog-2730) Undefined variable: 'transaction_fa'.
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(2)
+# ** at 03driver.sv(14): near "g2d": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(3)
+# ** at 04ipmonitor.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'tranxfa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(3)
+# ** at 04ipmonitor.sv(3): (vlog-2730) Undefined variable: 'transaction_fa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(4)
+# ** at 05opmonitor.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'tranxfa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(4)
+# ** at 05opmonitor.sv(3): (vlog-2730) Undefined variable: 'transaction_fa'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(5)
+# ** at 06scoreboard.sv(2): Invalid type 'transaction_fa'. Please check the type of the variable 'ref_out'.
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(5)
+# ** at 06scoreboard.sv(2): near ",": syntax error, unexpected ',', expecting function or task or "SystemVerilog keyword 'pure'".
+# End time: 17:36:35 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:37:39 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(3)
+# ** at 03driver.sv(14): near "g2d": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(6)
+# ** at 06scoreboard.sv(16): near "if": syntax error, unexpected if, expecting function or task or "SystemVerilog keyword 'pure'".
+# End time: 17:37:39 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:38:11 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(3)
+# ** at 03driver.sv(14): near "tranxfa": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(6)
+# ** at 06scoreboard.sv(16): near "if": syntax error, unexpected if, expecting function or task or "SystemVerilog keyword 'pure'".
+# End time: 17:38:11 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:38:28 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** while parsing file included at 10environment.sv(6)
+# ** at 06scoreboard.sv(16): near "if": syntax error, unexpected if, expecting function or task or "SystemVerilog keyword 'pure'".
+# End time: 17:38:28 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:40:22 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** at 10environment.sv(24): (vlog-2730) Undefined variable: 'om2s'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): Function 'new' is allowed only in context of class constructor.
+# ** Error (suppressible): ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): (vlog-2388) 'inter' already declared in this scope (test).
+# End time: 17:40:22 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:41:54 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): Function 'new' is allowed only in context of class constructor.
+# ** Error (suppressible): ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): (vlog-2388) 'inter' already declared in this scope (test).
+# End time: 17:41:54 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:42:12 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): Function 'new' is allowed only in context of class constructor.
+# ** Error (suppressible): ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): (vlog-2388) 'inter' already declared in this scope (test).
+# End time: 17:42:12 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:42:26 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): Function 'new' is allowed only in context of class constructor.
+# ** Error (suppressible): ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): (vlog-2388) 'inter' already declared in this scope (test).
+# End time: 17:42:26 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:42:38 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): Function 'new' is allowed only in context of class constructor.
+# ** Error (suppressible): ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): (vlog-2388) 'inter' already declared in this scope (test).
+# End time: 17:42:38 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:43:42 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): Function 'new' is allowed only in context of class constructor.
+# ** Error (suppressible): ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): (vlog-2388) 'inter' already declared in this scope (test).
+# End time: 17:43:42 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:44:56 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): Function 'new' is allowed only in context of class constructor.
+# End time: 17:44:56 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:45:21 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): Function 'new' is allowed only in context of class constructor.
+# End time: 17:45:21 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:45:56 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): Function 'new' is allowed only in context of class constructor.
+# ** Error (suppressible): ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): (vlog-2388) 'inter' already declared in this scope (test).
+# End time: 17:45:56 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:46:09 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): Function 'new' is allowed only in context of class constructor.
+# ** Error (suppressible): ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): (vlog-2388) 'inter' already declared in this scope (test).
+# End time: 17:46:09 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:46:26 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): Function 'new' is allowed only in context of class constructor.
+# ** Error (suppressible): ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(7): (vlog-2388) 'inter' already declared in this scope (test).
+# End time: 17:46:26 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:47:15 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(2): near "(": syntax error, unexpected '(', expecting implements or ';'.
+# End time: 17:47:15 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:47:35 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(3): Invalid type 'environment_fa'. Please check the type of the variable 'env'.
+# ** Error: ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** at 11test.sv(12): (vlog-2730) Undefined variable: 'env'.
+# End time: 17:47:35 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:48:31 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** at 10environment.sv(8): near "(": syntax error, unexpected '(', expecting implements or ';'.
+# End time: 17:48:31 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:48:48 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# -- Compiling package _30top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'fa_display' as an implicit VOID cast.
+# ** Error (suppressible): 06scoreboard.sv(5): (vlog-2997) Cannot assign a packed type 'reg' to an unpacked type 'class handle (void)'.
+# ** Error (suppressible): 10environment.sv(31): (vlog-13215) Arg. 'im2s' of 'new':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Error (suppressible): 10environment.sv(31): (vlog-13215) Arg. 'om2s' of 'new':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Warning: 10environment.sv(35): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Error: 11test.sv(14): Number of actuals and formals does not match in function call.
+# -- Compiling program fa_pb_block
+# ** Error (suppressible): 06scoreboard.sv(5): (vlog-2997) Cannot assign a packed type 'reg' to an unpacked type 'class handle (void)'.
+# ** Error (suppressible): 10environment.sv(31): (vlog-13215) Arg. 'im2s' of 'new':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Error (suppressible): 10environment.sv(31): (vlog-13215) Arg. 'om2s' of 'new':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Error: 11test.sv(14): Number of actuals and formals does not match in function call.
+# -- Compiling interface fa_interface
+# -- Compiling module top_fa
+# End time: 17:48:48 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 3
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:49:14 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# -- Compiling package _30top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'fa_display' as an implicit VOID cast.
+# ** Error (suppressible): 06scoreboard.sv(5): (vlog-2997) Cannot assign a packed type 'reg' to an unpacked type 'class handle (void)'.
+# ** Error (suppressible): 06scoreboard.sv(6): (vlog-2997) Cannot assign a packed type 'reg' to an unpacked type 'class handle (void)'.
+# ** Error (suppressible): 10environment.sv(31): (vlog-13215) Arg. 'im2s' of 'new':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Error (suppressible): 10environment.sv(31): (vlog-13215) Arg. 'om2s' of 'new':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Warning: 10environment.sv(35): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Error: 11test.sv(14): Number of actuals and formals does not match in function call.
+# -- Compiling program fa_pb_block
+# ** Error (suppressible): 06scoreboard.sv(5): (vlog-2997) Cannot assign a packed type 'reg' to an unpacked type 'class handle (void)'.
+# ** Error (suppressible): 06scoreboard.sv(6): (vlog-2997) Cannot assign a packed type 'reg' to an unpacked type 'class handle (void)'.
+# ** Error (suppressible): 10environment.sv(31): (vlog-13215) Arg. 'im2s' of 'new':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Error (suppressible): 10environment.sv(31): (vlog-13215) Arg. 'om2s' of 'new':  Cannot assign an unpacked type 'class handle (void)' to a packed type 'reg'.
+# ** Error: 11test.sv(14): Number of actuals and formals does not match in function call.
+# -- Compiling interface fa_interface
+# -- Compiling module top_fa
+# End time: 17:49:14 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 3
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:50:03 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# -- Compiling package _30top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'fa_display' as an implicit VOID cast.
+# ** Warning: 10environment.sv(35): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# ** Error: 11test.sv(14): Number of actuals and formals does not match in function call.
+# -- Compiling program fa_pb_block
+# ** Error: 11test.sv(14): Number of actuals and formals does not match in function call.
+# -- Compiling interface fa_interface
+# -- Compiling module top_fa
+# End time: 17:50:03 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 3
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:50:57 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** at 10environment.sv(8): near "(": syntax error, unexpected '(', expecting implements or ';'.
+# End time: 17:50:57 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:52:06 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** at 10environment.sv(8): near "(": syntax error, unexpected '(', expecting implements or ';'.
+# End time: 17:52:06 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:52:13 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# ** Error: (vlog-13069) ** while parsing file included at 30top.sv(2)
+# ** while parsing file included at 21program_block.sv(1)
+# ** while parsing file included at 11test.sv(1)
+# ** at 10environment.sv(20): near ";": syntax error, unexpected ';', expecting ')'.
+# End time: 17:52:13 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 5
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog 30top.sv "
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 17:52:20 on Mar 13,2023
+# vlog -reportprogress 300 30top.sv 
+# -- Compiling module fa_dut
+# -- Compiling package _30top_sv_unit
+# ** Warning: 02generator.sv(13): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: 02generator.sv(14): (vlog-2240) Treating stand-alone use of function 'fa_display' as an implicit VOID cast.
+# ** Warning: 10environment.sv(39): (vlog-2240) Treating stand-alone use of function 'build' as an implicit VOID cast.
+# -- Compiling program fa_pb_block
+# -- Compiling interface fa_interface
+# -- Compiling module top_fa
+# 
+# Top level modules:
+# 	top_fa
+# End time: 17:52:20 on Mar 13,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
